@@ -1,0 +1,23 @@
+{
+  "id": "lang-uk",
+  "title": "Translation: Ukrainian [Core]",
+  "description": "Переклад інтерфейсу Foundry VTT українською мовою",
+  "authors": [
+    {
+    "name": "RolePlay Солов'їною, GMonline"
+    }
+  ],
+  "url":"https://github.com/roleplaysolovinoiu/Foundry",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "languages": [
+    {
+      "lang": "uk",
+      "name": "Ukrainian",
+      "path": "lang/uk.json"
+    }
+  ]
+}

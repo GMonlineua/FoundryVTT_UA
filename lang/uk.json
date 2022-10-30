@@ -283,7 +283,7 @@
     "COMPENDIUM.TypeHint": "Кожен Компендіум містить певний тип Документів.",
     "COMPENDIUM.ToggleVisibility": "Сховати/Показати",
     "COMPENDIUM.ToggleLocked": "Вкл/Викл Редагування",
-    "COMPENDIUM.ToggleLockedWarning": "You are attempting to unlock for editing a compendium that does not belong to this World. Any changes you make in this compendium pack may be lost if the system or module which owns it is updated. You may wish to duplicate the compendium to your world instead. Do you wish to proceed?",
+    "COMPENDIUM.ToggleLockedWarning": "Ви намагаєтеся розблокувати для редагування компендіум, що не належить до цього Світу. Будь-які зміни, внесені вами в цьому компендіумі, можуть бути втрачені при оновленні системи або модуля. Ви можете створити копію компендіуму у ваш світ натомість. Бажаєте продовжити?",
     "CONTROLS.Title": "Game Controls Reference",
     "CONTROLS.NavLabel": "Canvas Controls Palette",
     "CONTROLS.Instructions": "This form describes common keyboard and mouse commands used to control various aspects of the Foundry Virtual Tabletop environment. Some controls are only available to a Game Master user, those are highlighted in light purple.",

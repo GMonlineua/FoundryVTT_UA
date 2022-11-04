@@ -15,6 +15,7 @@
     "minimum": "9",
     "verified": "10"
   },
+  "coreTranslation": true,
   "languages": [
     {
       "lang": "uk",

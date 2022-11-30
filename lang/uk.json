@@ -947,7 +947,7 @@
     "NOTE.TextColor": "Колір Тексту",
     "NOTE.Unknown": "Невідомий",
     "NOTE.Update": "Оновити Нотатку Карти",
-    "NUE.FirstLaunchBody": "It looks like this is a new world. To get started, you should first add any additional players you might need via the <a class=\"nue-tab\" data-tab=\"settings\">User Management</a> configuration. From there, you can create <a class=\"nue-tab\" data-tab=\"actors\">Actors</a> for them, as well as any other important personas you need to represent. Maps and other visuals can be set up using <a class=\"nue-tab\" data-tab=\"scenes\">Scenes</a>, and handouts, notes, and other information can be stored in <a class=\"nue-tab\" data-tab=\"journal\">Journal Entries</a>.",
+    "NUE.FirstLaunchBody": "Схоже на новий світ. Для початку необхідно додати до списку додаткових гравців через конфігурацію <a class=\"nue-tab\" data-tab=\"settings\">Керування користувачами</a>. Звідси ви можете створити <a class=\"nue-tab\" data-tab=\"actors\">Акторів</a> для них, а також будь-які інші важливі особи, які вам потрібно представити. Карти та інші візуальні засоби можна встановити за допомогою <a class=\"nue-tab\" data-tab=\"scenes\">Сцен</a> і роздаткові матеріали, замітки та інша інформація можуть зберігатися в <a class=\"nue-tab\" data-tab=\"journal\">Журнал</a>.",
     "NUE.FirstLaunchHeader": "Getting Started",
     "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> This chat card can be popped out by right-clicking it, or you can pop out the entire chat tab by right-clicking the speech bubble icon at the top. You can do the same thing to popout any of the other sidebar tabs as well.",
     "NUE.FirstLaunchInvite": "Inviting Your Players",

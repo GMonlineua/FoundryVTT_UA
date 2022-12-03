@@ -10,7 +10,7 @@
   "url":"https://github.com/roleplaysolovinoiu/Foundry",
   "manifest": "https://raw.githubusercontent.com/roleplaysolovinoiu/Foundryvtt-ua/master/module.json",
   "download": "https://github.com/roleplaysolovinoiu/Foundryvtt-ua/archive/refs/heads/master.zip",
-  "version": "0.2",
+  "version": "0.3",
   "compatibility": {
     "minimum": "9",
     "verified": "10"

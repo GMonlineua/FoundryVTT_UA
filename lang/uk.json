@@ -1091,7 +1091,7 @@
     "SCENES.ShiftVertical": "Вертикально",
     "SCENES.TokenVision": "Бачення Токенів",
     "SCENES.TokenVisionHint": "Обмежити видимість цієї Сцени до бачення контрольованих Токенів. Якщо вимкнено, видно всю Сцену.",
-    "SCENES.ToggleNav": "Toggle Navigation",
+    "SCENES.ToggleNav": "Перемикнути Навігацію",
     "SCENES.Units": "одиниці",
     "SCENES.WeatherEffect": "Погодний Ефект",
     "SCENES.WeatherEffectHint": "Відображення активного Ефекту Погоди, який присутній у цій Сцені.",

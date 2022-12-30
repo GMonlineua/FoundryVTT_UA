@@ -1400,7 +1400,7 @@
     "SHEETS.TypeSheetHint": "Встановити аркуш, що використовується для цього типу документа (Тільки для GM).",
     "SHEETS.DocumentSheetPrivate": "У вас недостатньо прав для перегляду аркуша {type}.",
     "SHEETS.Save": "Зберегти Конфігурацію Аркуша",
-    "SHEETS.FormNavLabel": "Form Tab Navigation",
+    "SHEETS.FormNavLabel": "Навігація Вкладок Форми",
     "SOUND.ConfigTitle": "Налаштування Звуків Оточення",
     "SOUND.ConfigHint": "Налаштування звуків оточення, які будуть відтворюватися, коли токени перебувають в цьому радіусі.",
     "SOUND.Create": "Створити Звук Оточення",

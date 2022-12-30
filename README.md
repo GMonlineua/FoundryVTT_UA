@@ -3,7 +3,7 @@
 
 [![Foundry Shield 10]][Foundry URL]
 [![Version]][Version URL]
-[![License]][MIT URL]
+[![License]][URL]
 
 Переклад інтерфейсу [Foundry Virtual Tabletop](http://foundryvtt.com) українською мовою.
 

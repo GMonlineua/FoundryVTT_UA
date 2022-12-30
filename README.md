@@ -27,5 +27,5 @@
 [Version]: https://img.shields.io/badge/Version-1.0-orange?style=flat-square
 [Version URL]: https://github.com/GMonlineua/Foundry-ua-dnd5e
 
-[License]: https://img.shields.io/badge/License-OGL-green?style=flat-square
-[URL]: https://github.com/GMonlineua/Foundry-ua-dnd5e/blob/master/LICENSE.md
+[License]: https://img.shields.io/badge/License-MIT-green?style=flat-square
+[URL]: https://github.com/roleplaysolovinoiu/Foundryvtt-ua

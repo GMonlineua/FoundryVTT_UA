@@ -4,23 +4,28 @@
   "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "authors": [
     {
-    "name": "RolePlay Солов'їною, GMonline"
+      "name": "RolePlay Солов'їною, GMonline",
+      "flags": {}
     }
   ],
-  "url":"https://github.com/roleplaysolovinoiu/Foundry",
+  "url": "https://github.com/roleplaysolovinoiu/Foundry",
   "manifest": "https://raw.githubusercontent.com/roleplaysolovinoiu/Foundryvtt-ua/master/module.json",
   "download": "https://github.com/roleplaysolovinoiu/Foundryvtt-ua/archive/refs/heads/master.zip",
-  "version": "0.5",
+  "version": "0.6",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
   "coreTranslation": true,
+  "styles": [
+    "styles/lang-uk.css"
+  ],
   "languages": [
     {
       "lang": "uk",
       "name": "Українська (Ukrainian)",
-      "path": "lang/uk.json"
+      "path": "lang/uk.json",
+      "flags": {}
     }
   ]
 }

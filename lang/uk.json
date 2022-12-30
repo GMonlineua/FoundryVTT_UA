@@ -1761,7 +1761,7 @@
     "WEBRTC.DefaultSource": "Стандартний Пристрій",
     "WEBRTC.UnavailableDevice": "Пристрій Недоступний (буде використовуватись Стандартний)",
     "WEBRTC.WebRTCTurnServer": "Налаштування Relay сервера",
-    "WEBRTC.TURNServerProvisioned": "Provided by Signalling Server",
+    "WEBRTC.TURNServerProvisioned": "Надано Сигнальним Сервером",
     "WEBRTC.CustomTURNServer": "Користувацький Relay Сервер",
     "WEBRTC.WebRTCTURNURL": "URL Relay Сервера",
     "WEBRTC.WebRTCTurnUsername": "Relay Server Username",

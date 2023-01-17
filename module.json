@@ -4,12 +4,17 @@
   "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "authors": [
     {
-      "name": "RolePlay Солов'їною",
-      "url": "https://discord.gg/pMTtejFJJv"
+      "name": "GMonline-ua",
+      "url" : "https://github.com/GMonlineua",
+      "discord": "VladDracula#9198"
     },
     {
-      "name": "GMonline-ua",
-      "url": "https://github.com/GMonlineua"
+      "name": " Kem",
+      "url" : "https://github.com/InqShanila",
+      "discord": "Kem#4667"
+    },
+    {
+      "name": "RolePlay Солов'їною"
     }
   ],
   "url": "https://github.com/roleplaysolovinoiu/Foundry",

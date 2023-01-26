@@ -1516,7 +1516,7 @@
     "SIDEBAR.CharArt": "Зображення Персонажа",
     "SIDEBAR.CollapseToggle": "Згорнути/Розгорнути",
     "SIDEBAR.Delete": "Видалити",
-    "SIDEBAR.DeleteWarning": "Цей {type} буде остаточно dblfktybq і не зможе бути відновлений.",
+    "SIDEBAR.DeleteWarning": "Цей {type} буде остаточно видалений і не зможе бути відновлений.",
     "SIDEBAR.Duplicate": "Копіювати",
     "SIDEBAR.Edit": "Редагувати",
     "SIDEBAR.Export": "Експорт Даних",

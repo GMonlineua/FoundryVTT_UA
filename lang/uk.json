@@ -609,7 +609,7 @@
     "EDITOR.Format": "Формат",
     "EDITOR.Font": "Шрифт",
     "EDITOR.Inline": "Лінія",
-    "EDITOR.Block": "Заблокувати",
+    "EDITOR.Block": "Блок",
     "EDITOR.Headings": "Заголовки",
     "EDITOR.Heading": "Заголовок {level}",
     "EDITOR.Alignment": "Вирівнювання",

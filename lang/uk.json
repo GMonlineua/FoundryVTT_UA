@@ -421,7 +421,7 @@
     "CONTROLS.DrawingHeader": "Керування Засобами Малювання",
     "CONTROLS.DrawingTextConfirm": "Підтвердити Написаний Текст",
     "CONTROLS.DrawingTextCancel": "Скасувати Написаний Текст",
-    "DICE.ErrorNonNumeric": "Формула кидання кренелів {formula} не дала числового результату.",
+    "DICE.ErrorNonNumeric": "Формула кидання багатогранників {formula} не дала числового результату.",
     "DICE.WarnMissingData": "Атрибут {match} не був присутній в наданих даних кидка.",
     "DOCUMENT.Create": "Створити Новий {type}",
     "DOCUMENT.Delete": "Видалити {type}",

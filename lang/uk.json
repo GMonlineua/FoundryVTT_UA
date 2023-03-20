@@ -515,7 +515,7 @@
     "DRAWING.StrokeColor": "Колір Обведення",
     "DRAWING.LineOpacity": "Непрозорість Ліній",
     "DRAWING.SmoothingFactor": "Фактор Згладжування",
-    "DRAWING.SmoothingFactorHint": "Для вільного малювання, згладжування фактор, який контролює кількість плавного сплайна.",
+    "DRAWING.SmoothingFactorHint": "Для малювання від руки коефіцієнт згладжування керує величиною згладжування сплайнів.",
     "DRAWING.FillTypes": "Типи Заповнення",
     "DRAWING.FillTypeNone": "Немає",
     "DRAWING.FillTypeSolid": "Суцільний",

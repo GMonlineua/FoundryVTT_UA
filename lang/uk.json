@@ -237,7 +237,7 @@
     "COMBAT.EndTitle": "Завершити Бойове Зіткнення?",
     "COMBAT.EndConfirmation": "Завершити це бойове зіткнення та очистити трекер ходів?",
     "COMBAT.Linked": "Пов'язано зі сценою, натисніть, щоб відв'язати",
-    "COMBAT.None": "No Encounter",
+    "COMBAT.None": "Немає Зіткнення",
     "COMBAT.NoneActive": "There is no Combat Encounter in your currently viewed Scene.",
     "COMBAT.NoneRemaining": "У цьому Зіткненні не залишилося Учасників Бою, що не зазнали поразки.",
     "COMBAT.NotStarted": "Не Розпочато",

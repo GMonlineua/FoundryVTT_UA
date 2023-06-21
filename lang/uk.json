@@ -1323,7 +1323,7 @@
     "SETTINGS.EditorAutosaveN": "Частота Автозбереження Редактора",
     "SETTINGS.EditorAutosaveH": "Кількість секунд між кожним автозбереженням в редакторі ProseMirror.",
     "SETTINGS.EnableHighlightDocumentMatches": "Enable Content Link Matches",
-    "SETTINGS.EnableHighlightDocumentMatchesH": "Enable content link matches when highlighting text in the ProseMirror editor. When enabled, highlighted text will be checked for matching Documents in the world or in any compendium packs and offered as replacement links.",
+    "SETTINGS.EnableHighlightDocumentMatchesH": "Увімкнути перевірку на відповідність змісту при виділенні тексту в редакторі ProseMirror. Якщо увімкнено, виділений текст буде перевірено на відповідність з Документами у світі або в будь-яких пакетах компендіумів і запропоновано як посилання для заміни.",
     "SETTINGS.ReloadPromptTitle": "Перезавантажити Застосунок?",
     "SETTINGS.ReloadPromptBody": "Деякі зі змінених налаштувань потребують перезавантаження застосунку, щоб набрати чинності. Перезавантажити зараз?",
     "SETUP.NavLabel": "Налаштувати Вкладки",

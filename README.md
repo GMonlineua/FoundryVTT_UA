@@ -16,9 +16,13 @@
 5.  Увімкніть модуль у налаштуваннях "Manage Module".
 6.  В головному меню (Configuration and Setup) у вкладці "Configuration" встановіть як "Default Language" українську мову.
 
+## Зворотні Зв'язок
+Будь який фідбек по перекладу, оформленню і т.д., а також інші пропозиції можна писати в приватні повідомлення Discord Vlad Dracula#9198.
+
 ## Інше
- - [Переклад DnD 5e](https://github.com/GMonlineua/Foundry-ua-dnd5e)
- - [Переклад WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
+ - [Локалізація WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
+ - [Локалізація PF 2e](https://github.com/reyzor1991/foundry-vtt-uk)
+ - [Локалізація DnD 5e](https://github.com/GMonlineua/Foundry-ua-dnd5e)
  - [Discord сервер «RolePlay Солов'їною»](https://discord.gg/pMTtejFJJv)
 
 [Foundry Shield 10]: https://img.shields.io/badge/Foundry-10-informational?style=flat-square

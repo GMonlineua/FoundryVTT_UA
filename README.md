@@ -1,7 +1,7 @@
 # Translation Foundry VTT: Ukrainian [Core]
 ![](https://foundryvtt.com/static/assets/icons/fvtt.png?raw=true)
 
-[![Foundry Shield 10]][Foundry URL]
+[![Foundry Shield]][Foundry URL]
 [![Version]][Version URL]
 [![License]][URL]
 
@@ -16,8 +16,13 @@
 5.  Увімкніть модуль у налаштуваннях "Manage Module".
 6.  В головному меню (Configuration and Setup) у вкладці "Configuration" встановіть як "Default Language" українську мову.
 
+## Автори
+ - Влад Дракула
+ - Кем
+ - Сергій Уразматов
+
 ## Зворотні Зв'язок
-Будь який фідбек по перекладу, оформленню і т.д., а також інші пропозиції можна писати в приватні повідомлення Discord Vlad Dracula#9198.
+Будь який фідбек по перекладу, оформленню і т.д., а також інші пропозиції можна писати в приватні повідомлення Discord vlad_dracula.
 
 ## Інше
  - [Локалізація WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
@@ -25,10 +30,10 @@
  - [Локалізація DnD 5e](https://github.com/GMonlineua/Foundry-ua-dnd5e)
  - [Discord сервер «RolePlay Солов'їною»](https://discord.gg/pMTtejFJJv)
 
-[Foundry Shield 10]: https://img.shields.io/badge/Foundry-10-informational?style=flat-square
+[Foundry Shield]: https://img.shields.io/badge/Foundry-11-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-1.0-orange?style=flat-square
+[Version]: https://img.shields.io/badge/Version-1.0-informational?style=flat-square
 [Version URL]: https://github.com/GMonlineua/Foundry-ua-dnd5e
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square

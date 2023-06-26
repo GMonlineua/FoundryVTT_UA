@@ -1,26 +1,27 @@
 {
   "id": "lang-ua",
   "title": "Translation: Ukrainian [Core]",
-  "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "version": "1.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": 11
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
+  "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "authors": [
     {
-      "name": "GMonline-ua",
-      "url" : "https://github.com/GMonlineua",
-      "discord": "VladDracula#9198"
+      "name": "RolePlay Солов'їною",
+      "discord": "https://discord.gg/pMTtejFJJv",
+      "email": "roleplaysolovinoiu@gmail.com",
+      "url": "https://github.com/roleplaysolovinoiu",
+      "flags": {}
     },
     {
-      "name": " Kem",
-      "url" : "https://github.com/InqShanila",
-      "discord": "Kem#4667"
-    },
-    {
-      "name": "RolePlay Солов'їною"
+      "name": "GMonline UA",
+      "discord": "vlad_dracula",
+      "email": "gmonlineua@gmail.com",
+      "url": "https://github.com/GMonlineua",
+      "flags": {}
     }
   ],
   "coreTranslation": true,

@@ -674,7 +674,7 @@
     "ERROR.LowResolution": "Для Foundry Virtual Tabletop необхідний мінімальний розмір екрану {reqWidth}px на {reqHeight}px або вище. На вашому екрані ефективна роздільна здатність {width}пікселів на {height}px, у результаті багато функцій програмного забезпечення можуть працювати некоректно.",
     "ERROR.NoWebGL": "Ваш браузер не підтримує рендеринг WebGL, необхідний Foundry Virtual Tabletop. Переконайтеся, що у драйвері вашого пристрою та WebGL увімкнені у браузері.",
     "ERROR.NoWebGL2": "Ваш браузер не підтримує рендеринг WebGL Version 2, який є важливим для коректної роботи Foundry Virtual Tabletop. Можуть виникнути помилки або аномальна графічна поведінка.",
-    "ERROR.NoReadPixelsR": "Your browser does not currently support reading pixels as RED/UNSIGNED_BYTE which is essential for Foundry Virtual Tabletop to work properly. Fog exploration progess cannot be saved.",
+    "ERROR.NoReadPixelsR": "Ваш браузерне підтримує читання пікселів як RED/UNSIGNED_BYTE, що має важливе значення для коректної роботи Foundry Virtual Tabletop. Прогрес розвідки туману війни не може бути збережений.",
     "ERROR.BackgroundTextureSize": "Ви використовуєте текстуру тла Сцени з розмірами {width}px на {height}px. Один або обидва ці виміри перевищують максимальний розмір текстур на {max}px, підтримуваних вашим пристроєм.",
     "ERROR.InvalidAdminKey": "Невірний пароль адміністратора сервера. Якщо ви забули налаштований пароль, вам потрібно буде вручну видалити файл <strong>Config/admin.txt</strong> в папці даних користувача.",
     "ERROR.LoadPackages": "Не вдалося підключитись до сервера Foundy для перегляду пакунків, що існують. Переконайтеся, що ваша програма дозволяє вихідні з'єднання.",

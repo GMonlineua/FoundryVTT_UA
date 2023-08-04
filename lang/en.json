@@ -320,6 +320,8 @@
 "COMPENDIUM.ToggleLocked": "Toggle Edit Lock",
 "COMPENDIUM.ToggleLockedWarning": "You are attempting to unlock for editing a compendium that does not belong to this World. Any changes you make in this compendium pack may be lost if the system or module which owns it is updated. You may wish to duplicate the compendium to your World instead. Do you wish to proceed?",
 "COMPENDIUM.CannotViewWarning": "You do not have sufficient permission to view this Compendium pack.",
+"COMPENDIUM.OwnershipInheritBelow": "Inherit from below",
+"COMPENDIUM.OwnershipReset": "Reset to Default",
 
 "CONTROLS.Title": "Game Controls Reference",
 "CONTROLS.NavLabel": "Canvas Controls Palette",

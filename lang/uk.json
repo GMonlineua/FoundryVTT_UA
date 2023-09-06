@@ -308,7 +308,7 @@
     "COMPENDIUM.ToggleLocked": "Вкл/Викл Редагування",
     "COMPENDIUM.ToggleLockedWarning": "Ви намагаєтеся розблокувати для редагування компендіуму, що не належить до цього Світу. Будь-які зміни, внесені вами до цього компендіуму, можуть бути втрачені при оновленні системи або модуля, якому він належить. Натомість ви можете скопіювати компендіум для вашого світу. Бажаєте продовжити?",
     "COMPENDIUM.CannotViewWarning": "У вас недостатньо прав для перегляду цього Компендіуму.",
-    "COMPENDIUM.OwnershipInheritBelow": "Inherit from below",
+    "COMPENDIUM.OwnershipInheritBelow": "Успадковувати Знизу",
     "COMPENDIUM.OwnershipReset": "Reset to Default",
     "CONTROLS.Title": "Контроль Грою",
     "CONTROLS.NavLabel": "Панель Керування Полотном",

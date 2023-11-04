@@ -1066,7 +1066,7 @@
     "MODMANAGE.FilterAll": "Усі Модулі",
     "MODMANAGE.FilterActive": "Активні Модулі",
     "MODMANAGE.FilterInactive": "Неактивні Модулі",
-    "MODMANAGE.Build": "Побудувати",
+    "MODMANAGE.Build": "Збірка",
     "MODMANAGE.RequiredModule": "Цей модуль є активним",
     "MODMANAGE.DependencyIssues": "Не можна увімкнути через проблеми в необхідних залежностях",
     "MODMANAGE.SystemCompatibilityIssueMinimum": "Цей модуль вимагає мінімальної версії системи {minimum}, але ваша версія {version}. Будь ласка, оновіть систему.",

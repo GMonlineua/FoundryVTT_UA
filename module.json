@@ -10,13 +10,6 @@
   "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "authors": [
     {
-      "name": "RolePlay Солов'їною",
-      "discord": "https://discord.gg/pMTtejFJJv",
-      "email": "roleplaysolovinoiu@gmail.com",
-      "url": "https://github.com/roleplaysolovinoiu",
-      "flags": {}
-    },
-    {
       "name": "GMonline UA",
       "discord": "vlad_dracula",
       "email": "gmonlineua@gmail.com",
@@ -33,8 +26,9 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/roleplaysolovinoiu/Foundry-ua",
-  "readme": "https://github.com/roleplaysolovinoiu/Foundryvtt-ua/blob/master/README.md",
-  "manifest": "https://raw.githubusercontent.com/roleplaysolovinoiu/Foundryvtt-ua/master/module.json",
-  "download": "https://github.com/roleplaysolovinoiu/Foundryvtt-ua/releases/download/v1.3/version-1.3.zip"
+  "url": "https://github.com/GMonlineua/FoundryVTT_UA",
+  "readme": "https://github.com/GMonlineua/FoundryVTT_UA/blob/master/README.md",
+  "license": "https://github.com/GMonlineua/FoundryVTT_UA/blob/master/LICENSE.md",
+  "manifest": "https://raw.githubusercontent.com/GMonlineua/FoundryVTT_UA/master/module.json",
+  "download": "https://github.com/GMonlineua/FoundryVTT_UA/releases/download/v1.3/version-1.3.zip"
 }

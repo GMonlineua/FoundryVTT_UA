@@ -32,7 +32,7 @@
 [Foundry Shield]: https://img.shields.io/badge/Foundry-11-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-1.3-informational?style=flat-square
+[Version]: https://img.shields.io/badge/Version-1.4-informational?style=flat-square
 [Version URL]: https://github.com/GMonlineua/Foundry-ua-dnd5e
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square

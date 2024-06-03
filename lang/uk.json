@@ -1,7 +1,7 @@
 {
   "Activate": "Активувати",
   "all": "усі",
-  "Anchor": "Anchor",
+  "Anchor": "Якір",
   "Angle": "Кут",
   "Author": "Автор",
   "AuthorPl": "Автори",
@@ -12,12 +12,12 @@
   "Cancel": "Скасувати",
   "Character": "Персонаж",
   "Configure": "Налаштувати",
-  "Confirm": "Confirm",
+  "Confirm": "Підтвердити",
   "Command": "Команда",
   "Collapse": "Згорнути",
-  "Coordinates": "Coordinates",
+  "Coordinates": "Координати",
   "Close": "Закрити",
-  "Deactivate": "Deactivate",
+  "Deactivate": "Деактивувати",
   "Degrees": "Градусів",
   "Default": "Усталено",
   "Delete": "Видалити",
@@ -35,7 +35,7 @@
   "GridSpaces": "Сітка",
   "Install": "Встановити",
   "Elevation": "Підйом",
-  "Sort": "Sort",
+  "Sort": "Сортувати",
   "Foundry Virtual Tabletop": "Foundry Virtual Tabletop",
   "File Path": "Шлях до файлу",
   "Height": "Висота",
@@ -129,9 +129,9 @@
   "APP.NavigateBackConfirm": "Ви впевнені, що хочете вийти з Foundry Virtual Tabletop?",
   "AMBIENT_LIGHT": {
     "ACTIONS": {
-      "CREATE": "Create Ambient Light",
-      "UPDATE": "Update Ambient Light",
-      "RESET": "Reset Advanced Options"
+      "CREATE": "Створити Навколишнє Освітлення",
+      "UPDATE": "Оновити Навколишнє Освітлення",
+      "RESET": "Скинути Розширені Налаштування"
     },
     "FIELDS": {
       "x": {
@@ -144,14 +144,14 @@
         "label": "Elevation"
       },
       "rotation": {
-        "label": "Rotation Angle"
+        "label": "Кут Повороту"
       },
       "vision": {
-        "label": "Provides Vision",
-        "hint": "This light source counts as a source of vision, revealing additional areas of the Scene even if it is not within line-of-sight of a controlled Token."
+        "label": "Забезпечує Бачення",
+        "hint": "Це джерело світла вважається джерелом бачення, відкриваючи додаткові ділянки Сцени, навіть якщо воно не знаходиться в межах прямої видимості контрольованого токена."
       },
       "walls": {
-        "label": "Constrained By Walls",
+        "label": "Обмежується Стінами",
         "hint": "Configure whether area of effect for this light source is constrained by nearby walls."
       }
     },

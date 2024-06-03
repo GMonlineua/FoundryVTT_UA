@@ -152,26 +152,26 @@
       },
       "walls": {
         "label": "Обмежується Стінами",
-        "hint": "Configure whether area of effect for this light source is constrained by nearby walls."
+        "hint": "Налаштуйте, чи буде зона дії цього джерела світла обмежена стінами."
       }
     },
     "LABELS": {
-      "radius": "Light Radius",
-      "radiusHint": "Configure the distance of light emission from this source where the radius of bright light is included within the radius of dim light.",
-      "darknessAdvancedWarning": "Advanced configuration options are only supported for non-darkness sources."
+      "radius": "Радіус Світла",
+      "radiusHint": "Налаштуйте відстань випромінювання світла від цього джерела, де радіус яскравого світла входить до радіуса тьмяного світла.",
+      "darknessAdvancedWarning": "Розширені параметри конфігурації підтримуються лише для джерел світла."
     },
     "SECTIONS": {
-      "BASIC": "Basic Configuration",
-      "ADVANCED": "Advanced Options",
-      "ANIMATION": "Light Animation",
-      "APPEARANCE": "Light Appearance",
-      "PLACEMENT": "Light Placement"
+      "BASIC": "Базові Налаштування",
+      "ADVANCED": "Просунуті Налаштування",
+      "ANIMATION": "Анімація Світла",
+      "APPEARANCE": "Вигляд Світла",
+      "PLACEMENT": "Розташування Світла"
     }
   },
   "AMBIENT_SOUND": {
     "ACTIONS": {
-      "CREATE": "Create Ambient Sound",
-      "UPDATE": "Update Ambient Sound"
+      "CREATE": "Створити Звук Оточення",
+      "UPDATE": "Оновити Звук Оточення"
     },
     "FIELDS": {
       "x": {
@@ -184,36 +184,36 @@
         "label": "Elevation"
       },
       "path": {
-        "label": "Source File Path",
-        "hint": "Configure the ambient sound to play an audio file when tokens move within its radius."
+        "label": "Шлях до Файлу",
+        "hint": "Налаштуйте звук оточення так, щоб він відтворював аудіофайл, коли токени рухаються в його радіусі."
       },
       "radius": {
-        "label": "Effect Radius"
+        "label": "Радіус Ефекту"
       },
       "volume": {
-        "label": "Maximum Volume",
-        "hint": "Define the maximum volume of the sound at its origin point (if easing) or everywhere in the area."
+        "label": "Максимальна Гучність",
+        "hint": "Визначити максимальну гучність звуку в точці початку координат (якщо підлаштовується) або всюди в області дії."
       },
       "easing": {
-        "label": "Volume Easing",
-        "hint": "Adjust the volume level of the sound as Tokens move closer to the origin."
+        "label": "Підлаштування Гучності",
+        "hint": "Відрегулюйте рівень гучності звуку в міру того, як токени наближаються до початку координат."
       },
       "hidden": {
-        "label": "Hidden",
-        "hint": "Toggle whether this sound source is temporarily disabled."
+        "label": "Прихований",
+        "hint": "Перемикач, чи тимчасово вимкнути це джерело звуку."
       },
       "walls": {
-        "label": "Constrained By Walls",
-        "hint": "Configure whether area of effect for this audio source is constrained by nearby walls."
+        "label": "Обмежується Стінами",
+        "hint": "Налаштуйте, чи буде зона впливу цього джерела звуку обмежена стінами."
       },
       "darkness": {
-        "label": "Darkness Activation Range",
-        "hint": "You may specify a range of darkness levels during which this ambient sound will be audible.",
+        "label": "Діапазон Активації Темряви",
+        "hint": "Ви можете вказати діапазон рівнів темряви, в якому буде чутно цей звук.",
         "min": {
-          "label": "Between"
+          "label": "Між"
         },
         "max": {
-          "label": "and"
+          "label": "і"
         }
       },
       "effects": {
@@ -261,7 +261,7 @@
       },
       "ENVIRONMENT": {
         "label": "Environment",
-        "tooltip": "Controls the local volume of playlists and ambient sounds which are classified as environment."
+        "tooltip": "Керує локальною гучністю списків відтворення та навколишніх звуків, які класифікуються як оточення."
       },
       "INTERFACE": {
         "label": "Interface",
@@ -541,7 +541,7 @@
   "CONTROLS.GroupSound": "Керування Звуком",
   "CONTROLS.SoundDraw": "Створити Звук",
   "CONTROLS.SoundPreview": "Попередній Перегляд Звуків",
-  "CONTROLS.SoundPreviewP": "Коли frnbdjdfyj, наведіть курсор на звук оточення, щоб почути його так, ніби ваш токен знаходиться в цьому місці.",
+  "CONTROLS.SoundPreviewP": "Коли активно, наведіть курсор на звук оточення, щоб почути його так, ніби ваш токен знаходиться в цьому місці.",
   "CONTROLS.SoundClear": "Очистити Звуки",
   "CONTROLS.GroupNotes": "Нотатки Журналу",
   "CONTROLS.NoteSelect": "Обрати Нотатки",
@@ -1475,7 +1475,7 @@
   "SCENES.GridStyle": "Grid Style",
   "SCENES.GridThickness": "Grid Thickness",
   "SCENES.HeaderAmbience": "Звуки Оточення",
-  "SCENES.HeaderAmbienceBasic": "Basic Options",
+  "SCENES.HeaderAmbienceBasic": "Основні Параметри",
   "SCENES.HeaderDetails": "Основне",
   "SCENES.HeaderGrid": "Сітка",
   "SCENES.HeaderVision": "Освітлення",
@@ -2101,7 +2101,7 @@
   "SHEETS.FormNavLabel": "Навігація Вкладок Форми",
   "SHEETS.CopyUuid": "Copy Document UUID",
   "SOUND": {
-    "ConfigTitle": "Ambient Sound Configuration",
+    "ConfigTitle": "Налаштування Звуків Оточення",
     "PathPlaceholder": "path/to/audio.mp3",
     "New": "New Sound",
     "EFFECTS": {
@@ -2822,7 +2822,7 @@
   "TYPES.RegionBehavior.teleportToken": "Teleport Token",
   "TYPES.RegionBehavior.toggleBehavior": "Toggle Behavior",
   "DETECTION.LightPerception": "Light Perception",
-  "DETECTION.BasicSight": "Darkvision",
+  "DETECTION.BasicSight": "Темнобачення",
   "DETECTION.SeeInvisibility": "Бачення Невидимого",
   "DETECTION.SenseInvisibility": "Відчуття Невидимих",
   "DETECTION.FeelTremor": "Відчуття Вібрації",

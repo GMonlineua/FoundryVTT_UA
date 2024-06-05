@@ -148,7 +148,7 @@
       },
       "vision": {
         "label": "Забезпечує Бачення",
-        "hint": "Це джерело світла вважається джерелом бачення, відкриваючи додаткові ділянки Сцени, навіть якщо воно не знаходиться в межах прямої видимості контрольованого токена."
+        "hint": "A light source with this option enabled serves as an additional vision point for tokens. Activate this option to allow tokens to always see the area it illuminates, even if that area is behind a wall or outside a token's field of view."
       },
       "walls": {
         "label": "Обмежується Стінами",
@@ -894,7 +894,7 @@
   "ERROR.CantWhisper": "Ви не маєте дозволу на надсилання приватних повідомлень іншим користувачам.",
   "ERROR.RendererNotDetected": "Ваш рендер GPU не може бути ідентифікований, можуть виникнути неочікувані проблеми з продуктивністю.",
   "ERROR.NoHardwareAcceleration": "Ваш веббраузер не має увімкненого апаратного прискорення. Це може серйозно вплинути на продуктивність Foundry Virtual Tabletop. Обов'язково увімкніть апаратне прискорення в налаштуваннях браузера.",
-  "ERROR.UpdateRequiresManualInstall": "Версія {version} Foundry Virtual Tabletop тепер доступна, але не може бути встановлена з програми Foundry Virtual Tabletop, оскільки вона вимагає оновлення основних залежностей, які доступні лише шляхом перевстановлення програмного забезпечення з веб-сайту <a href=\"https://foundryvtt/com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+  "ERROR.UpdateRequiresManualInstall": "Foundry Virtual Tabletop Version {version} is now available but cannot be installed from within the Foundry Virtual Tabletop application because it requires updates to core dependencies which are only available by re-installing the software from the <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> website.",
   "WARNING.GridConfigNoBG": "Ви використовуєте інструмент конфігурації сітки для сцени без фонового зображення. На даний момент це не рекомендується і може створювати непередбачувані результати.",
   "WARNING.ForegroundDimensionsMismatch": "Розміри вашого налаштованого зображення фонового шару не відповідають розмірам фонового зображення на цій сцені. Передній план був змінений, що, можливо, матиме небажані результати.",
   "WARNING.ObjectDoesNotExist": "{name} \"{identifier}\" не існує.",
@@ -1882,7 +1882,7 @@
   "SETUP.Telemetry": "Передавати Дані Користувача",
   "SETUP.TelemetryHint": "Дозволяє обмінюватися даними з нами, що допоможе нам покращити Foundry Virtual Tabletop. Дані, зібрані якщо цей параметр увімкнуто, документовані в нашій <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">Політиці конфіденційності</a> і не містять особистої інформації і ми не ділимося з будь-якою іншою стороною. Поділитися даними про використаннядопомагає нам відповідати на такі питання як \"Яка версія Foundry Virtual Tabletop найбільш часто використовується\"?, \"Які Ігрові Системи найбільш використовувані?\", і \"Які версії Модуля зазвичай встановлюються?\". Ми використовуємо інформацію з цих даних, щоб допомогти нам покращити сумісність з програмами, забезпечити кращу підтримку клієнтів і обмінюватися сукупними результатами з нашою спільнотою. Якщо ця опція вимкнена, дані не будуть передаватися.",
   "SETUP.TelemetryRequestTitle": "Allow Sharing Usage Data",
-  "SETUP.TelemetryRequest1": "У 11 версії Foundry Virtual Tabletop додана можливість збирати, тільки з вашого дозволу, анонімні дані про використання, які допомагають нам вдосконалювати платформу.",
+  "SETUP.TelemetryRequest1": "If you provide your permission, Foundry Virtual Tabletop will share a small amount of anonymous usage data with the foundryvtt.com website that allows our team to better understand how Foundry VTT is being used and helps us to improve the software.",
   "SETUP.TelemetryRequest2": "Цей запит буде показано лише один раз, ви можете змінити свої налаштування щодо обміну даними про використання в будь-який час у меню Конфігурації Застосунку, натиснувши піктограму <i class=\"fas fa-cogs\"></i> у верхньому правому куті цього екрана.",
   "SETUP.TelemetryAllow": "Дозволити Передавання",
   "SETUP.TelemetryDecline": "Заборонити Передавання",
@@ -2185,6 +2185,8 @@
   "PERMISSION.JournalCreateHint": "Дозволити користувачам із цією роллю створювати нові Записи Журналу в відповідній вкладці.",
   "PERMISSION.MacroScript": "Використовувати Макроси",
   "PERMISSION.MacroScriptHint": "Дозволити користувачам з цією роллю використовувати JavaScript макроси з доступом до API.",
+  "PERMISSION.ManualRolls": "Make Manual Rolls",
+  "PERMISSION.ManualRollsHint": "Allow users with this role the option to manually input rolls.",
   "PERMISSION.MessageWhisper": "Приватні Повідомлення",
   "PERMISSION.MessageWhisperHint": "Дозволити користувачам із цією роллю надсилати приватні повідомлення, які Ігромайстер не може бачити.",
   "PERMISSION.NoteCreate": "Створення Нотаток Мапи",
@@ -2624,7 +2626,7 @@
   "TOKEN.TintColor": "Забарвлення",
   "TOKEN.Update": "Оновити Токен",
   "TOKEN.VisionEnabled": "Дозволити Бачення",
-  "TOKEN.VisionEnabledHint": "A light source with this option enabled serves as an additional vision point for tokens. Activate this option to allow tokens to always see the area it illuminates, even if that area is behind a wall or outside a token's field of view.",
+  "TOKEN.VisionEnabledHint": "Allows the token to see illuminated spaces within its line of sight.",
   "TOKEN.VisionRange": "Дистанція Бачення",
   "TOKEN.VisionRangeHint": "Відстань на яку може бачити токен без освітлення.",
   "TOKEN.VisionAngle": "Кут Огляду",

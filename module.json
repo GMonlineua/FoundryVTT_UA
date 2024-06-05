@@ -1,11 +1,11 @@
 {
   "id": "lang-ua",
   "title": "Translation: Ukrainian [Core]",
-  "version": "1.4",
+  "version": "1.5",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
-    "maximum": "11"
+    "maximum": "12"
   },
   "description": "Переклад інтерфейсу Foundry VTT українською мовою",
   "authors": [
@@ -30,5 +30,5 @@
   "readme": "https://github.com/GMonlineua/FoundryVTT_UA/blob/master/README.md",
   "license": "https://github.com/GMonlineua/FoundryVTT_UA/blob/master/LICENSE.md",
   "manifest": "https://raw.githubusercontent.com/GMonlineua/FoundryVTT_UA/master/module.json",
-  "download": "https://github.com/GMonlineua/FoundryVTT_UA/releases/download/v1.4/version-1.4.zip"
+  "download": "https://github.com/GMonlineua/FoundryVTT_UA/releases/download/v1.5/version-1.5.zip"
 }

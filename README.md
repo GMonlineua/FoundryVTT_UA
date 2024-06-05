@@ -27,12 +27,11 @@
 ## Інше
  - [Локалізація WoD 5e](https://github.com/InqShanila/vtm5e-ukrainian)
  - [Локалізація PF 2e](https://github.com/reyzor1991/foundry-vtt-uk)
- - [Локалізація DnD 5e](https://github.com/GMonlineua/Foundry-ua-dnd5e)
 
-[Foundry Shield]: https://img.shields.io/badge/Foundry-11-orange?style=flat-square
+[Foundry Shield]: https://img.shields.io/badge/Foundry-12-orange?style=flat-square
 [Foundry URL]: https://foundryvtt.com
 
-[Version]: https://img.shields.io/badge/Version-1.4-informational?style=flat-square
+[Version]: https://img.shields.io/badge/Version-1.5-informational?style=flat-square
 [Version URL]: https://github.com/GMonlineua/Foundry-ua-dnd5e
 
 [License]: https://img.shields.io/badge/License-MIT-green?style=flat-square

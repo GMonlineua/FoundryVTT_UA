@@ -1112,7 +1112,7 @@
   "JOURNALENTRYPAGE.ShowImageOnly": "Показати Лише Зображення",
   "JOURNALENTRYPAGE.ShowImageTitle": "Показати Назву Зображення",
   "JOURNALENTRYPAGE.ShowImageCaption": "Показати Заголовок Зображення",
-  "JOURNALENTRYPAGE.ShowTitle": "Показати Заголовок Сторінки",
+  "JOURNALENTRYPAGE.ShowTitle": "Показати Заголовок",
   "JOURNALENTRYPAGE.HeadingLevel": "Рівень Заголовка",
   "JOURNALENTRYPAGE.Level": "Рівень {level}",
   "KEYBINDINGS.NavLabel": "Вкладки Конфігурації Клавіш",

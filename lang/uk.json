@@ -141,14 +141,14 @@
         "label": "Y"
       },
       "elevation": {
-        "label": "Elevation"
+        "label": "Підвищення"
       },
       "rotation": {
         "label": "Кут Повороту"
       },
       "vision": {
         "label": "Забезпечує Бачення",
-        "hint": "A light source with this option enabled serves as an additional vision point for tokens. Activate this option to allow tokens to always see the area it illuminates, even if that area is behind a wall or outside a token's field of view."
+        "hint": "Джерело світла з увімкненою опцією слугує додатковою точкою зору для токенів. Увімкніть цю опцію, щоб токени завжди бачили область, яку він освітлює, навіть якщо ця область знаходиться за стіною або поза полем зору токена."
       },
       "walls": {
         "label": "Обмежується Стінами",
@@ -181,7 +181,7 @@
         "label": "Y"
       },
       "elevation": {
-        "label": "Elevation"
+        "label": "Підвищення"
       },
       "path": {
         "label": "Шлях до Файлу",
@@ -219,53 +219,53 @@
       "effects": {
         "base": {
           "type": {
-            "label": "Base Effect"
+            "label": "Базовий Ефект"
           },
           "intensity": {
-            "label": "Base Effect Intensity"
+            "label": "Базова Інтенсивність Ефектів"
           },
-          "hint": "Apply an audio effect to the sound which filters or transforms its sound."
+          "hint": "Застосуйте до звуку аудіоефект, який фільтрує або трансформує його звучання."
         },
         "muffled": {
           "type": {
-            "label": "Muffled Effect"
+            "label": "Ефект Приглушення"
           },
           "intensity": {
-            "label": "Muffled Effect Intensity"
+            "label": "Інтенсивність Ефекту Приглушення"
           },
-          "hint": "Apply an audio effect to the sound which replaces the base effect when the sound is muffled by intervening walls. A sound can only be muffled if it is not constrained by walls."
+          "hint": "Застосовуйте аудіоефект до звуку, який замінює базовий ефект, коли звук приглушується стінами. Звук можна приглушити лише тоді, коли він не обмежений стінами."
         }
       }
     },
     "SECTIONS": {
-      "SOURCE": "Source",
-      "PLACEMENT": "Placement",
-      "PLACEMENT_HINT": "Configure the origin position, elevation, and radius of the audio source. Elevation is not yet used and is provided only for reference.",
-      "VOLUME": "Volume",
-      "ACTIVATION": "Activation",
-      "EFFECTS": "Special Effects"
+      "SOURCE": "Джерело",
+      "PLACEMENT": "Розміщення",
+      "PLACEMENT_HINT": "Налаштуйте положення початку координат, висоту та радіус джерела звуку. Висота ще не використовується і надається лише для посилання на майбутні можливості.",
+      "VOLUME": "Гучність",
+      "ACTIVATION": "Активувати",
+      "EFFECTS": "Спеціальні Ефекти"
     }
   },
   "APPLICATION": {
     "TOOLS": {
-      "ControlsMenu": "Application Controls",
-      "ToggleControls": "Toggle Controls",
-      "Close": "Close Window"
+      "ControlsMenu": "Керування Програмою",
+      "ToggleControls": "Перемкнути Керування",
+      "Close": "Закрити Вікно"
     }
   },
   "AUDIO": {
     "CHANNELS": {
       "MUSIC": {
-        "label": "Music",
-        "tooltip": "Controls the local volume of playlists and sounds which are classified as music."
+        "label": "Музика",
+        "tooltip": "Керує локальною гучністю списків відтворення та звуків, які класифікуються як музика."
       },
       "ENVIRONMENT": {
-        "label": "Environment",
+        "label": "Оточення",
         "tooltip": "Керує локальною гучністю списків відтворення та навколишніх звуків, які класифікуються як оточення."
       },
       "INTERFACE": {
-        "label": "Interface",
-        "tooltip": "Controls the local volume of sounds related to user interface or user interaction."
+        "label": "Інтерфейс",
+        "tooltip": "Керує локальною гучністю звуків, пов'язаних з інтерфейсом користувача або взаємодією з користувачем."
       }
     }
   },
@@ -393,7 +393,7 @@
   "COMBAT.NotStarted": "Не Розпочато",
   "COMBAT.PanToCombatant": "Pan to Combatant",
   "COMBAT.PingCombatant": "Пінгувати Учасника Бою",
-  "COMBAT.WarnNonVisibleToken": "This combatant is not visible to you.",
+  "COMBAT.WarnNonVisibleToken": "Цього учасника бою ви не бачите.",
   "COMBAT.Resource": "Відстежувати Ресурс",
   "COMBAT.ResourceHint": "Виберіть атрибут, який будете відстежуватися для кожного учасника бою.",
   "COMBAT.Round": "Раунд",
@@ -406,7 +406,7 @@
   "COMBAT.Settings": "Налаштування Трекера Бою",
   "COMBAT.SettingsSave": "Зберегти Налаштування Трекера",
   "COMBAT.SidebarTitle": "Трекер Бою",
-  "COMBAT.SkipDefeated": "Skip Defeated",
+  "COMBAT.SkipDefeated": "Пропускати Переможених",
   "COMBAT.SkipDefeatedHint": "Автоматично пропускати учасників бою, позначених як переможні.",
   "COMBAT.Sounds.Epic": "Епічна",
   "COMBAT.Sounds.MC": "Коментатор Бою",
@@ -419,7 +419,7 @@
   "COMBAT.TurnPrev": "Попередній Хід",
   "COMBAT.UnknownCombatant": "Невідомий Учасник Бою",
   "COMBAT.Unlinked": "Неприв'язаний бій, натисніть, щоб прив'язати до сцени",
-  "COMBAT.CannotLinkToScene": "You cannot link the Combat to a Scene that doesn't contain all its Combatants.",
+  "COMBAT.CannotLinkToScene": "Ви не можете зв'язати Бій зі Сценою, яка не містить усіх його учасників.",
   "COMBAT.CombatantActor": "Представлений Актор",
   "COMBAT.CombatantCreate": "Створити Учасника Бою",
   "COMBAT.CombatantDefeated": "Переможений",
@@ -464,7 +464,7 @@
   "CONTROLS.NavLabel": "Панель Керування Полотном",
   "CONTROLS.Instructions": "Ця форма описує загальні команди клавіатури та миші, які використовуються для керування різними аспектами середовища Foundry Virtual Tabletop. Деякі елементи керування доступні лише для користувача Game Master і виділяються на яскравому фіолетовому фоні.",
   "CONTROLS.GroupToken": "Керування Токеном",
-  "CONTROLS.CommonForceSnap": "Force Snap to Grid Vertices",
+  "CONTROLS.CommonForceSnap": "Примусова Прив'язка до Вершин Сітки",
   "CONTROLS.BasicSelect": "Обрати Токени",
   "CONTROLS.BasicSelectP": "Виберіть будь-які Токени, якими ви володієте, щоб побачити їхню точку зору. Якщо токени не обрані, ви зможете побачити те, що всі ваші Токени можуть бачити.",
   "CONTROLS.TargetSelect": "Вибрати Цілі",
@@ -497,7 +497,7 @@
   "CONTROLS.DrawingText": "Текст",
   "CONTROLS.DrawingClear": "Стерти Намальоване",
   "CONTROLS.DrawingConfig": "Налаштування Малювання",
-  "CONTROLS.DrawingRole": "Toggle Information Drawings",
+  "CONTROLS.DrawingRole": "Показати/Приховати Інформаційні Малюнки",
   "CONTROLS.GroupWall": "Керування Стінами",
   "CONTROLS.WallDraw": "Намалювати Стіну",
   "CONTROLS.WallBasic": "Базові Стіни",
@@ -515,7 +515,7 @@
   "CONTROLS.WallSecretHiddenP": "Секретні Двері не можуть бути побачені гравцями",
   "CONTROLS.WallSelect": "Прямокутне Виділення Стін",
   "CONTROLS.CommonMoveWithoutSnapping": "Переміщення Без Прив'язки",
-  "CONTROLS.WallSelectEdit": "<span class=\"reference\">Double Click</span>",
+  "CONTROLS.WallSelectEdit": "<span class=\"reference\">Подвійний Клік</span>",
   "CONTROLS.WallSnapP": "Wall points snap to nearest grid vertex when active",
   "CONTROLS.WallClone": "Клонувати Стіни",
   "CONTROLS.WallCloseDoors": "Зачинити Всі Двері",
@@ -1514,24 +1514,24 @@
   "SCENES.FogUnexploredColor": "Колір Недослідженого Туману Війни",
   "SCENES.FogUnexploredColorHint": "Суцільний колір, який застосовується до всіх недосліджених областей Сцени.",
   "SCENES.ENVIRONMENT": {
-    "HeaderLabel": "Environment Lighting",
-    "Luminosity": "Luminosity",
-    "LuminosityHint": "Control how bright the scene appears. Higher luminosity makes the scene bright like a sunny day, while lower luminosity makes it appear darker and gloomier.",
-    "Saturation": "Saturation",
-    "SaturationHint": "Adjust the purity of colors in the scene. Settings above 0 make the colors more saturated (intense and vibrant) while negative settings dull and mute the colors.",
-    "Shadows": "Shadows",
-    "ShadowsHint": "Raising this slider causes the shadows and darker elements of the scene to be darker and deeper.",
-    "Hue": "Hue",
-    "HueHint": "Choose a hue (color) to blend into the entire scene. To activate the color slider, you must have an intensity greater than 0.",
-    "Intensity": "Hue Intensity",
-    "IntensityHint": "Adjust how intensly the chosen hue is blended into the scene. A high hue intensity saturates the scene with the color, possibly overhelming existing colors. A lower hue intensity blends in the chosen color more subtly.",
-    "ResetEnvironment": "Reset to Default Options",
-    "EnableCycling": "Enable Cycling",
-    "EnableCyclingHint": "When this option is unchecked, only the base ambience is applied, without blending values between base and darkness according to darkness level.",
-    "BaseAmbience": "Base Ambience",
-    "DarkAmbience": "Dark Ambience",
-    "DarknessLock": "Darkness Level Lock",
-    "DarknessLockHint": "When this option is checked, the darkness level can't be changed."
+    "HeaderLabel": "Освітлення Середовища",
+    "Luminosity": "Освітленість",
+    "LuminosityHint": "Керуйте яскравістю сцени. Більша яскравість робить сцену яскравою, як сонячний день, а менша – темнішою та похмурішою.",
+    "Saturation": "Насиченість",
+    "SaturationHint": "Налаштуйте чистоту кольорів у сцені. Значення вище 0 роблять кольори більш насиченими (інтенсивними та яскравими), тоді як від'ємні значення роблять кольори тьмяними та приглушеними.",
+    "Shadows": "Тіні",
+    "ShadowsHint": "Підняття цього повзунка призводить до того, що тіні та темні елементи сцени стають темнішими та глибшими.",
+    "Hue": "Відтінок",
+    "HueHint": "Виберіть відтінок (колір), який буде змішуватися з усією сценою. Щоб активувати повзунок кольору, ви повинні мати інтенсивність більшу за 0.",
+    "Intensity": "Інтенсивність Відтінку",
+    "IntensityHint": "Налаштуйте, наскільки інтенсивно обраний відтінок буде змішуватися зі сценою. Висока інтенсивність відтінку насичує сцену кольором, можливо, перекриваючи наявні кольори. Менша інтенсивність відтінку більш тонко вписує вибраний колір у сцену.",
+    "ResetEnvironment": "Відновити Параметри за Замовчуванням",
+    "EnableCycling": "Увімкнути Зациклення",
+    "EnableCyclingHint": "Якщо цю опцію знято, буде застосовано лише базове середовище, без змішування значень між базовим і темним відповідно до рівня темряви.",
+    "BaseAmbience": "Базове Середовище",
+    "DarkAmbience": "Темне Середовище",
+    "DarknessLock": "Блокування Рівня Темряви",
+    "DarknessLockHint": "Коли ця опція позначена, рівень темряви не може бути змінений."
   },
   "GRID.STYLES": {
     "SolidLines": "Solid Lines",

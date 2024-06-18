@@ -516,7 +516,7 @@
   "CONTROLS.WallSelect": "Прямокутне Виділення Стін",
   "CONTROLS.CommonMoveWithoutSnapping": "Переміщення Без Прив'язки",
   "CONTROLS.WallSelectEdit": "<span class=\"reference\">Подвійний Клік</span>",
-  "CONTROLS.WallSnapP": "Wall points snap to nearest grid vertex when active",
+  "CONTROLS.WallSnapP": "Коли активно, точки стін прив'язуються до найближчої вершини сітки",
   "CONTROLS.WallClone": "Клонувати Стіни",
   "CONTROLS.WallCloseDoors": "Зачинити Всі Двері",
   "CONTROLS.WallDoorsClosed": "Зачинено {number} дверей",
@@ -594,23 +594,23 @@
   "CONTROLS.Double": "Подвійний",
   "CONTROLS.RightClick": "ПКМ",
   "CONTROLS.MiddleClick": "СКМ",
-  "CONTROLS.AltRightClick": "{alt} + Right-Click",
+  "CONTROLS.AltRightClick": "{alt} + Пкм",
   "CONTROLS.Click": "Клік",
   "CONTROLS.ClickDrag": "Клік + Перетягніть",
   "CONTROLS.ClickOrClickDrag": "<span class=\"reference\">Клік</span> або <span class=\"reference\">Клік + Перетягнути</span>",
-  "CONTROLS.Ctrl": "Control",
+  "CONTROLS.Ctrl": "Управління",
   "CONTROLS.CtrlAbbr": "CTRL",
-  "CONTROLS.CtrlClickDrag": "{mod} + Click + Drag",
+  "CONTROLS.CtrlClickDrag": "{mod} + Клік + Перетягнути",
   "CONTROLS.Alt": "ALT",
-  "CONTROLS.AltClick": "{alt} + Click",
-  "CONTROLS.AltClickDrag": "{alt} + Click + Drag",
-  "CONTROLS.CtrlClick": "{mod} + Click",
+  "CONTROLS.AltClick": "{alt} + Клік",
+  "CONTROLS.AltClickDrag": "{alt} + Клік + Перетягнути",
+  "CONTROLS.CtrlClick": "{mod} + Клік",
   "CONTROLS.ShiftClick": "SHIFT + Клік",
-  "CONTROLS.ChainCtrlClick": "Hold <span class=\"reference\">{mod}</span> then <span class=\"reference\">Click</span>",
+  "CONTROLS.ChainCtrlClick": "Затисніть <span class=\"reference\">{mod}</span>, а потім потрібно <span class=\"reference\">Клікнути</span>",
   "CONTROLS.DoubleClick": "Подвійний Клік",
   "CONTROLS.DoubleRightClick": "Подвійний ПКМ",
   "CONTROLS.ShiftScroll": "SHIFT + Прокручування",
-  "CONTROLS.ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + Scroll</span> or <span class=\"reference\">{mod} + Scroll</span>",
+  "CONTROLS.ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + Прокрутка</span> або <span class=\"reference\">{mod} + Прокрутка</span>",
   "CONTROLS.ShiftDrag": "SHIFT + Перетягнути",
   "CONTROLS.Spacebar": "SPACEBAR",
   "CONTROLS.Delete": "ВИДАЛИТИ",
@@ -679,16 +679,16 @@
   "CONTROLS.CommonSelectMultiple": "Виберіть Декілька",
   "CONTROLS.CommonOpenSheet": "Відкрити Аркуш",
   "CONTROLS.DisableToolclips": "Вимкнути Підказки в Налаштуваннях",
-  "CONTROLS.CopiedObjects": "Copied {count} {type} object(s).",
-  "CONTROLS.PastedObjects": "Pasted {count} {type} object(s).",
-  "CONTROLS.DeletedObjects": "Deleted {count} {type} object(s).",
-  "CONTROLS.UndoCreateObjects": "Reverted creation of {count} {type} object(s).",
-  "CONTROLS.UndoDeleteObjects": "Reverted deletion of {count} {type} object(s).",
-  "CONTROLS.EmptyUndoHistory": "No more tracked history for {type} objects to undo.",
-  "CONTROLS.ObjectIsLocked": "You cannot take this action while the {type} object is locked.",
-  "CONTROLS.ObjectConfigured": "You cannot take this action while configuring another object.",
+  "CONTROLS.CopiedObjects": "Скопійовано {count} {type} об'єкт(ів).",
+  "CONTROLS.PastedObjects": "Вставлено {count} {type} об'єкт(и).",
+  "CONTROLS.DeletedObjects": "Видалено {count} {type} об'єкт(ів).",
+  "CONTROLS.UndoCreateObjects": "Відновлення створення {count} {type} об'єкта(ів).",
+  "CONTROLS.UndoDeleteObjects": "Відновлено видаленням {count} {type} об'єкту(ів).",
+  "CONTROLS.EmptyUndoHistory": "Більше немає історії для скасування {type} об'єктів.",
+  "CONTROLS.ObjectIsLocked": "Ви не можете виконати цю дію, поки об'єкт {type} заблокований.",
+  "CONTROLS.ObjectConfigured": "Ви не можете виконати цю дію, поки налаштовуєте інший об'єкт.",
   "DICE.ErrorNonNumeric": "Формула кидання багатогранників {formula} не дала числового результату.",
-  "DICE.ManualRoll": "Manual Roll",
+  "DICE.ManualRoll": "Мануальний Кидок",
   "DICE.RollResolution": "Roll Resolution",
   "DICE.SubmitRoll": "Submit Roll",
   "DICE.SubmitRollPl": "Submit Rolls",
@@ -829,8 +829,8 @@
   "EFFECT.TabDuration": "Тривалість",
   "EFFECT.TabEffects": "Ефекти",
   "EFFECT.Name": "Назва Ефекту",
-  "EFFECT.Image": "Effect Image",
-  "EFFECT.Tint": "Icon Tint Color",
+  "EFFECT.Image": "Зображення Ефекту",
+  "EFFECT.Tint": "Колір Віддінтку Іконок",
   "EFFECT.Disabled": "Ефект Призупинено",
   "EFFECT.Origin": "Джерело Ефекту",
   "EFFECT.Transfer": "Застосувати Ефект до Актора",
@@ -871,7 +871,7 @@
   "EFFECT.StatusDegen": "Дегенерація",
   "EFFECT.StatusUpgrade": "Посилений",
   "EFFECT.StatusDowngrade": "Послаблений",
-  "EFFECT.StatusHover": "Hovering",
+  "EFFECT.StatusHover": "Наведення",
   "EFFECT.StatusBurrow": "Burrowing",
   "EFFECT.StatusInvisible": "Невидимий",
   "EFFECT.StatusTarget": "Цільовий",
@@ -894,19 +894,19 @@
   "ERROR.CantWhisper": "Ви не маєте дозволу на надсилання приватних повідомлень іншим користувачам.",
   "ERROR.RendererNotDetected": "Ваш рендер GPU не може бути ідентифікований, можуть виникнути неочікувані проблеми з продуктивністю.",
   "ERROR.NoHardwareAcceleration": "Ваш веббраузер не має увімкненого апаратного прискорення. Це може серйозно вплинути на продуктивність Foundry Virtual Tabletop. Обов'язково увімкніть апаратне прискорення в налаштуваннях браузера.",
-  "ERROR.UpdateRequiresManualInstall": "Foundry Virtual Tabletop Version {version} is now available but cannot be installed from within the Foundry Virtual Tabletop application because it requires updates to core dependencies which are only available by re-installing the software from the <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a> website.",
+  "ERROR.UpdateRequiresManualInstall": "Foundry Virtual Tabletop версія {version} тепер доступна, але не може бути встановлена з програми Foundry Virtual Tabletop, оскільки вона вимагає оновлення основних залежностей, які доступні лише шляхом перевстановлення програмного забезпечення з веб-сайту <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
   "WARNING.GridConfigNoBG": "Ви використовуєте інструмент конфігурації сітки для сцени без фонового зображення. На даний момент це не рекомендується і може створювати непередбачувані результати.",
   "WARNING.ForegroundDimensionsMismatch": "Розміри вашого налаштованого зображення фонового шару не відповідають розмірам фонового зображення на цій сцені. Передній план був змінений, що, можливо, матиме небажані результати.",
   "WARNING.ObjectDoesNotExist": "{name} \"{identifier}\" не існує.",
-  "WARNING.TilingSpriteDeprecation": "A module or system is using the legacy TilingSprite class which is no longer supported.",
+  "WARNING.TilingSpriteDeprecation": "Модуль або система використовує застарілий клас TilingSprite, який більше не підтримується.",
   "EULA": {
-    "Acknowledge": "Acknowledge Agreement",
-    "Agree": "Agree",
-    "AgreeLabel": "I agree to these terms",
-    "AgreeHint": "By selecting the above checkbox you indicate that you have read and agree to the terms of the Foundry Virtual Tabletop End User License Agreement.",
-    "Decline": "Decline",
-    "Declined": "You have declined the End User License Agreement and cannot use the software.",
-    "ErrorAgreeRequired": "You must check the box to confirm your acceptance of this agreement to proceed."
+    "Acknowledge": "Підтверджую Угоду",
+    "Agree": "Погоджуюсь",
+    "AgreeLabel": "Я погоджуюся з цими умовами",
+    "AgreeHint": "Відмітивши цю галочку, ви підтверджуєте, що прочитали та погоджуєтеся з умовами Foundry Virtual Tabletop End User License Agreement.",
+    "Decline": "Відмовитись",
+    "Declined": "Ви відхилили End User License Agreement і не можете використовувати програмне забезпечення.",
+    "ErrorAgreeRequired": "Ви повинні поставити галочку, щоб підтвердити свою згоду з цією угодою, для продовження."
   },
   "EDITOR.Format": "Формат",
   "EDITOR.Font": "Шрифт",
@@ -940,7 +940,7 @@
   "EDITOR.Save": "Зберегти Зміни",
   "EDITOR.SaveAndClose": "Зберегти та Закрити Редактор",
   "EDITOR.DiscardHTML": "Скасувати зміни у HTML",
-  "EDITOR.EmbedFailed": "Failed to embed content from '{uuid}'.",
+  "EDITOR.EmbedFailed": "Не вдалося вбудовувати вміст з '{uuid}'.",
   "EDITOR.EditingHTMLWarning": "Інший користувач відредагував той самий документ. Будь-які зміни, внесені вами до HTML, зітруть їхні зміни і вони не будуть збережені.",
   "EDITOR.Resync": "Ваш стан редактора не синхронізований з сервером і має бути скинутий. Ваш оригінальний редактор було скопійовано до буферу обміну.",
   "EDITOR.NoUploadPermission": "У вас повинен бути дозвіл на завантаження зображення, щоб вставити його.",
@@ -978,12 +978,12 @@
   "EDITOR.TableRows": "Рядки",
   "ELEMENTS": {
     "DOCUMENT_TAGS": {
-      "Add": "Add Document",
-      "Remove": "Remove Document"
+      "Add": "Додати Документ",
+      "Remove": "Видалити Документ"
     },
     "TAGS": {
-      "Add": "Add Tag",
-      "Remove": "Remove Tag"
+      "Add": "Додати Мітку",
+      "Remove": "Вилучити Мітку"
     }
   },
   "FILES.CreateDirectory": "Створити Каталог",
@@ -1025,7 +1025,7 @@
   "FILES.BrowseTooltip": "Переглянути Файли",
   "FILES.InPixels": "У Пікселях",
   "FILES.UnitPixels": "(пікселі)",
-  "FILES.ErrorDisallowedExtension": "File \"{name}\" has an invalid extension \"{ext}\" which is not allowed for this FilePicker type.\nAllowed extensions include: {allowed}.",
+  "FILES.ErrorDisallowedExtension": "Файл \"{name}\" має неприпустиме розширення \"{ext}\", яке не допускається для цього типу FilePicker.\nДозволені розширення включають: {allowed}.",
   "FONTS.AddFont": "Додати шрифт",
   "FONTS.Type": "Тип Шрифту",
   "FONTS.TypeFile": "Файл",
@@ -1053,10 +1053,10 @@
   "INVITATIONS.UnknownConnection": "Ми не змогли виявити ваш стан з'єднання",
   "INVITATIONS.DiscoveryFailed": "Наш сервіс визначення IP-адреси не зміг визначити правильну IP-адресу. Ви використовуєте IPv6, або зараз не під'єднані до Інтернету.",
   "ITEM.ViewArt": "Переглянути Обкладинку Предмета",
-  "HUD.Elevation": "Elevation",
-  "HUD.OpenConfig": "Open Configuration",
+  "HUD.Elevation": "Підвищення",
+  "HUD.OpenConfig": "Відкрити Конфігурацію",
   "HUD.AssignStatusEffects": "Призначити Статус Ефектів",
-  "HUD.ToggleTargetState": "Toggle Target State",
+  "HUD.ToggleTargetState": "Перемкнути Стан Цілі",
   "HUD.ToggleCombatState": "Змінити Стан Бою",
   "HUD.ToggleVis": "Змінити Стан Видимості",
   "HUD.ToggleLock": "Змінити Стан Блокування",
@@ -1064,7 +1064,7 @@
   "HUD.ToBack": "На Задній План",
   "HUD.TilePlay": "Відтворити Відео Тайла",
   "HUD.TilePause": "Призупинити Відео Тайла",
-  "HUD.WarningEffectNoActor": "You cannot assign status effects to a Token which has no associated Actor.",
+  "HUD.WarningEffectNoActor": "Ви не можете призначити ефекти стану токену, який не має пов'язаного з ним актора.",
   "JOURNAL.ModeText": "Текст",
   "JOURNAL.ModeImage": "Зображення",
   "JOURNAL.ActionShow": "Показати Гравцям",
@@ -1145,8 +1145,8 @@
   "KEYBINDINGS.Copy": "Копіювати Об'єкти",
   "KEYBINDINGS.Paste": "Вставити Об'єкти",
   "KEYBINDINGS.Target": "Зробити Токен Ціллю",
-  "KEYBINDINGS.SendToBack": "Send Objects to the Back",
-  "KEYBINDINGS.BringToFront": "Bring Objects to the Front",
+  "KEYBINDINGS.SendToBack": "Відправити Об'єкти в Задній План",
+  "KEYBINDINGS.BringToFront": "Витягнути Об'єкти на Передній План",
   "KEYBINDINGS.ToggleCharacterSheet": "Перемкнути Аркуш Персонажа",
   "KEYBINDINGS.PTTKey": "Натисніть-щоб-Говорити / Натисніть-щоб-Відключити",
   "KEYBINDINGS.PanUp": "Перемістити Вгору",
@@ -1168,59 +1168,59 @@
   "KEYBINDINGS.FocusChat": "Чат",
   "LIGHT.FIELDS": {
     "alpha": {
-      "label": "Color Intensity",
-      "hint": "Modify the intensity of color emitted by this light source."
+      "label": "Інтенсивність Кольору",
+      "hint": "Змінюйте інтенсивність кольору, випромінюваного цим джерелом світла."
     },
     "animation": {
-      "label": "Light Animation",
+      "label": "Анімація Освітлення",
       "type": {
-        "label": "Light Animation Type"
+        "label": "Тип Анімації Освітлення"
       },
       "speed": {
-        "label": "Animation Speed",
-        "hint": "Increases to animation speed make the animation play faster."
+        "label": "Швидкість Анімації",
+        "hint": "Збільшує швидкість анімації, змушуючи анімацію грати швидше."
       },
       "intensity": {
-        "label": "Animation Intensity",
-        "hint": "Increases to animation intensity make the animation more pronounced."
+        "label": "Інтенсивність Анімації",
+        "hint": "Збільшує інтенсивність анімації, роблячи анімацію більш вираженою."
       },
       "reverse": {
-        "label": "Reverse Direction"
+        "label": "Зворотний Напрямок"
       }
     },
     "angle": {
-      "label": "Emission Angle",
-      "hint": "Limit the angle of emission for this light source, and configure its rotation."
+      "label": "Кут Освітлення",
+      "hint": "Обмежте кут випромінювання для цього джерела світла та налаштуйте його обертання."
     },
     "attenuation": {
-      "label": "Attenuation",
-      "hint": "Transition illumination gradually between bright, dim, and dark."
+      "label": "Загасання",
+      "hint": "Поступовий перехід освітлення між яскравим, тьмяним і темним."
     },
     "color": {
-      "label": "Light Color",
-      "hint": "Apply coloration to this light source and configure its intensity."
+      "label": "Колір Світла",
+      "hint": "Застосуйте колір до цього джерела світла та налаштуйте його інтенсивність."
     },
     "coloration": {
-      "label": "Coloration Technique",
-      "hint": "The coloration technique applied to the light source contributes additive blending to the resulting appearance."
+      "label": "Техніка Кольору",
+      "hint": "Техніка забарвлення, застосована до джерела світла, впливає на кінцевий вигляд."
     },
     "contrast": {
-      "label": "Contrast",
-      "hint": "Adjust the contrast of surfaces that are illuminated by this light source. The default value for a standard light source is 0."
+      "label": "Контраст",
+      "hint": "Налаштуйте контрастність поверхонь, які освітлюються цим джерелом світла. Усталене значення для стандартного джерела світла є 0."
     },
     "dim": {
-      "label": "Dim"
+      "label": "Тьмяне"
     },
     "bright": {
-      "label": "Bright"
+      "label": "Яскраве"
     },
     "luminosity": {
-      "label": "Luminosity",
-      "hint": "Adjust the brightness of this light source. More luminous lights are less diminished by darkness. The default value for a standard light source is 0.5."
+      "label": "Яскравість",
+      "hint": "Налаштуйте яскравість цього джерела світла. Яскравіше світло менше слабшає у темряві. Усталене значення для стандартного джерела світла є 0.5."
     },
     "negative": {
-      "label": "Is Darkness Source",
-      "hint": "A darkness source blocks light and vision and suppresses lights or vision sources which are inside its area of effect."
+      "label": "Це Джерело Темряви",
+      "hint": "Джерело темряви блокує світло і бачення та пригнічує світло або джерела світла, які знаходяться в зоні його дії."
     },
     "saturation": {
       "label": "Saturation",
@@ -2077,20 +2077,20 @@
   "PACKAGECONFIG.Unmapped": "Не Призначено",
   "JOIN": {
     "CurrentPlayers": "Current Players",
-    "HeaderJoin": "Join Game Session",
-    "HeaderDetails": "Game Details",
-    "HeaderWorld": "World Description",
-    "NextSession": "Next Session",
-    "SelectUser": "Select User",
-    "UserKey": "User Password",
-    "AuthAdmin": "You are authenticated as a server administrator user.",
-    "ErrorMustSelectUser": "You must select a User in order to log in.",
-    "ErrorUserDoesNotExist": "The requested User, \"{user}\", does not exist!",
-    "ErrorInvalidPassword": "Invalid password provided for {user}!",
-    "ErrorBanned": "{user} does not have permission to access this World!",
-    "LoginSuccess": "Login as {user} successful, joining game!"
+    "HeaderJoin": "Приєднатися до Ігрової Сесії",
+    "HeaderDetails": "Деталі Гри",
+    "HeaderWorld": "Опис Світу",
+    "NextSession": "Наступна Сесія",
+    "SelectUser": "Виберіть Користувача",
+    "UserKey": "Пароль Користувача",
+    "AuthAdmin": "Ви авторизувалися як користувач з правами адміністратора сервера.",
+    "ErrorMustSelectUser": "Необхідно вибрати користувача для того, щоб увійти.",
+    "ErrorUserDoesNotExist": "Користувач, \"{user}\", не існує!",
+    "ErrorInvalidPassword": "Невірний пароль для {user}!",
+    "ErrorBanned": "{user} не має дозволу на доступ до цього світу!",
+    "LoginSuccess": "Ви успішно приєдналися до гри як {user}!"
   },
-  "SHEETS.ConfigureSheet": "Configure Sheet",
+  "SHEETS.ConfigureSheet": "Налаштування Аркуша",
   "SHEETS.ThisSheet": "Цей Аркуш",
   "SHEETS.DefaultSheet": "Усталений Аркуш",
   "SHEETS.DefaultDocumentSheet": "Усталений Аркуш {document}",
@@ -2099,15 +2099,15 @@
   "SHEETS.DocumentSheetPrivate": "У вас недостатньо прав для перегляду аркуша {type}.",
   "SHEETS.Save": "Зберегти Конфігурацію Аркуша",
   "SHEETS.FormNavLabel": "Навігація Вкладок Форми",
-  "SHEETS.CopyUuid": "Copy Document UUID",
+  "SHEETS.CopyUuid": "Копіювати UUID Документа",
   "SOUND": {
     "ConfigTitle": "Налаштування Звуків Оточення",
-    "PathPlaceholder": "path/to/audio.mp3",
-    "New": "New Sound",
+    "PathPlaceholder": "шлях/до/аудіо.mp3",
+    "New": "Нова Мелодія",
     "EFFECTS": {
       "LOWPASS": "Lowpass Filter",
       "HIGHPASS": "Highpass Filter",
-      "REVERB": "Reverb"
+      "REVERB": "Відлуння"
     }
   },
   "FOLDER.Clear": "Очистити Теку",
@@ -2129,9 +2129,9 @@
   "FOLDER.ExportHint": "Ви можете експортувати з цієї теки її вміст в розблокований Компендіум відповідного типу.",
   "FOLDER.ExportOptions": "Параметри Експорту",
   "FOLDER.ExportDestination": "Компендіум",
-  "FOLDER.ExportKeepId": "Keep Document IDs",
-  "FOLDER.ExportMerge": "Merge By Name",
-  "FOLDER.ExportKeepFolders": "Keep Folder Structure",
+  "FOLDER.ExportKeepId": "Зберігати ID Документів",
+  "FOLDER.ExportMerge": "Об'єднати за Назвою",
+  "FOLDER.ExportKeepFolders": "Залишити Структуру Теки",
   "FOLDER.ExportWarningNone": "Немає розблокованих Компендіумів для {type} Документів, до яких ви можете експортувати вміст.",
   "FOLDER.ExportExistingFolder": "Існуюча Тека",
   "FOLDER.ExportNewFolder": "Нова Тека",
@@ -2155,7 +2155,7 @@
   "OWNERSHIP.HintFolder": "Налаштувати доступ до всіх документів в межах цієї теки. Зміни будуть застосовані до всіх Документів, крім вмісту підтек.",
   "OWNERSHIP.HintDocument": "Налаштувати доступ до конкретного Документа, що дозволяє кожному користувачеві призначити різний рівень видимості.",
   "OWNERSHIP.Configure": "Налаштувати Володіння",
-  "OWNERSHIP.ShowGM": "Show GM Users",
+  "OWNERSHIP.ShowGM": "Показати ІМів",
   "PERMISSION.Title": "Налаштування Дозволів Користувача",
   "PERMISSION.Configure": "Дозволи",
   "PERMISSION.ConfigureLabel": "Відкрити Налаштування Дозволів",
@@ -2193,8 +2193,8 @@
   "PERMISSION.NoteCreateHint": "Дозволити користувачам із цієї ролі створювати Нотатки в Журнальних Записах, якими вони володіють.",
   "PERMISSION.PingCanvas": "Пінги на Полотні",
   "PERMISSION.PingCanvasHint": "Дозволити користувачам з цією роллю привертати увагу до точки на полотні з анімацією пінгу.",
-  "PERMISSION.PlaylistCreate": "Create Playlists",
-  "PERMISSION.PlaylistCreateHint": "Allow users with this role to create new playlists in the World.",
+  "PERMISSION.PlaylistCreate": "Створювати Плейлисти",
+  "PERMISSION.PlaylistCreateHint": "Дозволити користувачам із цією роллю створювати нові плейлисти у Світі.",
   "PERMISSION.SettingsModify": "Змінити Параметри Налаштувань",
   "PERMISSION.SettingsModifyHint": "Дозволити користувачам з цією роллю змінювати налаштування гри та вмикати чи вимикати модулі.",
   "PERMISSION.ShowCursor": "Показувати Курсор Миші",
@@ -2214,13 +2214,13 @@
   "PERMISSION.WarningNoCreate": "У вас недостатньо прав для створення {document}.",
   "REGION": {
     "SECTIONS": {
-      "identity": "Identity",
+      "identity": "Ідентичність",
       "shapes": "Shapes",
       "behaviors": "Behaviors"
     },
     "FIELDS": {
       "color": {
-        "label": "Color",
+        "label": "Колір",
         "hint": "The color applied to the visualization of the Region."
       },
       "shapes": {
@@ -2799,14 +2799,14 @@
   "TOKEN.RING": {
     "EFFECTS": {
       "BACKGROUND_WAVE": "Background Wave",
-      "RING_GRADIENT": "Ring Gradient",
-      "RING_PULSE": "Ring Pulse"
+      "RING_GRADIENT": "Градієнт Кільця",
+      "RING_PULSE": "Пульсація Кільця"
     },
     "SHEET": {
-      "legend": "Dynamic Token Ring"
+      "legend": "Динамічне Кільце Токену"
     }
   },
-  "TYPES.Base": "Base",
+  "TYPES.Base": "Базовий",
   "TYPES.Cards.deck": "Колода",
   "TYPES.Cards.hand": "Рука",
   "TYPES.Cards.pile": "Стос",
@@ -2816,25 +2816,25 @@
   "TYPES.JournalEntryPage.video": "Відео",
   "TYPES.Macro.chat": "Чат",
   "TYPES.Macro.script": "Скрипт",
-  "TYPES.RegionBehavior.adjustDarknessLevel": "Adjust Darkness Level",
-  "TYPES.RegionBehavior.executeMacro": "Execute Macro",
-  "TYPES.RegionBehavior.executeScript": "Execute Script",
-  "TYPES.RegionBehavior.pauseGame": "Pause Game",
-  "TYPES.RegionBehavior.suppressWeather": "Suppress Weather",
-  "TYPES.RegionBehavior.teleportToken": "Teleport Token",
+  "TYPES.RegionBehavior.adjustDarknessLevel": "Регулювання Рівня Темряви",
+  "TYPES.RegionBehavior.executeMacro": "Виконати Макрос",
+  "TYPES.RegionBehavior.executeScript": "Виконати Скрипт",
+  "TYPES.RegionBehavior.pauseGame": "Призупинити Гру",
+  "TYPES.RegionBehavior.suppressWeather": "Призупинити Погоду",
+  "TYPES.RegionBehavior.teleportToken": "Телепортація Токена",
   "TYPES.RegionBehavior.toggleBehavior": "Toggle Behavior",
-  "DETECTION.LightPerception": "Light Perception",
+  "DETECTION.LightPerception": "Сприйняття Світла",
   "DETECTION.BasicSight": "Темнобачення",
   "DETECTION.SeeInvisibility": "Бачення Невидимого",
   "DETECTION.SenseInvisibility": "Відчуття Невидимих",
   "DETECTION.FeelTremor": "Відчуття Вібрації",
   "DETECTION.SenseAll": "Відчуття Всього",
   "DETECTION.SeeAll": "Бачення Всього",
-  "TEXTURE_DATA.FIT.fill": "Fill",
-  "TEXTURE_DATA.FIT.contain": "Contain",
+  "TEXTURE_DATA.FIT.fill": "Заповнення",
+  "TEXTURE_DATA.FIT.contain": "Містить",
   "TEXTURE_DATA.FIT.cover": "Cover",
-  "TEXTURE_DATA.FIT.width": "Full Width",
-  "TEXTURE_DATA.FIT.height": "Full Height",
+  "TEXTURE_DATA.FIT.width": "Повна Ширина",
+  "TEXTURE_DATA.FIT.height": "Повна Висота",
   "Tours.NavLabel": "Вікна Керування Оглядом",
   "TOURS.ShowMeHow": "Як це зробити",
   "TOURS.TourCategories": "Категорії Оглядів",
@@ -2857,42 +2857,42 @@
   "USER": {
     "FIELDS": {
       "name": {
-        "label": "Player Name",
-        "hint": "Player names must be configured by the Gamemaster and can be changed in the User Management screen."
+        "label": "Ім'я Гравця",
+        "hint": "Імена гравців повинні бути налаштовані Ігромайстером і можуть бути змінені на екрані управління користувачами."
       },
       "avatar": {
-        "label": "Player Avatar",
-        "hint": "A player avatar is displayed when using built-in audio/video chat or may be displayed by modules."
+        "label": "Аватар Гравця",
+        "hint": "Аватар гравця відображається при використанні вбудованого аудіо/відеочату або може відображатися модулями."
       },
       "color": {
-        "label": "Player Color",
-        "hint": "Player color is used for cursors, rulers, templates, and other elements which differentiate between users."
+        "label": "Колір Гравця",
+        "hint": "Колір гравця використовується для курсорів, ліній, шаблонів та інших елементів, які диференціюються між користувачами."
       },
       "pronouns": {
-        "label": "Player Pronouns",
-        "hint": "Pronouns which inform how this player wishes to be referred to in third-person."
+        "label": "Займенник",
+        "hint": "Займенники, які інформують про те, які цей гравець бажає мати посилання на третю особу."
       },
       "character": {
-        "label": "Player Character",
-        "hint": "Select an Actor from the set which you have at least OBSERVER permission over which represents the main character for this User."
+        "label": "Персонаж Гравця",
+        "hint": "Виберіть Актора з набору, до якого ви маєте щонайменше права СПОСТЕРІГАЧА і який представляє головного персонажа для цього Користувача."
       }
     },
     "SHEET": {
       "HEADERS": {
-        "INFO": "Player Information",
-        "CHAR": "Player Character"
+        "INFO": "Інформація про Гравця",
+        "CHAR": "Персонаж Гравця"
       },
       "BUTTONS": {
-        "SAVE": "Save Player Configuration",
-        "RELEASE": "Release Character"
+        "SAVE": "Зберегти Налаштування Гравця",
+        "RELEASE": "Відпустити Персонажа"
       }
     },
-    "RoleNone": "None",
-    "RolePlayer": "Player",
-    "RoleTrusted": "Trusted Player",
-    "RoleAssistant": "Assistant GM",
-    "RoleGamemaster": "Game Master",
-    "GM": "GM"
+    "RoleNone": "Немає",
+    "RolePlayer": "Гравець",
+    "RoleTrusted": "Довірений Гравець",
+    "RoleAssistant": "Помічник ІМа",
+    "RoleGamemaster": "Ігромайстер",
+    "GM": "ІМ"
   },
   "USERS.AccessKey": "Пароль",
   "USERS.Role": "Роль Користувача",
@@ -2949,8 +2949,8 @@
   "WALLS.DoorSound.Industrial": "Промисловий",
   "WALLS.DoorSound.IndustrialCreaky": "Промисловий, Моторошний",
   "WALLS.DoorSound.Jail": "В'язниця",
-  "WALLS.DoorSound.MagicDoor": "Magical Door",
-  "WALLS.DoorSound.MagicWall": "Magical Wall",
+  "WALLS.DoorSound.MagicDoor": "Чарівні Двері",
+  "WALLS.DoorSound.MagicWall": "Чарівна Стіна",
   "WALLS.DoorSound.Metal": "Метал",
   "WALLS.DoorSound.SlidingMetal": "Ковзання, Метал",
   "WALLS.DoorSound.SlidingModern": "Ковзання, Сучасний",

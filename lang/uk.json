@@ -690,18 +690,18 @@
   "DICE.ErrorNonNumeric": "Формула кидання багатогранників {formula} не дала числового результату.",
   "DICE.ManualRoll": "Мануальний Кидок",
   "DICE.RollResolution": "Roll Resolution",
-  "DICE.SubmitRoll": "Submit Roll",
-  "DICE.SubmitRollPl": "Submit Rolls",
+  "DICE.SubmitRoll": "Підтвердити Кидок",
+  "DICE.SubmitRollPl": "Підтвердити Кидки",
   "DICE.WarnMissingData": "Атрибут {match} не був присутній в наданих даних кидка.",
   "DICE.CONFIG": {
-    "Hint": "Configure how dice rolling is performed.",
-    "Label": "Configure Dice",
-    "Title": "Dice Configuration"
+    "Hint": "Налаштуйте як буде виконано кидки.",
+    "Label": "Налаштувати Гранники",
+    "Title": "Налаштування Гранників"
   },
   "DICE.FULFILLMENT": {
-    "Default": "Foundry VTT Digital Roll",
-    "Mersenne": "Digital Roll (Mersenne Twister)",
-    "Manual": "Manual Input"
+    "Default": "Цифрові Кидки Foundry VTT",
+    "Mersenne": "Цифрові Кидки (Мерсенн Твістер)",
+    "Manual": "Ручний Ввід"
   },
   "DOCUMENT.Create": "Створити Новий {type}",
   "DOCUMENT.Delete": "Видалити {type}",
@@ -1368,7 +1368,7 @@
   "PLAYERS.UnBan": "Скасовувати Блокування Гравця",
   "PLAYLIST.Delete": "Видалити Плейлист",
   "PLAYLIST.Edit": "Редагувати Плейлист",
-  "PLAYLIST.Channel": "Audio Channel",
+  "PLAYLIST.Channel": "Аудіоканал",
   "PLAYLIST.CurrentlyPlaying": "Зараз Грає",
   "PLAYLIST.ModeDisabled": "Лише Список",
   "PLAYLIST.ModeSequential": "Послідовне Відтворення",
@@ -1410,8 +1410,8 @@
   "PLAYLIST.PinToTop": "Закріпити Вгорі",
   "PLAYLIST.PinToBottom": "Закріпити Знизу",
   "PLAYLIST.VOLUME": {
-    "CONTROLS": "User Volume Controls",
-    "TOOLTIP": "Volume: {volume}%"
+    "CONTROLS": "Керування Гучністю Користувача",
+    "TOOLTIP": "Гучність: {volume}%"
   },
   "SCENES.Accessibility": "Дозволи",
   "SCENES.AccessibilityGM": "Лише ІМ",

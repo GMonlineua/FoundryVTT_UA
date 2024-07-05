@@ -34,7 +34,7 @@
   "GridUnits": "Одиниці Cітки",
   "GridSpaces": "Сітка",
   "Install": "Встановити",
-  "Elevation": "Підйом",
+  "Elevation": "Підвищення",
   "Sort": "Сортувати",
   "Foundry Virtual Tabletop": "Foundry Virtual Tabletop",
   "File Path": "Шлях до файлу",
@@ -547,18 +547,18 @@
   "CONTROLS.NoteSelect": "Обрати Нотатки",
   "CONTROLS.NoteToggle": "Показати/Приховати Нотатки",
   "CONTROLS.NoteClear": "Очистити Нотатки",
-  "CONTROLS.RegionShape": "Add a Shape to the selected Region. If no Region is selected a new Region will be created. Overlapping Shapes in the same Region will combine. Shapes in the same Region all share the same color.",
-  "CONTROLS.GroupRegion": "Region Controls",
-  "CONTROLS.RegionSelect": "Select Regions",
-  "CONTROLS.RegionSelectP": "Select one or more Regions in the Scene. A selected Region is a solid color and unselected Regions are striped.",
-  "CONTROLS.RegionRectangle": "Draw Rectangle",
-  "CONTROLS.RegionEllipse": "Draw Ellipse",
-  "CONTROLS.RegionPolygon": "Draw Polygon",
-  "CONTROLS.RegionHole": "Create Holes",
-  "CONTROLS.RegionHoleP": "When active, any Shape you draw on a Region using any of the Shape tools will create a Hole where the Region's behaviors will not apply.",
-  "CONTROLS.RegionSnap": "When active, any Shape you draw on a Region using any of the Shape tools will be snapped to the grid.",
-  "CONTROLS.RegionClear": "Clear Regions",
-  "CONTROLS.RegionPerformance": "<em>Performance Note:</em> Each drawing is its own Shape. Be careful not to place multiple Shapes entirely within each other. Rather than combining simple Shapes to create a complex Shape, consider using the Region Polygon tool.",
+  "CONTROLS.RegionShape": "Додайте фігуру до вибраного регіону. Якщо регіон не вибрано, буде створено новий регіон. Фігури, що перетинаються в одній області, буде об'єднано. Фігури в одному регіоні мають однаковий колір.",
+  "CONTROLS.GroupRegion": "Керування Регіонами",
+  "CONTROLS.RegionSelect": "Вибрати Регіони",
+  "CONTROLS.RegionSelectP": "Виберіть один або кілька регіонів у Сцені. Обраний Регіон є суцільним кольором і невиділені регіони зникають.",
+  "CONTROLS.RegionRectangle": "Малювати Прямокутник",
+  "CONTROLS.RegionEllipse": "Малювати Еліпс",
+  "CONTROLS.RegionPolygon": "Малювати Багатокутник",
+  "CONTROLS.RegionHole": "Створення Отворів",
+  "CONTROLS.RegionHoleP": "Коли ця опція активна, будь-яка фігура, яку ви намалюєте на області за допомогою будь-якого з інструментів фігур, створить отвір, до якого не застосовуватиметься поведінка області.",
+  "CONTROLS.RegionSnap": "Коли ця опція активна, будь-яка фігура, яку ви намалюєте в області за допомогою будь-якого з інструментів фігур, буде прив'язана до сітки.",
+  "CONTROLS.RegionClear": "Очистити Регіон",
+  "CONTROLS.RegionPerformance": "<em>Примітка Продуктивності:</em> Кожен малюнок є окремою фігурою. Будьте обережні, щоб не розміщувати кілька фігур повністю одна в одній. Замість того, щоб комбінувати прості фігури для створення складної фігури, скористайтеся інструментом \"Регіональний багатокутник\".",
   "CONTROLS.ClearAll": "Стерти Всі Об'єкти",
   "CONTROLS.ClearAllHint": "Остаточно видалити всі {type} об'єкти з цієї сцени?",
   "CONTROLS.HeaderGame": "Загальне Керування Грою",
@@ -665,7 +665,7 @@
   "CONTROLS.CommonRotate": "Обернути",
   "CONTROLS.CommonToggleHUD": "Вкл/Викл HUD",
   "CONTROLS.CommonDraw": "Малювати",
-  "CONTROLS.CommonDrawProportional": "Draw Proportionally",
+  "CONTROLS.CommonDrawProportional": "Малювати Пропорційно",
   "CONTROLS.CommonPlace": "Розмістити",
   "CONTROLS.CommonBlocks": "Блоки",
   "CONTROLS.CommonChain": "Ланцюг",
@@ -765,10 +765,10 @@
   "DOCUMENT.Settings": "Налаштування",
   "DOCUMENT.RollTable": "Таблиця Кидків",
   "DOCUMENT.RollTables": "Таблиці Кидків",
-  "DOCUMENT.Region": "Region",
-  "DOCUMENT.Regions": "Regions",
-  "DOCUMENT.RegionBehavior": "Region Behavior",
-  "DOCUMENT.RegionBehaviors": "Region Behaviors",
+  "DOCUMENT.Region": "Регіон",
+  "DOCUMENT.Regions": "Регіони",
+  "DOCUMENT.RegionBehavior": "Поведінка Регіону",
+  "DOCUMENT.RegionBehaviors": "Поведінки Регіону",
   "DOCUMENT.TableResult": "Результат Таблиці",
   "DOCUMENT.TableResults": "Результати Таблиці",
   "DOCUMENT.Tile": "Тайл",
@@ -815,10 +815,10 @@
   "DRAWING.FontSize": "Розмір Шрифту",
   "DRAWING.TextColor": "Колір Тексту",
   "DRAWING.TextOpacity": "Непрозорість Тексту",
-  "DRAWING.Role": "Drawing Role",
-  "DRAWING.RoleHint": "A Drawing which represents an \"Object\" is rendered in the Primary Canvas Group and is affected by lighting and fog of war exploration. A Drawing which conveys \"Information\" is rendered in the Interface Group and is visible to all players unless hidden.",
-  "DRAWING.Object": "Object",
-  "DRAWING.Information": "Information",
+  "DRAWING.Role": "Роль Малювання",
+  "DRAWING.RoleHint": "Малюнок, який представляє \"Об'єкт\", відображається в групі Основне Полотно і на нього впливає освітлення і туман війни. Малюнок, який передає \"Інформацію\", відображається в групі \"Інтерфейс\" і є видимим для всіх гравців, якщо його не сховати.",
+  "DRAWING.Object": "Об'єкт",
+  "DRAWING.Information": "Інформація",
   "EFFECT.MODE_CUSTOM": "Власний",
   "EFFECT.MODE_MULTIPLY": "Помножити",
   "EFFECT.MODE_ADD": "Додати",
@@ -2215,233 +2215,233 @@
   "REGION": {
     "SECTIONS": {
       "identity": "Ідентичність",
-      "shapes": "Shapes",
-      "behaviors": "Behaviors"
+      "shapes": "Фігури",
+      "behaviors": "Поведінки"
     },
     "FIELDS": {
       "color": {
         "label": "Колір",
-        "hint": "The color applied to the visualization of the Region."
+        "hint": "Колір, застосований до візуалізації Регіону."
       },
       "shapes": {
-        "label": "Shapes",
-        "hint": "The shapes of the Region."
+        "label": "Фігури",
+        "hint": "Фігури Регіону"
       },
       "elevation": {
-        "label": "Elevation",
-        "hint": "The elevation range of the Region.",
+        "label": "Підйом",
+        "hint": "Діапазо підвищення для Регіону.",
         "FIELDS": {
           "bottom": {
-            "label": "Bottom",
-            "hint": "The bottom of the elevation range."
+            "label": "Вниз",
+            "hint": "Нижня межа підвищення."
           },
           "top": {
-            "label": "Top",
-            "hint": "The top of the elevation range."
+            "label": "Вгору",
+            "hint": "Верхня межа підвищення."
           }
         }
       },
       "behaviors": {
-        "label": "Behaviors",
-        "hint": "The behaviors of the Region."
+        "label": "Поведінки",
+        "hint": "Поведінки Регіону"
       },
       "visibility": {
-        "label": "Visibility",
-        "hint": "Configure the visibility of the Region."
+        "label": "Видимий",
+        "hint": "Налаштування видимості регіону."
       }
     },
     "ACTIONS": {
-      "create": "Create Region",
-      "update": "Update Region",
-      "delete": "Delete Region",
-      "shapeCreateFromWalls": "Create Shapes from Controlled Walls",
-      "shapeMakeHole": "Make Hole",
-      "shapeFillHole": "Fill Hole",
-      "shapeMoveUp": "Move Shape Up",
-      "shapeMoveDown": "Move Shape Down",
-      "shapeRemove": "Remove Shape",
-      "behaviorCreate": "Create Behavior",
-      "behaviorEdit": "Edit Behavior",
-      "behaviorDelete": "Delete Behavior",
-      "behaviorEnable": "Enable Behavior",
-      "behaviorDisable": "Disable Behavior"
+      "create": "Створити Регіон",
+      "update": "Оновити Регіон",
+      "delete": "Видалити Регіон",
+      "shapeCreateFromWalls": "Створення фігур із Керованих Стін",
+      "shapeMakeHole": "Зробити Отвір",
+      "shapeFillHole": "Заповнити Отвір",
+      "shapeMoveUp": "Переміщення Фігури Вгору",
+      "shapeMoveDown": "Переміщення Фігури Вниз",
+      "shapeRemove": "Видалити Фігуру",
+      "behaviorCreate": "Створити Поведінку",
+      "behaviorEdit": "Змінити Поведінку",
+      "behaviorDelete": "Видалити Поведінку",
+      "behaviorEnable": "Увімкнути Поведінку",
+      "behaviorDisable": "Вимкнути Поведінку"
     },
     "VISIBILITY": {
       "LAYER": {
-        "label": "Only on Region Layer"
+        "label": "Тільки на Шарі Регіонів"
       },
       "GAMEMASTER": {
-        "label": "Always for Gamemaster"
+        "label": "Завжди для Ігромайстра"
       },
       "ALWAYS": {
-        "label": "Always for Anyone"
+        "label": "Завжди для Всіх"
       }
     },
     "EVENTS": {
       "regionBoundary": {
-        "label": "Region Boundary Changed"
+        "label": "Змінено Межі Регіону"
       },
       "behaviorStatus": {
-        "label": "Behavior Status Changed"
+        "label": "Статус Поведінки Змінено"
       },
       "tokenEnter": {
-        "label": "Token Enters"
+        "label": "Вхід Токена"
       },
       "tokenExit": {
-        "label": "Token Exits"
+        "label": "Вихід Токена"
       },
       "tokenPreMove": {
-        "label": "Before Token Moves"
+        "label": "Перед Рухами Токенів"
       },
       "tokenMove": {
-        "label": "After Token Moved"
+        "label": "Після Рухів Токенів"
       },
       "tokenMoveIn": {
-        "label": "Token Moved In"
+        "label": "Токен Переміщено Всередині"
       },
       "tokenMoveOut": {
-        "label": "Token Moved Out"
+        "label": "Токен Переміщено Назовні"
       },
       "tokenTurnStart": {
-        "label": "Token Starts Turn"
+        "label": "Початок Ходу Токена"
       },
       "tokenTurnEnd": {
-        "label": "Token Ends Turn"
+        "label": "Кінець Ходу Токена"
       },
       "tokenRoundStart": {
-        "label": "Token Starts Round"
+        "label": "Починається Раунд Токена"
       },
       "tokenRoundEnd": {
-        "label": "Token Ends Round"
+        "label": "Закінчується Раунд Токена"
       }
     },
     "SHAPES": {
-      "rectangle": "Rectangle",
-      "circle": "Circle",
-      "ellipse": "Ellipse",
-      "polygon": "Polygon"
+      "rectangle": "Прямокутник",
+      "circle": "Коло",
+      "ellipse": "Еліпс",
+      "polygon": "Полігон"
     },
-    "Behavior": "Behavior",
-    "Shape": "Shape",
+    "Behavior": "Поведінка",
+    "Shape": "Фігура",
     "LEGEND": {
-      "control": "Control Region",
-      "config": "Configure Region",
-      "create": "Create Region",
-      "delete": "Delete Region",
-      "empty": "Empty",
-      "filter": "Filter Regions",
-      "lock": "Lock Region",
+      "control": "Керування Регіоном",
+      "config": "Налаштувати Регіону",
+      "create": "Створити Регіон",
+      "delete": "Видалити Регіон",
+      "empty": "Пусто",
+      "filter": "Фільтр Регіонів",
+      "lock": "Заблокувати Регіон",
       "title": "Region Legend",
-      "unlock": "Unlock Region",
-      "elevationBottom": "Elevation (Bottom)",
-      "elevationTop": "Elevation (Top)"
+      "unlock": "Розблокувати Регіон",
+      "elevationBottom": "Підвищення (Вниз)",
+      "elevationTop": "Підвищення (Вгору)"
     },
     "SHEET": {
-      "title": "Configure Region"
+      "title": "Налаштувати Регіон"
     },
     "NOTIFICATIONS": {
-      "ControlWalls": "Control a group of walls which define the boundary of your desired shape.",
-      "DrawingMultipleRegionsControlled": "You must control only one or no Region when you draw a shape!",
-      "EmptyEnclosedArea": "The area enclosed by the controlled Walls is empty! Make sure that the outer Walls form a closed loop and are connected endpoint to endpoint.",
-      "NoControlledWalls": "You are not controlling any Walls!"
+      "ControlWalls": "Керуйте групою стін встановлюючи границі бажаної фігури.",
+      "DrawingMultipleRegionsControlled": "Ви повинні керувати тільки одним або жодним Регіоном коли ви малюєте форму!",
+      "EmptyEnclosedArea": "Область, обмежена контрольованими стінами не суцільна! Переконайтеся, що зовнішні Стіни утворюють замкнутий контур і з'єднані від кінця до кінця.",
+      "NoControlledWalls": "Ви не контролюєте Стіни!"
     }
   },
   "BEHAVIOR": {
     "SECTIONS": {
-      "identity": "Behavior Identity",
-      "status": "Behavior Status"
+      "identity": "Ідентифікація Поведінки",
+      "status": "Статус Поведінки"
     },
     "FIELDS": {
       "disabled": {
-        "label": "Disabled",
-        "hint": "Toggle whether this behavior is temporarily disabled."
+        "label": "Вимкнено",
+        "hint": "Перемикач, чи тимчасово вимкнути цю поведінку."
       }
     },
     "ACTIONS": {
-      "create": "Create Region Behavior",
-      "update": "Update Region Behavior",
-      "delete": "Delete Region Behavior"
+      "create": "Створити Поведінку Регіону",
+      "update": "Оновити Поведінку Регіону",
+      "delete": "Видалити Поведінку Регіону"
     },
     "TYPES": {
       "base": {
         "SECTIONS": {
-          "events": "Subscribed Events"
+          "events": "Відслідковувані Події"
         },
         "FIELDS": {
           "events": {
-            "label": "Events",
-            "hint": "The events that this behavior subscribes to."
+            "label": "Події",
+            "hint": "Події, за якими слідкує ця поведінка."
           }
         }
       },
       "adjustDarknessLevel": {
         "FIELDS": {
           "mode": {
-            "label": "Mode",
-            "hint": "How the darkness level is modified within this region. This Behavior respects the Scene's Global Illumination Threshold. If the total darkness level of an area exceeds the threshold value, then Global Illumination is prevented within that area."
+            "label": "Режим",
+            "hint": "Як змінюється рівень темряви у цьому регіоні. Ця поведінка враховує Поріг глобального освітлення сцени. Якщо загальний рівень темряви в області перевищує порогове значення, то глобальне освітлення у цій області буде вимкнено."
           },
           "modifier": {
-            "label": "Modifier",
-            "hint": "A numeric modifier which applies to the darkness level according to the mode."
+            "label": "Модифікатор",
+            "hint": "Числовий модифікатор, який застосовується до рівня темряви відповідно до режиму."
           },
           "blur": {
-            "label": "Blur",
-            "hint": "Should darkness levels smoothly transition at the boundary of this shape, or change immediately?"
+            "label": "Розмиття",
+            "hint": "Чи потрібно плавно переходити до меж цієї форми чи одразу змінювати рівень темряви?"
           }
         },
         "MODES": {
           "OVERRIDE": {
-            "label": "Override"
+            "label": "Замінити"
           },
           "BRIGHTEN": {
-            "label": "Brighten"
+            "label": "Яскравіше"
           },
           "DARKEN": {
-            "label": "Darken"
+            "label": "Затемнення"
           }
         }
       },
       "executeMacro": {
         "FIELDS": {
           "uuid": {
-            "label": "Macro",
-            "hint": "The Macro that is executed when one of the events occurs."
+            "label": "Макрос",
+            "hint": "Макрос, який виконується, коли відбувається одна з подій."
           }
         }
       },
       "executeScript": {
         "FIELDS": {
           "source": {
-            "label": "Script",
-            "hint": "The script that is executed when one of the events occurs."
+            "label": "Скрипт",
+            "hint": "Сценарій, який виконується, коли відбувається одна з подій."
           }
         }
       },
       "pauseGame": {
         "FIELDS": {
           "once": {
-            "label": "Once",
-            "hint": "Disable the behavior once a player-controlled Token enters the Region."
+            "label": "Одноразово",
+            "hint": "Вимкнути поведінку, коли Токен під контролем гравця потрапляє в Регіон."
           }
         }
       },
       "teleportToken": {
         "FIELDS": {
           "destination": {
-            "label": "Destination",
-            "hint": "The destination Region the Token is teleported to once it enters the Region."
+            "label": "Призначення",
+            "hint": "Регіон призначення, до якого телепортується Токен, коли він потрапляє в Регіон."
           }
         }
       },
       "toggleBehavior": {
         "FIELDS": {
           "enable": {
-            "label": "Enable Behaviors",
-            "hint": "The behaviors that are enabled when one of the events occurs."
+            "label": "Увімкнути Поведінки",
+            "hint": "Поведінка, яка активується, коли відбувається одна з подій."
           },
           "disable": {
-            "label": "Disable Behaviors",
-            "hint": "The behaviors that are disabled when one of the events occurs."
+            "label": "Вимкнути Поведінки",
+            "hint": "Поведінки, які вимикаються, коли відбувається одна з подій."
           }
         }
       }

@@ -34,7 +34,7 @@
   "GridUnits": "Одиниці Cітки",
   "GridSpaces": "Сітка",
   "Install": "Встановити",
-  "Elevation": "Підйом",
+  "Elevation": "Підвищення",
   "Sort": "Сортувати",
   "Foundry Virtual Tabletop": "Foundry Virtual Tabletop",
   "File Path": "Шлях до файлу",
@@ -118,7 +118,7 @@
   "ADVENTURE.ExportTabSummary": "Загальні відомості",
   "ADVENTURE.ExportTabContents": "Вміст",
   "ADVENTURE.ExportDropZone": "Перетягніть елементи з вашого Світу для того, щоб заповнити вміст Пригоди.",
-  "ADVENTURE.ExportPackNoSystem": "Актори та елементи, яких ви намагаєтеся експортувати до пригоди, не підтримуються ігровою системою. Компендіум пригоди повинен мати системне поле, яке відповідає ігровій системі, з якої походять ці актори або елементи.",
+  "ADVENTURE.ExportPackNoSystem": "Актори та елементи, яких ви намагаєтеся експортувати до пригоди, не підтримуються ігровою системою. Збірник пригоди повинен мати системне поле, яке відповідає ігровій системі, з якої походять ці актори або елементи.",
   "ADVENTURE.ExportPrimaryDocumentsOnly": "Ви можете додавати лише основні Документи що існують у Світі",
   "ADVENTURE.CreateSuccess": "Пригода \"{name}\" успішно створена!",
   "ADVENTURE.UpdateSuccess": "Пригода \"{name}\" успішно оновлена!",
@@ -141,14 +141,14 @@
         "label": "Y"
       },
       "elevation": {
-        "label": "Elevation"
+        "label": "Підвищення"
       },
       "rotation": {
         "label": "Кут Повороту"
       },
       "vision": {
         "label": "Забезпечує Бачення",
-        "hint": "Це джерело світла вважається джерелом бачення, відкриваючи додаткові ділянки Сцени, навіть якщо воно не знаходиться в межах прямої видимості контрольованого токена."
+        "hint": "Джерело світла з увімкненою опцією слугує додатковою точкою зору для токенів. Увімкніть цю опцію, щоб токени завжди бачили область, яку він освітлює, навіть якщо ця область знаходиться за стіною або поза полем зору токена."
       },
       "walls": {
         "label": "Обмежується Стінами",
@@ -181,7 +181,7 @@
         "label": "Y"
       },
       "elevation": {
-        "label": "Elevation"
+        "label": "Підвищення"
       },
       "path": {
         "label": "Шлях до Файлу",
@@ -219,53 +219,53 @@
       "effects": {
         "base": {
           "type": {
-            "label": "Base Effect"
+            "label": "Базовий Ефект"
           },
           "intensity": {
-            "label": "Base Effect Intensity"
+            "label": "Базова Інтенсивність Ефектів"
           },
-          "hint": "Apply an audio effect to the sound which filters or transforms its sound."
+          "hint": "Застосуйте до звуку аудіоефект, який фільтрує або трансформує його звучання."
         },
         "muffled": {
           "type": {
-            "label": "Muffled Effect"
+            "label": "Ефект Приглушення"
           },
           "intensity": {
-            "label": "Muffled Effect Intensity"
+            "label": "Інтенсивність Ефекту Приглушення"
           },
-          "hint": "Apply an audio effect to the sound which replaces the base effect when the sound is muffled by intervening walls. A sound can only be muffled if it is not constrained by walls."
+          "hint": "Застосовуйте аудіоефект до звуку, який замінює базовий ефект, коли звук приглушується стінами. Звук можна приглушити лише тоді, коли він не обмежений стінами."
         }
       }
     },
     "SECTIONS": {
-      "SOURCE": "Source",
-      "PLACEMENT": "Placement",
-      "PLACEMENT_HINT": "Configure the origin position, elevation, and radius of the audio source. Elevation is not yet used and is provided only for reference.",
-      "VOLUME": "Volume",
-      "ACTIVATION": "Activation",
-      "EFFECTS": "Special Effects"
+      "SOURCE": "Джерело",
+      "PLACEMENT": "Розміщення",
+      "PLACEMENT_HINT": "Налаштуйте положення початку координат, висоту та радіус джерела звуку. Висота ще не використовується і надається лише для посилання на майбутні можливості.",
+      "VOLUME": "Гучність",
+      "ACTIVATION": "Активувати",
+      "EFFECTS": "Спеціальні Ефекти"
     }
   },
   "APPLICATION": {
     "TOOLS": {
-      "ControlsMenu": "Application Controls",
-      "ToggleControls": "Toggle Controls",
-      "Close": "Close Window"
+      "ControlsMenu": "Керування Програмою",
+      "ToggleControls": "Перемкнути Керування",
+      "Close": "Закрити Вікно"
     }
   },
   "AUDIO": {
     "CHANNELS": {
       "MUSIC": {
-        "label": "Music",
-        "tooltip": "Controls the local volume of playlists and sounds which are classified as music."
+        "label": "Музика",
+        "tooltip": "Керує локальною гучністю списків відтворення та звуків, які класифікуються як музика."
       },
       "ENVIRONMENT": {
-        "label": "Environment",
+        "label": "Оточення",
         "tooltip": "Керує локальною гучністю списків відтворення та навколишніх звуків, які класифікуються як оточення."
       },
       "INTERFACE": {
-        "label": "Interface",
-        "tooltip": "Controls the local volume of sounds related to user interface or user interaction."
+        "label": "Інтерфейс",
+        "tooltip": "Керує локальною гучністю звуків, пов'язаних з інтерфейсом користувача або взаємодією з користувачем."
       }
     }
   },
@@ -391,9 +391,9 @@
   "COMBAT.NoneActive": "Зараз немає активного Бойового Зіткнення в цій Сцені.",
   "COMBAT.NoneRemaining": "У цьому Зіткненні не залишилося Учасників Бою, що не зазнали поразки.",
   "COMBAT.NotStarted": "Не Розпочато",
-  "COMBAT.PanToCombatant": "Pan to Combatant",
+  "COMBAT.PanToCombatant": "Пінгувати Учасника Бою",
   "COMBAT.PingCombatant": "Пінгувати Учасника Бою",
-  "COMBAT.WarnNonVisibleToken": "This combatant is not visible to you.",
+  "COMBAT.WarnNonVisibleToken": "Цього учасника бою ви не бачите.",
   "COMBAT.Resource": "Відстежувати Ресурс",
   "COMBAT.ResourceHint": "Виберіть атрибут, який будете відстежуватися для кожного учасника бою.",
   "COMBAT.Round": "Раунд",
@@ -406,7 +406,7 @@
   "COMBAT.Settings": "Налаштування Трекера Бою",
   "COMBAT.SettingsSave": "Зберегти Налаштування Трекера",
   "COMBAT.SidebarTitle": "Трекер Бою",
-  "COMBAT.SkipDefeated": "Skip Defeated",
+  "COMBAT.SkipDefeated": "Пропускати Переможених",
   "COMBAT.SkipDefeatedHint": "Автоматично пропускати учасників бою, позначених як переможні.",
   "COMBAT.Sounds.Epic": "Епічна",
   "COMBAT.Sounds.MC": "Коментатор Бою",
@@ -419,7 +419,7 @@
   "COMBAT.TurnPrev": "Попередній Хід",
   "COMBAT.UnknownCombatant": "Невідомий Учасник Бою",
   "COMBAT.Unlinked": "Неприв'язаний бій, натисніть, щоб прив'язати до сцени",
-  "COMBAT.CannotLinkToScene": "You cannot link the Combat to a Scene that doesn't contain all its Combatants.",
+  "COMBAT.CannotLinkToScene": "Ви не можете зв'язати Бій зі Сценою, яка не містить усіх його учасників.",
   "COMBAT.CombatantActor": "Представлений Актор",
   "COMBAT.CombatantCreate": "Створити Учасника Бою",
   "COMBAT.CombatantDefeated": "Переможений",
@@ -435,36 +435,36 @@
   "COMBAT.CombatantToken": "Представлений Токен",
   "COMBAT.CombatantScene": "Сцена Учасника Бою",
   "COMBAT.CombatantNotInScene": "Учасник Бою {name} відсутній у вашій поточній сцені",
-  "COMPENDIUM.Name": "Назва Компендіуму",
-  "COMPENDIUM.Create": "Створити Компендіум",
-  "COMPENDIUM.CreateHint": "Створіть новий Компендіум у вашому поточному Світі.",
+  "COMPENDIUM.Name": "Назва Збірника",
+  "COMPENDIUM.Create": "Створити Збірник",
+  "COMPENDIUM.CreateHint": "Створіть новий Збірник у вашому поточному Світі.",
   "COMPENDIUM.FilterDocuments": "Фільтрувати Документи за Типом",
   "COMPENDIUM.ClearFilters": "Скинути Фільтри",
-  "COMPENDIUM.Delete": "Видалити Компендіум",
-  "COMPENDIUM.DeleteWarning": "Цей Компендіум буде остаточно видалений і його не можна буде відновити.",
+  "COMPENDIUM.Delete": "Видалити Збірник",
+  "COMPENDIUM.DeleteWarning": "Цей Збірник буде остаточно видалений і його не можна буде відновити.",
   "COMPENDIUM.DeleteEntry": "Видалити Елемент",
-  "COMPENDIUM.Duplicate": "Копіювати Компендіум",
-  "COMPENDIUM.DuplicateTitle": "Новий Заголовок Компендіуму",
-  "COMPENDIUM.DuplicateHint": "Ви можете копіювати цей компендіум до вашого Світу, щоб мати локальну копію вмісту, який можна відредагувати.",
-  "COMPENDIUM.ErrorRequireTitle": "Для створення Компендіуму Світу потрібно додати назву.",
+  "COMPENDIUM.Duplicate": "Копіювати Збірник",
+  "COMPENDIUM.DuplicateTitle": "Новий Заголовок Збірника",
+  "COMPENDIUM.DuplicateHint": "Ви можете копіювати цей збірник до вашого Світу, щоб мати локальну копію вмісту, який можна відредагувати.",
+  "COMPENDIUM.ErrorRequireTitle": "Для створення Збірника Світу потрібно додати назву.",
   "COMPENDIUM.ImportAll": "Імпортувати Весь Контент",
-  "COMPENDIUM.ImportAllHint": "Імпортувати весь контент з цього Компендіума в нову або існуючу теку. Зверніть увагу, що імпорт великих Компендіумів негативно вплине на продуктивність програми.",
+  "COMPENDIUM.ImportAllHint": "Імпортувати весь контент з цього Збірника в нову або існуючу теку. Зверніть увагу, що імпорт великих Збірників негативно вплине на продуктивність програми.",
   "COMPENDIUM.ImportAllStart": "Імпортування {number} документів {type} і {folderNumber} тек до теки {folder}. Будь ласка, будьте терплячими.",
   "COMPENDIUM.ImportAllFinish": "Успішно імпортовано {number} документів {type} та {folderNumber} тек до теки {folder}.",
   "COMPENDIUM.ImportEntry": "Імпортувати Вміст",
-  "COMPENDIUM.SidebarTitle": "Компендіуми",
+  "COMPENDIUM.SidebarTitle": "Збірники",
   "COMPENDIUM.Type": "Тип Документа",
-  "COMPENDIUM.TypeHint": "Кожен Компендіум містить певний тип Документів.",
+  "COMPENDIUM.TypeHint": "Кожен Збірник містить певний тип Документів.",
   "COMPENDIUM.ToggleLocked": "Вкл/Викл Редагування",
-  "COMPENDIUM.ToggleLockedWarning": "Ви намагаєтеся розблокувати для редагування компендіуму, що не належить до цього Світу. Будь-які зміни, внесені вами до цього компендіуму, можуть бути втрачені при оновленні системи або модуля, якому він належить. Натомість ви можете скопіювати компендіум для вашого світу. Бажаєте продовжити?",
-  "COMPENDIUM.CannotViewWarning": "У вас недостатньо прав для перегляду цього Компендіуму.",
+  "COMPENDIUM.ToggleLockedWarning": "Ви намагаєтеся розблокувати для редагування збірника, що не належить до цього Світу. Будь-які зміни, внесені вами до цього збірника, можуть бути втрачені при оновленні системи або модуля, якому він належить. Натомість ви можете скопіювати збірник для вашого світу. Бажаєте продовжити?",
+  "COMPENDIUM.CannotViewWarning": "У вас недостатньо прав для перегляду цього Збірника.",
   "COMPENDIUM.OwnershipInheritBelow": "Успадковувати Знизу",
   "COMPENDIUM.OwnershipReset": "Скинути до Усталених",
   "CONTROLS.Title": "Контроль Грою",
   "CONTROLS.NavLabel": "Панель Керування Полотном",
   "CONTROLS.Instructions": "Ця форма описує загальні команди клавіатури та миші, які використовуються для керування різними аспектами середовища Foundry Virtual Tabletop. Деякі елементи керування доступні лише для користувача Game Master і виділяються на яскравому фіолетовому фоні.",
   "CONTROLS.GroupToken": "Керування Токеном",
-  "CONTROLS.CommonForceSnap": "Force Snap to Grid Vertices",
+  "CONTROLS.CommonForceSnap": "Примусова Прив'язка до Вершин Сітки",
   "CONTROLS.BasicSelect": "Обрати Токени",
   "CONTROLS.BasicSelectP": "Виберіть будь-які Токени, якими ви володієте, щоб побачити їхню точку зору. Якщо токени не обрані, ви зможете побачити те, що всі ваші Токени можуть бачити.",
   "CONTROLS.TargetSelect": "Вибрати Цілі",
@@ -497,7 +497,7 @@
   "CONTROLS.DrawingText": "Текст",
   "CONTROLS.DrawingClear": "Стерти Намальоване",
   "CONTROLS.DrawingConfig": "Налаштування Малювання",
-  "CONTROLS.DrawingRole": "Toggle Information Drawings",
+  "CONTROLS.DrawingRole": "Показати/Приховати Інформаційні Малюнки",
   "CONTROLS.GroupWall": "Керування Стінами",
   "CONTROLS.WallDraw": "Намалювати Стіну",
   "CONTROLS.WallBasic": "Базові Стіни",
@@ -515,8 +515,8 @@
   "CONTROLS.WallSecretHiddenP": "Секретні Двері не можуть бути побачені гравцями",
   "CONTROLS.WallSelect": "Прямокутне Виділення Стін",
   "CONTROLS.CommonMoveWithoutSnapping": "Переміщення Без Прив'язки",
-  "CONTROLS.WallSelectEdit": "<span class=\"reference\">Double Click</span>",
-  "CONTROLS.WallSnapP": "Wall points snap to nearest grid vertex when active",
+  "CONTROLS.WallSelectEdit": "<span class=\"reference\">Подвійний Клік</span>",
+  "CONTROLS.WallSnapP": "Коли активно, точки стін прив'язуються до найближчої вершини сітки",
   "CONTROLS.WallClone": "Клонувати Стіни",
   "CONTROLS.WallCloseDoors": "Зачинити Всі Двері",
   "CONTROLS.WallDoorsClosed": "Зачинено {number} дверей",
@@ -547,18 +547,18 @@
   "CONTROLS.NoteSelect": "Обрати Нотатки",
   "CONTROLS.NoteToggle": "Показати/Приховати Нотатки",
   "CONTROLS.NoteClear": "Очистити Нотатки",
-  "CONTROLS.RegionShape": "Add a Shape to the selected Region. If no Region is selected a new Region will be created. Overlapping Shapes in the same Region will combine. Shapes in the same Region all share the same color.",
-  "CONTROLS.GroupRegion": "Region Controls",
-  "CONTROLS.RegionSelect": "Select Regions",
-  "CONTROLS.RegionSelectP": "Select one or more Regions in the Scene. A selected Region is a solid color and unselected Regions are striped.",
-  "CONTROLS.RegionRectangle": "Draw Rectangle",
-  "CONTROLS.RegionEllipse": "Draw Ellipse",
-  "CONTROLS.RegionPolygon": "Draw Polygon",
-  "CONTROLS.RegionHole": "Create Holes",
-  "CONTROLS.RegionHoleP": "When active, any Shape you draw on a Region using any of the Shape tools will create a Hole where the Region's behaviors will not apply.",
-  "CONTROLS.RegionSnap": "When active, any Shape you draw on a Region using any of the Shape tools will be snapped to the grid.",
-  "CONTROLS.RegionClear": "Clear Regions",
-  "CONTROLS.RegionPerformance": "<em>Performance Note:</em> Each drawing is its own Shape. Be careful not to place multiple Shapes entirely within each other. Rather than combining simple Shapes to create a complex Shape, consider using the Region Polygon tool.",
+  "CONTROLS.RegionShape": "Додайте фігуру до вибраного регіону. Якщо регіон не вибрано, буде створено новий регіон. Фігури, що перетинаються в одній області, буде об'єднано. Фігури в одному регіоні мають однаковий колір.",
+  "CONTROLS.GroupRegion": "Керування Регіонами",
+  "CONTROLS.RegionSelect": "Вибрати Регіони",
+  "CONTROLS.RegionSelectP": "Виберіть один або кілька регіонів у Сцені. Обраний Регіон є суцільним кольором і невиділені регіони зникають.",
+  "CONTROLS.RegionRectangle": "Малювати Прямокутник",
+  "CONTROLS.RegionEllipse": "Малювати Еліпс",
+  "CONTROLS.RegionPolygon": "Малювати Багатокутник",
+  "CONTROLS.RegionHole": "Створення Отворів",
+  "CONTROLS.RegionHoleP": "Коли ця опція активна, будь-яка фігура, яку ви намалюєте на області за допомогою будь-якого з інструментів фігур, створить отвір, до якого не застосовуватиметься поведінка області.",
+  "CONTROLS.RegionSnap": "Коли ця опція активна, будь-яка фігура, яку ви намалюєте в області за допомогою будь-якого з інструментів фігур, буде прив'язана до сітки.",
+  "CONTROLS.RegionClear": "Очистити Регіон",
+  "CONTROLS.RegionPerformance": "<em>Примітка Продуктивності:</em> Кожен малюнок є окремою фігурою. Будьте обережні, щоб не розміщувати кілька фігур повністю одна в одній. Замість того, щоб комбінувати прості фігури для створення складної фігури, скористайтеся інструментом \"Регіональний багатокутник\".",
   "CONTROLS.ClearAll": "Стерти Всі Об'єкти",
   "CONTROLS.ClearAllHint": "Остаточно видалити всі {type} об'єкти з цієї сцени?",
   "CONTROLS.HeaderGame": "Загальне Керування Грою",
@@ -594,23 +594,23 @@
   "CONTROLS.Double": "Подвійний",
   "CONTROLS.RightClick": "ПКМ",
   "CONTROLS.MiddleClick": "СКМ",
-  "CONTROLS.AltRightClick": "{alt} + Right-Click",
+  "CONTROLS.AltRightClick": "{alt} + Пкм",
   "CONTROLS.Click": "Клік",
   "CONTROLS.ClickDrag": "Клік + Перетягніть",
   "CONTROLS.ClickOrClickDrag": "<span class=\"reference\">Клік</span> або <span class=\"reference\">Клік + Перетягнути</span>",
-  "CONTROLS.Ctrl": "Control",
+  "CONTROLS.Ctrl": "Управління",
   "CONTROLS.CtrlAbbr": "CTRL",
-  "CONTROLS.CtrlClickDrag": "{mod} + Click + Drag",
+  "CONTROLS.CtrlClickDrag": "{mod} + Клік + Перетягнути",
   "CONTROLS.Alt": "ALT",
-  "CONTROLS.AltClick": "{alt} + Click",
-  "CONTROLS.AltClickDrag": "{alt} + Click + Drag",
-  "CONTROLS.CtrlClick": "{mod} + Click",
+  "CONTROLS.AltClick": "{alt} + Клік",
+  "CONTROLS.AltClickDrag": "{alt} + Клік + Перетягнути",
+  "CONTROLS.CtrlClick": "{mod} + Клік",
   "CONTROLS.ShiftClick": "SHIFT + Клік",
-  "CONTROLS.ChainCtrlClick": "Hold <span class=\"reference\">{mod}</span> then <span class=\"reference\">Click</span>",
+  "CONTROLS.ChainCtrlClick": "Затисніть <span class=\"reference\">{mod}</span>, а потім потрібно <span class=\"reference\">Клікнути</span>",
   "CONTROLS.DoubleClick": "Подвійний Клік",
   "CONTROLS.DoubleRightClick": "Подвійний ПКМ",
   "CONTROLS.ShiftScroll": "SHIFT + Прокручування",
-  "CONTROLS.ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + Scroll</span> or <span class=\"reference\">{mod} + Scroll</span>",
+  "CONTROLS.ShiftOrCtrlScroll": "<span class=\"reference\">SHIFT + Прокрутка</span> або <span class=\"reference\">{mod} + Прокрутка</span>",
   "CONTROLS.ShiftDrag": "SHIFT + Перетягнути",
   "CONTROLS.Spacebar": "SPACEBAR",
   "CONTROLS.Delete": "ВИДАЛИТИ",
@@ -665,7 +665,7 @@
   "CONTROLS.CommonRotate": "Обернути",
   "CONTROLS.CommonToggleHUD": "Вкл/Викл HUD",
   "CONTROLS.CommonDraw": "Малювати",
-  "CONTROLS.CommonDrawProportional": "Draw Proportionally",
+  "CONTROLS.CommonDrawProportional": "Малювати Пропорційно",
   "CONTROLS.CommonPlace": "Розмістити",
   "CONTROLS.CommonBlocks": "Блоки",
   "CONTROLS.CommonChain": "Ланцюг",
@@ -679,29 +679,29 @@
   "CONTROLS.CommonSelectMultiple": "Виберіть Декілька",
   "CONTROLS.CommonOpenSheet": "Відкрити Аркуш",
   "CONTROLS.DisableToolclips": "Вимкнути Підказки в Налаштуваннях",
-  "CONTROLS.CopiedObjects": "Copied {count} {type} object(s).",
-  "CONTROLS.PastedObjects": "Pasted {count} {type} object(s).",
-  "CONTROLS.DeletedObjects": "Deleted {count} {type} object(s).",
-  "CONTROLS.UndoCreateObjects": "Reverted creation of {count} {type} object(s).",
-  "CONTROLS.UndoDeleteObjects": "Reverted deletion of {count} {type} object(s).",
-  "CONTROLS.EmptyUndoHistory": "No more tracked history for {type} objects to undo.",
-  "CONTROLS.ObjectIsLocked": "You cannot take this action while the {type} object is locked.",
-  "CONTROLS.ObjectConfigured": "You cannot take this action while configuring another object.",
+  "CONTROLS.CopiedObjects": "Скопійовано {count} {type} об'єкт(ів).",
+  "CONTROLS.PastedObjects": "Вставлено {count} {type} об'єкт(и).",
+  "CONTROLS.DeletedObjects": "Видалено {count} {type} об'єкт(ів).",
+  "CONTROLS.UndoCreateObjects": "Відновлення створення {count} {type} об'єкта(ів).",
+  "CONTROLS.UndoDeleteObjects": "Відновлено видаленням {count} {type} об'єкту(ів).",
+  "CONTROLS.EmptyUndoHistory": "Більше немає історії для скасування {type} об'єктів.",
+  "CONTROLS.ObjectIsLocked": "Ви не можете виконати цю дію, поки об'єкт {type} заблокований.",
+  "CONTROLS.ObjectConfigured": "Ви не можете виконати цю дію, поки налаштовуєте інший об'єкт.",
   "DICE.ErrorNonNumeric": "Формула кидання багатогранників {formula} не дала числового результату.",
-  "DICE.ManualRoll": "Manual Roll",
+  "DICE.ManualRoll": "Мануальний Кидок",
   "DICE.RollResolution": "Roll Resolution",
-  "DICE.SubmitRoll": "Submit Roll",
-  "DICE.SubmitRollPl": "Submit Rolls",
+  "DICE.SubmitRoll": "Підтвердити Кидок",
+  "DICE.SubmitRollPl": "Підтвердити Кидки",
   "DICE.WarnMissingData": "Атрибут {match} не був присутній в наданих даних кидка.",
   "DICE.CONFIG": {
-    "Hint": "Configure how dice rolling is performed.",
-    "Label": "Configure Dice",
-    "Title": "Dice Configuration"
+    "Hint": "Налаштуйте як буде виконано кидки.",
+    "Label": "Налаштувати Гранники",
+    "Title": "Налаштування Гранників"
   },
   "DICE.FULFILLMENT": {
-    "Default": "Foundry VTT Digital Roll",
-    "Mersenne": "Digital Roll (Mersenne Twister)",
-    "Manual": "Manual Input"
+    "Default": "Цифрові Кидки Foundry VTT",
+    "Mersenne": "Цифрові Кидки (Мерсенн Твістер)",
+    "Manual": "Ручний Ввід"
   },
   "DOCUMENT.Create": "Створити Новий {type}",
   "DOCUMENT.Delete": "Видалити {type}",
@@ -765,10 +765,10 @@
   "DOCUMENT.Settings": "Налаштування",
   "DOCUMENT.RollTable": "Таблиця Кидків",
   "DOCUMENT.RollTables": "Таблиці Кидків",
-  "DOCUMENT.Region": "Region",
-  "DOCUMENT.Regions": "Regions",
-  "DOCUMENT.RegionBehavior": "Region Behavior",
-  "DOCUMENT.RegionBehaviors": "Region Behaviors",
+  "DOCUMENT.Region": "Регіон",
+  "DOCUMENT.Regions": "Регіони",
+  "DOCUMENT.RegionBehavior": "Поведінка Регіону",
+  "DOCUMENT.RegionBehaviors": "Поведінки Регіону",
   "DOCUMENT.TableResult": "Результат Таблиці",
   "DOCUMENT.TableResults": "Результати Таблиці",
   "DOCUMENT.Tile": "Тайл",
@@ -815,10 +815,10 @@
   "DRAWING.FontSize": "Розмір Шрифту",
   "DRAWING.TextColor": "Колір Тексту",
   "DRAWING.TextOpacity": "Непрозорість Тексту",
-  "DRAWING.Role": "Drawing Role",
-  "DRAWING.RoleHint": "A Drawing which represents an \"Object\" is rendered in the Primary Canvas Group and is affected by lighting and fog of war exploration. A Drawing which conveys \"Information\" is rendered in the Interface Group and is visible to all players unless hidden.",
-  "DRAWING.Object": "Object",
-  "DRAWING.Information": "Information",
+  "DRAWING.Role": "Роль Малювання",
+  "DRAWING.RoleHint": "Малюнок, який представляє \"Об'єкт\", відображається в групі Основне Полотно і на нього впливає освітлення і туман війни. Малюнок, який передає \"Інформацію\", відображається в групі \"Інтерфейс\" і є видимим для всіх гравців, якщо його не сховати.",
+  "DRAWING.Object": "Об'єкт",
+  "DRAWING.Information": "Інформація",
   "EFFECT.MODE_CUSTOM": "Власний",
   "EFFECT.MODE_MULTIPLY": "Помножити",
   "EFFECT.MODE_ADD": "Додати",
@@ -829,8 +829,8 @@
   "EFFECT.TabDuration": "Тривалість",
   "EFFECT.TabEffects": "Ефекти",
   "EFFECT.Name": "Назва Ефекту",
-  "EFFECT.Image": "Effect Image",
-  "EFFECT.Tint": "Icon Tint Color",
+  "EFFECT.Image": "Зображення Ефекту",
+  "EFFECT.Tint": "Колір Віддінтку Іконок",
   "EFFECT.Disabled": "Ефект Призупинено",
   "EFFECT.Origin": "Джерело Ефекту",
   "EFFECT.Transfer": "Застосувати Ефект до Актора",
@@ -871,8 +871,8 @@
   "EFFECT.StatusDegen": "Дегенерація",
   "EFFECT.StatusUpgrade": "Посилений",
   "EFFECT.StatusDowngrade": "Послаблений",
-  "EFFECT.StatusHover": "Hovering",
-  "EFFECT.StatusBurrow": "Burrowing",
+  "EFFECT.StatusHover": "Наведення",
+  "EFFECT.StatusBurrow": "Риє",
   "EFFECT.StatusInvisible": "Невидимий",
   "EFFECT.StatusTarget": "Цільовий",
   "EFFECT.StatusMarked": "Позначений",
@@ -894,19 +894,19 @@
   "ERROR.CantWhisper": "Ви не маєте дозволу на надсилання приватних повідомлень іншим користувачам.",
   "ERROR.RendererNotDetected": "Ваш рендер GPU не може бути ідентифікований, можуть виникнути неочікувані проблеми з продуктивністю.",
   "ERROR.NoHardwareAcceleration": "Ваш веббраузер не має увімкненого апаратного прискорення. Це може серйозно вплинути на продуктивність Foundry Virtual Tabletop. Обов'язково увімкніть апаратне прискорення в налаштуваннях браузера.",
-  "ERROR.UpdateRequiresManualInstall": "Версія {version} Foundry Virtual Tabletop тепер доступна, але не може бути встановлена з програми Foundry Virtual Tabletop, оскільки вона вимагає оновлення основних залежностей, які доступні лише шляхом перевстановлення програмного забезпечення з веб-сайту <a href=\"https://foundryvtt/com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+  "ERROR.UpdateRequiresManualInstall": "Foundry Virtual Tabletop версія {version} тепер доступна, але не може бути встановлена з програми Foundry Virtual Tabletop, оскільки вона вимагає оновлення основних залежностей, які доступні лише шляхом перевстановлення програмного забезпечення з веб-сайту <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
   "WARNING.GridConfigNoBG": "Ви використовуєте інструмент конфігурації сітки для сцени без фонового зображення. На даний момент це не рекомендується і може створювати непередбачувані результати.",
   "WARNING.ForegroundDimensionsMismatch": "Розміри вашого налаштованого зображення фонового шару не відповідають розмірам фонового зображення на цій сцені. Передній план був змінений, що, можливо, матиме небажані результати.",
   "WARNING.ObjectDoesNotExist": "{name} \"{identifier}\" не існує.",
-  "WARNING.TilingSpriteDeprecation": "A module or system is using the legacy TilingSprite class which is no longer supported.",
+  "WARNING.TilingSpriteDeprecation": "Модуль або система використовує застарілий клас TilingSprite, який більше не підтримується.",
   "EULA": {
-    "Acknowledge": "Acknowledge Agreement",
-    "Agree": "Agree",
-    "AgreeLabel": "I agree to these terms",
-    "AgreeHint": "By selecting the above checkbox you indicate that you have read and agree to the terms of the Foundry Virtual Tabletop End User License Agreement.",
-    "Decline": "Decline",
-    "Declined": "You have declined the End User License Agreement and cannot use the software.",
-    "ErrorAgreeRequired": "You must check the box to confirm your acceptance of this agreement to proceed."
+    "Acknowledge": "Підтверджую Угоду",
+    "Agree": "Погоджуюсь",
+    "AgreeLabel": "Я погоджуюся з цими умовами",
+    "AgreeHint": "Відмітивши цю галочку, ви підтверджуєте, що прочитали та погоджуєтеся з умовами Foundry Virtual Tabletop End User License Agreement.",
+    "Decline": "Відмовитись",
+    "Declined": "Ви відхилили End User License Agreement і не можете використовувати програмне забезпечення.",
+    "ErrorAgreeRequired": "Ви повинні поставити галочку, щоб підтвердити свою згоду з цією угодою, для продовження."
   },
   "EDITOR.Format": "Формат",
   "EDITOR.Font": "Шрифт",
@@ -940,7 +940,7 @@
   "EDITOR.Save": "Зберегти Зміни",
   "EDITOR.SaveAndClose": "Зберегти та Закрити Редактор",
   "EDITOR.DiscardHTML": "Скасувати зміни у HTML",
-  "EDITOR.EmbedFailed": "Failed to embed content from '{uuid}'.",
+  "EDITOR.EmbedFailed": "Не вдалося вбудовувати вміст з '{uuid}'.",
   "EDITOR.EditingHTMLWarning": "Інший користувач відредагував той самий документ. Будь-які зміни, внесені вами до HTML, зітруть їхні зміни і вони не будуть збережені.",
   "EDITOR.Resync": "Ваш стан редактора не синхронізований з сервером і має бути скинутий. Ваш оригінальний редактор було скопійовано до буферу обміну.",
   "EDITOR.NoUploadPermission": "У вас повинен бути дозвіл на завантаження зображення, щоб вставити його.",
@@ -978,12 +978,12 @@
   "EDITOR.TableRows": "Рядки",
   "ELEMENTS": {
     "DOCUMENT_TAGS": {
-      "Add": "Add Document",
-      "Remove": "Remove Document"
+      "Add": "Додати Документ",
+      "Remove": "Видалити Документ"
     },
     "TAGS": {
-      "Add": "Add Tag",
-      "Remove": "Remove Tag"
+      "Add": "Додати Мітку",
+      "Remove": "Вилучити Мітку"
     }
   },
   "FILES.CreateDirectory": "Створити Каталог",
@@ -1025,7 +1025,7 @@
   "FILES.BrowseTooltip": "Переглянути Файли",
   "FILES.InPixels": "У Пікселях",
   "FILES.UnitPixels": "(пікселі)",
-  "FILES.ErrorDisallowedExtension": "File \"{name}\" has an invalid extension \"{ext}\" which is not allowed for this FilePicker type.\nAllowed extensions include: {allowed}.",
+  "FILES.ErrorDisallowedExtension": "Файл \"{name}\" має неприпустиме розширення \"{ext}\", яке не допускається для цього типу FilePicker.\nДозволені розширення включають: {allowed}.",
   "FONTS.AddFont": "Додати шрифт",
   "FONTS.Type": "Тип Шрифту",
   "FONTS.TypeFile": "Файл",
@@ -1053,10 +1053,10 @@
   "INVITATIONS.UnknownConnection": "Ми не змогли виявити ваш стан з'єднання",
   "INVITATIONS.DiscoveryFailed": "Наш сервіс визначення IP-адреси не зміг визначити правильну IP-адресу. Ви використовуєте IPv6, або зараз не під'єднані до Інтернету.",
   "ITEM.ViewArt": "Переглянути Обкладинку Предмета",
-  "HUD.Elevation": "Elevation",
-  "HUD.OpenConfig": "Open Configuration",
+  "HUD.Elevation": "Підвищення",
+  "HUD.OpenConfig": "Відкрити Конфігурацію",
   "HUD.AssignStatusEffects": "Призначити Статус Ефектів",
-  "HUD.ToggleTargetState": "Toggle Target State",
+  "HUD.ToggleTargetState": "Перемкнути Стан Цілі",
   "HUD.ToggleCombatState": "Змінити Стан Бою",
   "HUD.ToggleVis": "Змінити Стан Видимості",
   "HUD.ToggleLock": "Змінити Стан Блокування",
@@ -1064,7 +1064,7 @@
   "HUD.ToBack": "На Задній План",
   "HUD.TilePlay": "Відтворити Відео Тайла",
   "HUD.TilePause": "Призупинити Відео Тайла",
-  "HUD.WarningEffectNoActor": "You cannot assign status effects to a Token which has no associated Actor.",
+  "HUD.WarningEffectNoActor": "Ви не можете призначити ефекти стану токену, який не має пов'язаного з ним актора.",
   "JOURNAL.ModeText": "Текст",
   "JOURNAL.ModeImage": "Зображення",
   "JOURNAL.ActionShow": "Показати Гравцям",
@@ -1145,8 +1145,8 @@
   "KEYBINDINGS.Copy": "Копіювати Об'єкти",
   "KEYBINDINGS.Paste": "Вставити Об'єкти",
   "KEYBINDINGS.Target": "Зробити Токен Ціллю",
-  "KEYBINDINGS.SendToBack": "Send Objects to the Back",
-  "KEYBINDINGS.BringToFront": "Bring Objects to the Front",
+  "KEYBINDINGS.SendToBack": "Відправити Об'єкти в Задній План",
+  "KEYBINDINGS.BringToFront": "Витягнути Об'єкти на Передній План",
   "KEYBINDINGS.ToggleCharacterSheet": "Перемкнути Аркуш Персонажа",
   "KEYBINDINGS.PTTKey": "Натисніть-щоб-Говорити / Натисніть-щоб-Відключити",
   "KEYBINDINGS.PanUp": "Перемістити Вгору",
@@ -1168,76 +1168,76 @@
   "KEYBINDINGS.FocusChat": "Чат",
   "LIGHT.FIELDS": {
     "alpha": {
-      "label": "Color Intensity",
-      "hint": "Modify the intensity of color emitted by this light source."
+      "label": "Інтенсивність Кольору",
+      "hint": "Змінюйте інтенсивність кольору, випромінюваного цим джерелом світла."
     },
     "animation": {
-      "label": "Light Animation",
+      "label": "Анімація Освітлення",
       "type": {
-        "label": "Light Animation Type"
+        "label": "Тип Анімації Освітлення"
       },
       "speed": {
-        "label": "Animation Speed",
-        "hint": "Increases to animation speed make the animation play faster."
+        "label": "Швидкість Анімації",
+        "hint": "Збільшує швидкість анімації, змушуючи анімацію грати швидше."
       },
       "intensity": {
-        "label": "Animation Intensity",
-        "hint": "Increases to animation intensity make the animation more pronounced."
+        "label": "Інтенсивність Анімації",
+        "hint": "Збільшує інтенсивність анімації, роблячи анімацію більш вираженою."
       },
       "reverse": {
-        "label": "Reverse Direction"
+        "label": "Зворотний Напрямок"
       }
     },
     "angle": {
-      "label": "Emission Angle",
-      "hint": "Limit the angle of emission for this light source, and configure its rotation."
+      "label": "Кут Освітлення",
+      "hint": "Обмежте кут випромінювання для цього джерела світла та налаштуйте його обертання."
     },
     "attenuation": {
-      "label": "Attenuation",
-      "hint": "Transition illumination gradually between bright, dim, and dark."
+      "label": "Загасання",
+      "hint": "Поступовий перехід освітлення між яскравим, тьмяним і темним."
     },
     "color": {
-      "label": "Light Color",
-      "hint": "Apply coloration to this light source and configure its intensity."
+      "label": "Колір Світла",
+      "hint": "Застосуйте колір до цього джерела світла та налаштуйте його інтенсивність."
     },
     "coloration": {
-      "label": "Coloration Technique",
-      "hint": "The coloration technique applied to the light source contributes additive blending to the resulting appearance."
+      "label": "Техніка Кольору",
+      "hint": "Техніка забарвлення, застосована до джерела світла, впливає на кінцевий вигляд."
     },
     "contrast": {
-      "label": "Contrast",
-      "hint": "Adjust the contrast of surfaces that are illuminated by this light source. The default value for a standard light source is 0."
+      "label": "Контраст",
+      "hint": "Налаштуйте контрастність поверхонь, які освітлюються цим джерелом світла. Усталене значення для стандартного джерела світла є 0."
     },
     "dim": {
-      "label": "Dim"
+      "label": "Тьмяне"
     },
     "bright": {
-      "label": "Bright"
+      "label": "Яскраве"
     },
     "luminosity": {
-      "label": "Luminosity",
-      "hint": "Adjust the brightness of this light source. More luminous lights are less diminished by darkness. The default value for a standard light source is 0.5."
+      "label": "Яскравість",
+      "hint": "Налаштуйте яскравість цього джерела світла. Яскравіше світло менше слабшає у темряві. Усталене значення для стандартного джерела світла є 0.5."
     },
     "negative": {
-      "label": "Is Darkness Source",
-      "hint": "A darkness source blocks light and vision and suppresses lights or vision sources which are inside its area of effect."
+      "label": "Це Джерело Темряви",
+      "hint": "Джерело темряви блокує світло і бачення та пригнічує світло або джерела світла, які знаходяться в зоні його дії."
     },
     "saturation": {
-      "label": "Saturation",
-      "hint": "Adjust the saturation of surfaces that are illuminated by this light source. The default value for a standard light source is 0."
+      "label": "Насиченість",
+      "hint": "Налаштуйте насиченість поверхонь, які освітлюються цим джерелом світла. Значення за замовчуванням для стандартного джерела світла є 0."
     },
     "shadows": {
-      "label": "Shadows",
-      "hint": "Enhance or the intensity of dark colors illuminated by this light source. The default value for a standard light source is 0."
+      "label": "Тіні",
+      "hint": "Посилити або зменшити інтенсивність темних кольорів, освітлених цим джерелом світла. Значення за замовчуванням для стандартного джерела світла це 0."
     },
     "darkness": {
-      "label": "Darkness Activation Range",
-      "hint": "You may specify a range of darkness levels during which this light source will be visible.",
+      "label": "Діапазон Активації Темряви",
+      "hint": "Ви можете вказати діапазон рівнів темряви, при яких це джерело світла буде видимим.",
       "min": {
-        "label": "Between"
+        "label": "Між"
       },
       "max": {
-        "label": "and"
+        "label": "і"
       }
     }
   },
@@ -1276,7 +1276,7 @@
   "LIGHT.AnimationSmokePatch": "Димове Світло",
   "LIGHT.AnimationRevolving": "Обертове Світло",
   "LIGHT.AnimationSiren": "Світлова Сирена",
-  "LIGHT.AnimationMagicalGloom": "Magical Gloom",
+  "LIGHT.AnimationMagicalGloom": "Магічний Малюнок",
   "MACRO.Delete": "Видалити",
   "MACRO.DeleteWarning": "Цей Макрос буде остаточно видалено для всіх користувачів.",
   "MACRO.Edit": "Редагувати",
@@ -1307,16 +1307,16 @@
   "MODMANAGE.Search": "Фільтр Модулів",
   "MODMANAGE.Submit": "Зберегти Налаштування Модулів",
   "MODMANAGE.Dependencies": "Залежності",
-  "MODMANAGE.RequiredDepError": "This module cannot be disabled as it is required by the following: {dependents}",
+  "MODMANAGE.RequiredDepError": "Цей модуль не може бути відключений, оскільки він потрібний для: {dependents}",
   "MODMANAGE.RequiredDependencies": "Необхідні Залежності",
   "MODMANAGE.RecommendedDependencies": "Рекомендовані Залежності",
-  "MODMANAGE.DepRequiredEnable": "The following dependencies are required for the selected modules to function:",
-  "MODMANAGE.DepOptionalEnable": "The selected modules list the following optional dependencies:",
+  "MODMANAGE.DepRequiredEnable": "Для використання вибраних модулів потрібні наступні залежності:",
+  "MODMANAGE.DepOptionalEnable": "Вибрані модулі включають наступні залежності:",
   "MODMANAGE.DepEnableCheck": "Увімкнути модуль та вибрані залежності?",
-  "MODMANAGE.DepDisable": "The following dependencies would become unused, and can be disabled:",
+  "MODMANAGE.DepDisable": "Наступні залежності не використовуються, і можуть бути відключені:",
   "MODMANAGE.DepDisableCheck": "Бажаєте також відключити обрані пакунки?",
   "MODMANAGE.DepNotInstalled": "Необхідна залежність {missing} не встановлена!",
-  "MODMANAGE.DepMissing": "You have enabled the module {module}, but its dependencies {missing} are not enabled!",
+  "MODMANAGE.DepMissing": "Ви увімкнули модуль {module}, але його залежності {missing} не увімкнені!",
   "MODMANAGE.FilterAll": "Усі Модулі",
   "MODMANAGE.FilterActive": "Активні Модулі",
   "MODMANAGE.FilterInactive": "Неактивні Модулі",
@@ -1327,7 +1327,7 @@
   "MODMANAGE.SystemCompatibilityIssueMaximum": "Цей модуль вимагає максимальної версії системи {maximum}, але ваша версія {version}.",
   "MODMANAGE.NavLabel": "Навігація Керування Модулями",
   "MODMANAGE.UpstreamPackages": "Існує {number} пакунків, яким потрібно, щоб цей пакунок був активним. Вимкнення цього пакунка також вимкне залежні пакунки.",
-  "MODMANAGE.UnavailableDocuments": "The following documents will be rendered unavailable if you disable these modules.",
+  "MODMANAGE.UnavailableDocuments": "Наступні документи будуть недоступні, якщо ви вимкнете ці модулі.",
   "NOTE.AnchorPoint": "Точка Прив’язки Тексту",
   "NOTE.ConfigTitle": "Налаштування Нотаток Мапи",
   "NOTE.Create": "Створити Нотатку Мапи",
@@ -1368,7 +1368,7 @@
   "PLAYERS.UnBan": "Скасовувати Блокування Гравця",
   "PLAYLIST.Delete": "Видалити Плейлист",
   "PLAYLIST.Edit": "Редагувати Плейлист",
-  "PLAYLIST.Channel": "Audio Channel",
+  "PLAYLIST.Channel": "Аудіоканал",
   "PLAYLIST.CurrentlyPlaying": "Зараз Грає",
   "PLAYLIST.ModeDisabled": "Лише Список",
   "PLAYLIST.ModeSequential": "Послідовне Відтворення",
@@ -1410,8 +1410,8 @@
   "PLAYLIST.PinToTop": "Закріпити Вгорі",
   "PLAYLIST.PinToBottom": "Закріпити Знизу",
   "PLAYLIST.VOLUME": {
-    "CONTROLS": "User Volume Controls",
-    "TOOLTIP": "Volume: {volume}%"
+    "CONTROLS": "Керування Гучністю Користувача",
+    "TOOLTIP": "Гучність: {volume}%"
   },
   "SCENES.Accessibility": "Дозволи",
   "SCENES.AccessibilityGM": "Лише ІМ",
@@ -1472,8 +1472,8 @@
   "SCENES.GridDistance": "Відстань",
   "SCENES.GridUnits": "Одиниці",
   "SCENES.GridReset": "Скинути Зміни",
-  "SCENES.GridStyle": "Grid Style",
-  "SCENES.GridThickness": "Grid Thickness",
+  "SCENES.GridStyle": "Стиль Сітки",
+  "SCENES.GridThickness": "Товщина Сітки",
   "SCENES.HeaderAmbience": "Звуки Оточення",
   "SCENES.HeaderAmbienceBasic": "Основні Параметри",
   "SCENES.HeaderDetails": "Основне",
@@ -1514,32 +1514,32 @@
   "SCENES.FogUnexploredColor": "Колір Недослідженого Туману Війни",
   "SCENES.FogUnexploredColorHint": "Суцільний колір, який застосовується до всіх недосліджених областей Сцени.",
   "SCENES.ENVIRONMENT": {
-    "HeaderLabel": "Environment Lighting",
-    "Luminosity": "Luminosity",
-    "LuminosityHint": "Control how bright the scene appears. Higher luminosity makes the scene bright like a sunny day, while lower luminosity makes it appear darker and gloomier.",
-    "Saturation": "Saturation",
-    "SaturationHint": "Adjust the purity of colors in the scene. Settings above 0 make the colors more saturated (intense and vibrant) while negative settings dull and mute the colors.",
-    "Shadows": "Shadows",
-    "ShadowsHint": "Raising this slider causes the shadows and darker elements of the scene to be darker and deeper.",
-    "Hue": "Hue",
-    "HueHint": "Choose a hue (color) to blend into the entire scene. To activate the color slider, you must have an intensity greater than 0.",
-    "Intensity": "Hue Intensity",
-    "IntensityHint": "Adjust how intensly the chosen hue is blended into the scene. A high hue intensity saturates the scene with the color, possibly overhelming existing colors. A lower hue intensity blends in the chosen color more subtly.",
-    "ResetEnvironment": "Reset to Default Options",
-    "EnableCycling": "Enable Cycling",
-    "EnableCyclingHint": "When this option is unchecked, only the base ambience is applied, without blending values between base and darkness according to darkness level.",
-    "BaseAmbience": "Base Ambience",
-    "DarkAmbience": "Dark Ambience",
-    "DarknessLock": "Darkness Level Lock",
-    "DarknessLockHint": "When this option is checked, the darkness level can't be changed."
+    "HeaderLabel": "Освітлення Середовища",
+    "Luminosity": "Освітленість",
+    "LuminosityHint": "Керуйте яскравістю сцени. Більша яскравість робить сцену яскравою, як сонячний день, а менша – темнішою та похмурішою.",
+    "Saturation": "Насиченість",
+    "SaturationHint": "Налаштуйте чистоту кольорів у сцені. Значення вище 0 роблять кольори більш насиченими (інтенсивними та яскравими), тоді як від'ємні значення роблять кольори тьмяними та приглушеними.",
+    "Shadows": "Тіні",
+    "ShadowsHint": "Підняття цього повзунка призводить до того, що тіні та темні елементи сцени стають темнішими та глибшими.",
+    "Hue": "Відтінок",
+    "HueHint": "Виберіть відтінок (колір), який буде змішуватися з усією сценою. Щоб активувати повзунок кольору, ви повинні мати інтенсивність більшу за 0.",
+    "Intensity": "Інтенсивність Відтінку",
+    "IntensityHint": "Налаштуйте, наскільки інтенсивно обраний відтінок буде змішуватися зі сценою. Висока інтенсивність відтінку насичує сцену кольором, можливо, перекриваючи наявні кольори. Менша інтенсивність відтінку більш тонко вписує вибраний колір у сцену.",
+    "ResetEnvironment": "Відновити Параметри за Замовчуванням",
+    "EnableCycling": "Увімкнути Зациклення",
+    "EnableCyclingHint": "Якщо цю опцію знято, буде застосовано лише базове середовище, без змішування значень між базовим і темним відповідно до рівня темряви.",
+    "BaseAmbience": "Базове Середовище",
+    "DarkAmbience": "Темне Середовище",
+    "DarknessLock": "Блокування Рівня Темряви",
+    "DarknessLockHint": "Коли ця опція позначена, рівень темряви не може бути змінений."
   },
   "GRID.STYLES": {
-    "SolidLines": "Solid Lines",
-    "DashedLines": "Dashed Lines",
-    "DottedLines": "Dotted Lines",
-    "SquarePoints": "Square Points",
-    "DiamondPoints": "Diamond Points",
-    "RoundPoints": "Round Points"
+    "SolidLines": "Суцільні Лінії",
+    "DashedLines": "Штрихові Лінії",
+    "DottedLines": "Пунктирні Лінії",
+    "SquarePoints": "Квадратні Точки",
+    "DiamondPoints": "Діамантові Точки",
+    "RoundPoints": "Круглі Точки"
   },
   "SETTINGS.Configure": "Налаштування Параметрів",
   "SETTINGS.CombatConfigN": "Трекер Бою",
@@ -1627,23 +1627,23 @@
   "SETTINGS.EditorAutosaveN": "Частота Автозбереження Редактора",
   "SETTINGS.EditorAutosaveH": "Кількість секунд між кожним автозбереженням в редакторі ProseMirror.",
   "SETTINGS.EnableHighlightDocumentMatches": "Увімкнути Пошук Збігів",
-  "SETTINGS.EnableHighlightDocumentMatchesH": "Увімкнути перевірку на відповідність змісту при виділенні тексту в редакторі ProseMirror. Якщо увімкнено, виділений текст буде перевірено на відповідність з Документами у світі або в будь-яких пакетах компендіумів і запропоновано як посилання для заміни.",
+  "SETTINGS.EnableHighlightDocumentMatchesH": "Увімкнути перевірку на відповідність змісту при виділенні тексту в редакторі ProseMirror. Якщо увімкнено, виділений текст буде перевірено на відповідність з Документами у світі або в будь-яких збірниках і запропоновано як посилання для заміни.",
   "SETTINGS.ReloadPromptTitle": "Перезавантажити Застосунок?",
   "SETTINGS.ReloadPromptBody": "Деякі зі змінених налаштувань потребують перезавантаження застосунку, щоб набрати чинності. Перезавантажити зараз?",
-  "SETTINGS.GridDiagonalsN": "Square Grid Diagonals",
-  "SETTINGS.GridDiagonalsL": "Configure how diagonal distance is measured on square grids. The number in parentheses defines the length of diagonals in units of grid spaces under each option.",
-  "SETTINGS.GridDiagonalsEquidistant": "Equidistant (1)",
-  "SETTINGS.GridDiagonalsExact": "Exact (√2)",
-  "SETTINGS.GridDiagonalsApproximate": "Approximate (1.5)",
-  "SETTINGS.GridDiagonalsRectilinear": "Rectilinear (2)",
-  "SETTINGS.GridDiagonalsAlternating1": "Alternating (1/2/1)",
-  "SETTINGS.GridDiagonalsAlternating2": "Alternating (2/1/2)",
-  "SETTINGS.GridDiagonalsIllegal": "Illegal (∞)",
-  "SETTINGS.ColorSchemeN": "Preferred Color Scheme",
-  "SETTINGS.ColorSchemeH": "Specify whether you prefer user interface elements to render using a light theme or a dark theme. Not all interface elements support this preference.",
-  "SETTINGS.ColorSchemeDefault": "Browser Default",
-  "SETTINGS.ColorSchemeDark": "Dark",
-  "SETTINGS.ColorSchemeLight": "Light",
+  "SETTINGS.GridDiagonalsN": "Діагоналі Квадратної Сітки",
+  "SETTINGS.GridDiagonalsL": "Налаштуйте спосіб вимірювання відстані між діагоналями на квадратних сітках. Число в дужках визначає довжину діагоналей в одиницях клітинок сітки для кожної опції.",
+  "SETTINGS.GridDiagonalsEquidistant": "Рівновіддаленість (1)",
+  "SETTINGS.GridDiagonalsExact": "Добути (√2)",
+  "SETTINGS.GridDiagonalsApproximate": "Приблизно (1.5)",
+  "SETTINGS.GridDiagonalsRectilinear": "Прямолінійний (2)",
+  "SETTINGS.GridDiagonalsAlternating1": "Альтернативний (1/2/1)",
+  "SETTINGS.GridDiagonalsAlternating2": "Альтернативний (2/1/2)",
+  "SETTINGS.GridDiagonalsIllegal": "Заборонено (∞)",
+  "SETTINGS.ColorSchemeN": "Бажана Кольорова Схема",
+  "SETTINGS.ColorSchemeH": "Вкажіть, чи бажаєте ви, щоб елементи інтерфейсу відображалися з використанням світлої або темної теми. Не всі елементи інтерфейсу підтримують цей параметр.",
+  "SETTINGS.ColorSchemeDefault": "Браузера",
+  "SETTINGS.ColorSchemeDark": "Темна",
+  "SETTINGS.ColorSchemeLight": "Світла",
   "SETUP.NavLabel": "Налаштувати Вкладки",
   "SETUP.CoreVersion": "Версія ПЗ",
   "SETUP.CoreVersionHint": "При наявності оновлення Foundry Virtual Tabletop можна побачити його тут. Зараз ви використовуєте {versionDisplay}.",
@@ -1809,14 +1809,14 @@
   "SETUP.PackageProgressCleanup": "Очищення Пакунків",
   "SETUP.PackageProgressComplete": "Встановлення Пакунку Завершено",
   "SETUP.PackageProgressError": "Помилка",
-  "SETUP.PackageIncompatibleSystemsPrompt": "This module update is incompatible with the following installed systems, do you want to continue?",
-  "SETUP.PackageIncompatibleSystemsBulkPrompt": "The following modules were not updated because doing so would have made them incompatible with one or more installed systems. Do you want to update them regardless?",
-  "SETUP.PackageIncompatibleWithSystems": "{module} <em>incompatible with</em> {systems}",
+  "SETUP.PackageIncompatibleSystemsPrompt": "Це оновлення модуля несумісне з наступними встановленими системами, ви хочете продовжити?",
+  "SETUP.PackageIncompatibleSystemsBulkPrompt": "Наступні модулі не було оновлено, оскільки це зробило б їх несумісними з однією або кількома встановленими системами. Ви хочете оновити їх незалежно від цього?",
+  "SETUP.PackageIncompatibleWithSystems": "{module} <em>несумісний з</em> {systems}",
   "SETUP.ConfirmCodeLabel": "Для продовження введіть '{code}'",
   "SETUP.WorldLaunchConnect": "Завантаження Даних Світу",
-  "SETUP.WorldLaunchMigrate": "Migrating World Data",
+  "SETUP.WorldLaunchMigrate": "Міграція Даних Світу",
   "SETUP.WorldLaunchConnectPackage": "Завантаження Даних Пакунку",
-  "SETUP.WorldLaunchMigratePackage": "Migrating Package Data",
+  "SETUP.WorldLaunchMigratePackage": "Міграція Даних Пакунку",
   "SETUP.WorldLaunchMigrateCore": "Виконання Міграції Ядра",
   "SETUP.WorldLaunchMigrateSystem": "Виконання Міграції Системи",
   "SETUP.UpdateDownloadingS": "Завантаження Оновлення",
@@ -1870,7 +1870,7 @@
   "SETUP.DeleteNEDBHint": "У версії 11 наше програмне забезпечення перемістилось із старої технології бази даних (NEDB) на нову (LevelDB). Ми автоматично перетворюємо старі файли бази даних у новий формат і зберігаємо старі файли NEDB на випадок, якщо вам потрібно відкотити або діагностувати певні проблеми. Цей захід безпеки збільшує кількість місця, яке займає Foundry Virtual Tabletop на вашому жорсткому диску. Увімкнення цієї функції автоматично видалить файли NEDB після їх міграції. Це стане поведінкою за замовчуванням у Версії 12.",
   "SETUP.PortLabel": "Порт",
   "SETUP.PortHint": "Ви можете вибрати, який порт Foundry Virtual Tabletop використовує для TCP підключення трафіку і вимкнути або увімкнути Universal Plug and Play (UPnP).",
-  "SETUP.UPNPLabel": "Enable UPnP",
+  "SETUP.UPNPLabel": "Увімкнути UPnP",
   "SETUP.DataPathLabel": "Шлях Даних Користувача",
   "SETUP.DataPathHint": "Налаштуйте місце розташування даних користувача, зокрема світи, системи та модулі.",
   "SETUP.WorldLabel": "Усталений Світ",
@@ -1881,8 +1881,8 @@
   "SETUP.SSLKeyLabel": "Ключ",
   "SETUP.Telemetry": "Передавати Дані Користувача",
   "SETUP.TelemetryHint": "Дозволяє обмінюватися даними з нами, що допоможе нам покращити Foundry Virtual Tabletop. Дані, зібрані якщо цей параметр увімкнуто, документовані в нашій <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">Політиці конфіденційності</a> і не містять особистої інформації і ми не ділимося з будь-якою іншою стороною. Поділитися даними про використаннядопомагає нам відповідати на такі питання як \"Яка версія Foundry Virtual Tabletop найбільш часто використовується\"?, \"Які Ігрові Системи найбільш використовувані?\", і \"Які версії Модуля зазвичай встановлюються?\". Ми використовуємо інформацію з цих даних, щоб допомогти нам покращити сумісність з програмами, забезпечити кращу підтримку клієнтів і обмінюватися сукупними результатами з нашою спільнотою. Якщо ця опція вимкнена, дані не будуть передаватися.",
-  "SETUP.TelemetryRequestTitle": "Allow Sharing Usage Data",
-  "SETUP.TelemetryRequest1": "У 11 версії Foundry Virtual Tabletop додана можливість збирати, тільки з вашого дозволу, анонімні дані про використання, які допомагають нам вдосконалювати платформу.",
+  "SETUP.TelemetryRequestTitle": "Дозволити Передавання Даних про Використання",
+  "SETUP.TelemetryRequest1": "Якщо ви надасте свій дозвіл, Foundry Virtual Tabletop поділиться невеликою кількістю анонімних даних про використання з веб-сайтом foundryvtt.com, що дозволить нашій команді краще зрозуміти, як використовується Foundry VTT, і допоможе нам вдосконалити програмне забезпечення.",
   "SETUP.TelemetryRequest2": "Цей запит буде показано лише один раз, ви можете змінити свої налаштування щодо обміну даними про використання в будь-який час у меню Конфігурації Застосунку, натиснувши піктограму <i class=\"fas fa-cogs\"></i> у верхньому правому куті цього екрана.",
   "SETUP.TelemetryAllow": "Дозволити Передавання",
   "SETUP.TelemetryDecline": "Заборонити Передавання",
@@ -2008,18 +2008,18 @@
   "PACKAGE.Author.URL": "Посилання на Сайт",
   "PACKAGE.Author.Add": "Додати Автора",
   "PACKAGE.Author.Remove": "Видалити Автора",
-  "PACKAGE.Compendium.Add": "Додати Компендіум",
-  "PACKAGE.Compendium.Remove": "Видалити Компендіум",
+  "PACKAGE.Compendium.Add": "Додати Збірник",
+  "PACKAGE.Compendium.Remove": "Видалити Збірник",
   "PACKAGE.Compendium.Name": "Назва",
-  "PACKAGE.Compendium.NameHint": "Унікальна алфавітно-цифрова назва без спеціальних символів, що ідентифікує компендіум.",
-  "PACKAGE.Compendium.NameDisabledHint": "Ви не можете змінити назву цього компендіуму, тому що він вже створений.",
+  "PACKAGE.Compendium.NameHint": "Унікальна алфавітно-цифрова назва без спеціальних символів, що ідентифікує збірник.",
+  "PACKAGE.Compendium.NameDisabledHint": "Ви не можете змінити назву цього збірника, тому що він вже створений.",
   "PACKAGE.Compendium.Label": "Мітка",
   "PACKAGE.Compendium.Type": "Тип Документа",
   "PACKAGE.Compendium.System": "Необхідна Система",
-  "PACKAGE.Compendium.SystemHint": "Актор, Елемент або компендіуми Пригод (які містять Актори або Предмета) повинні заявити, для якої системи вони розроблені.",
+  "PACKAGE.Compendium.SystemHint": "Збірник Акторів, Елементів або Пригод (які містять Акторів або Елементи) повинні заявити, для якої системи вони розроблені.",
   "PACKAGE.TabBasics": "Основна Інформація",
   "PACKAGE.TabAuthors": "Автори",
-  "PACKAGE.TabPacks": "Компендіуми",
+  "PACKAGE.TabPacks": "Збірники",
   "PACKAGE.TabRelationships": "Залежності",
   "PACKAGE.Create": "Створити Пакунок",
   "PACKAGE.CompatibilityHint": "За бажанням ви можете вказати, що цей пакунок сумісний лише з деякими версіями програмного забезпечення Foundry Virtual Tabletop. Сумісність може бути оголошено для конкретної версії збірки, наприклад, \"11.294\", або для всього покоління, наприклад, \"11\".",
@@ -2028,7 +2028,7 @@
   "PACKAGE.Compatibility.Maximum": "Максимальна Версія",
   "PACKAGE.TagJavaScript": "JavaScript",
   "PACKAGE.TagCSS": "CSS",
-  "PACKAGE.TagCompendium": "Компендіум",
+  "PACKAGE.TagCompendium": "Збірник",
   "PACKAGE.TagLocalization": "Локалізація",
   "PACKAGE.TagVersion": "Версія",
   "PACKAGE.TagCoreVersion": "Версія Ядра",
@@ -2076,21 +2076,21 @@
   "PACKAGECONFIG.Core": "Ядро",
   "PACKAGECONFIG.Unmapped": "Не Призначено",
   "JOIN": {
-    "CurrentPlayers": "Current Players",
-    "HeaderJoin": "Join Game Session",
-    "HeaderDetails": "Game Details",
-    "HeaderWorld": "World Description",
-    "NextSession": "Next Session",
-    "SelectUser": "Select User",
-    "UserKey": "User Password",
-    "AuthAdmin": "You are authenticated as a server administrator user.",
-    "ErrorMustSelectUser": "You must select a User in order to log in.",
-    "ErrorUserDoesNotExist": "The requested User, \"{user}\", does not exist!",
-    "ErrorInvalidPassword": "Invalid password provided for {user}!",
-    "ErrorBanned": "{user} does not have permission to access this World!",
-    "LoginSuccess": "Login as {user} successful, joining game!"
+    "CurrentPlayers": "Зараз Грають",
+    "HeaderJoin": "Приєднатися до Ігрової Сесії",
+    "HeaderDetails": "Деталі Гри",
+    "HeaderWorld": "Опис Світу",
+    "NextSession": "Наступна Сесія",
+    "SelectUser": "Виберіть Користувача",
+    "UserKey": "Пароль Користувача",
+    "AuthAdmin": "Ви авторизувалися як користувач з правами адміністратора сервера.",
+    "ErrorMustSelectUser": "Необхідно вибрати користувача для того, щоб увійти.",
+    "ErrorUserDoesNotExist": "Користувач, \"{user}\", не існує!",
+    "ErrorInvalidPassword": "Невірний пароль для {user}!",
+    "ErrorBanned": "{user} не має дозволу на доступ до цього світу!",
+    "LoginSuccess": "Ви успішно приєдналися до гри як {user}!"
   },
-  "SHEETS.ConfigureSheet": "Configure Sheet",
+  "SHEETS.ConfigureSheet": "Налаштування Аркуша",
   "SHEETS.ThisSheet": "Цей Аркуш",
   "SHEETS.DefaultSheet": "Усталений Аркуш",
   "SHEETS.DefaultDocumentSheet": "Усталений Аркуш {document}",
@@ -2099,15 +2099,15 @@
   "SHEETS.DocumentSheetPrivate": "У вас недостатньо прав для перегляду аркуша {type}.",
   "SHEETS.Save": "Зберегти Конфігурацію Аркуша",
   "SHEETS.FormNavLabel": "Навігація Вкладок Форми",
-  "SHEETS.CopyUuid": "Copy Document UUID",
+  "SHEETS.CopyUuid": "Копіювати UUID Документа",
   "SOUND": {
     "ConfigTitle": "Налаштування Звуків Оточення",
-    "PathPlaceholder": "path/to/audio.mp3",
-    "New": "New Sound",
+    "PathPlaceholder": "шлях/до/аудіо.mp3",
+    "New": "Нова Мелодія",
     "EFFECTS": {
-      "LOWPASS": "Lowpass Filter",
-      "HIGHPASS": "Highpass Filter",
-      "REVERB": "Reverb"
+      "LOWPASS": "Низькочастотний Фільтр",
+      "HIGHPASS": "Високочастотний Фільтр",
+      "REVERB": "Відлуння"
     }
   },
   "FOLDER.Clear": "Очистити Теку",
@@ -2117,7 +2117,7 @@
   "FOLDER.Delete": "Видалити Всі",
   "FOLDER.DeleteWarning": "Ця тека і її вміст буде остаточно видалені, її неможливо буде відновити.",
   "FOLDER.Edit": "Редагувати Теку",
-  "FOLDER.Export": "Експорт до Компендіуму",
+  "FOLDER.Export": "Експорт до Збірника",
   "FOLDER.Name": "Назва Теки",
   "FOLDER.Remove": "Видалити Теку",
   "FOLDER.RemoveWarning": "Цю теку буде остаточно видалено, а її вміст буде перенесено до батьківської теки.",
@@ -2126,17 +2126,17 @@
   "FOLDER.SortMode": "Режим Сортування",
   "FOLDER.Update": "Оновити Теку",
   "FOLDER.ExportTitle": "Експорт Вмісту",
-  "FOLDER.ExportHint": "Ви можете експортувати з цієї теки її вміст в розблокований Компендіум відповідного типу.",
+  "FOLDER.ExportHint": "Ви можете експортувати з цієї теки її вміст в розблокований Збірник відповідного типу.",
   "FOLDER.ExportOptions": "Параметри Експорту",
   "FOLDER.ExportDestination": "Компендіум",
-  "FOLDER.ExportKeepId": "Keep Document IDs",
-  "FOLDER.ExportMerge": "Merge By Name",
-  "FOLDER.ExportKeepFolders": "Keep Folder Structure",
-  "FOLDER.ExportWarningNone": "Немає розблокованих Компендіумів для {type} Документів, до яких ви можете експортувати вміст.",
+  "FOLDER.ExportKeepId": "Зберігати ID Документів",
+  "FOLDER.ExportMerge": "Об'єднати за Назвою",
+  "FOLDER.ExportKeepFolders": "Залишити Структуру Теки",
+  "FOLDER.ExportWarningNone": "Немає розблокованих збірників для Документів {type}, до яких ви можете експортувати вміст.",
   "FOLDER.ExportExistingFolder": "Існуюча Тека",
   "FOLDER.ExportNewFolder": "Нова Тека",
-  "FOLDER.Exporting": "Експортування {type} до Компендіуму {compendium}.",
-  "FOLDER.ExportDone": "Завершено експорт {type} в Компендіум {compendium}.",
+  "FOLDER.Exporting": "Експортування {type} до Збірника {compendium}.",
+  "FOLDER.ExportDone": "Завершено експорт {type} в Збірник {compendium}.",
   "FOLDER.CreateTable": "Створити Таблицю Кидків",
   "FOLDER.CreateTableConfirm": "Створити нову Таблицю Кидків використовуючи вміст цієї теки як результат?",
   "FOLDER.InvalidDocumentType": "Неправильний тип Документа \"{type}\" для цієї Теки.",
@@ -2155,7 +2155,7 @@
   "OWNERSHIP.HintFolder": "Налаштувати доступ до всіх документів в межах цієї теки. Зміни будуть застосовані до всіх Документів, крім вмісту підтек.",
   "OWNERSHIP.HintDocument": "Налаштувати доступ до конкретного Документа, що дозволяє кожному користувачеві призначити різний рівень видимості.",
   "OWNERSHIP.Configure": "Налаштувати Володіння",
-  "OWNERSHIP.ShowGM": "Show GM Users",
+  "OWNERSHIP.ShowGM": "Показати ІМів",
   "PERMISSION.Title": "Налаштування Дозволів Користувача",
   "PERMISSION.Configure": "Дозволи",
   "PERMISSION.ConfigureLabel": "Відкрити Налаштування Дозволів",
@@ -2185,14 +2185,16 @@
   "PERMISSION.JournalCreateHint": "Дозволити користувачам із цією роллю створювати нові Записи Журналу в відповідній вкладці.",
   "PERMISSION.MacroScript": "Використовувати Макроси",
   "PERMISSION.MacroScriptHint": "Дозволити користувачам з цією роллю використовувати JavaScript макроси з доступом до API.",
+  "PERMISSION.ManualRolls": "Робити Ручні Кидки",
+  "PERMISSION.ManualRollsHint": "Дозвольте користувачам з цією роллю вводити кидки вручну.",
   "PERMISSION.MessageWhisper": "Приватні Повідомлення",
   "PERMISSION.MessageWhisperHint": "Дозволити користувачам із цією роллю надсилати приватні повідомлення, які Ігромайстер не може бачити.",
   "PERMISSION.NoteCreate": "Створення Нотаток Мапи",
   "PERMISSION.NoteCreateHint": "Дозволити користувачам із цієї ролі створювати Нотатки в Журнальних Записах, якими вони володіють.",
   "PERMISSION.PingCanvas": "Пінги на Полотні",
   "PERMISSION.PingCanvasHint": "Дозволити користувачам з цією роллю привертати увагу до точки на полотні з анімацією пінгу.",
-  "PERMISSION.PlaylistCreate": "Create Playlists",
-  "PERMISSION.PlaylistCreateHint": "Allow users with this role to create new playlists in the World.",
+  "PERMISSION.PlaylistCreate": "Створювати Плейлисти",
+  "PERMISSION.PlaylistCreateHint": "Дозволити користувачам із цією роллю створювати нові плейлисти у Світі.",
   "PERMISSION.SettingsModify": "Змінити Параметри Налаштувань",
   "PERMISSION.SettingsModifyHint": "Дозволити користувачам з цією роллю змінювати налаштування гри та вмикати чи вимикати модулі.",
   "PERMISSION.ShowCursor": "Показувати Курсор Миші",
@@ -2212,234 +2214,234 @@
   "PERMISSION.WarningNoCreate": "У вас недостатньо прав для створення {document}.",
   "REGION": {
     "SECTIONS": {
-      "identity": "Identity",
-      "shapes": "Shapes",
-      "behaviors": "Behaviors"
+      "identity": "Ідентичність",
+      "shapes": "Фігури",
+      "behaviors": "Поведінки"
     },
     "FIELDS": {
       "color": {
-        "label": "Color",
-        "hint": "The color applied to the visualization of the Region."
+        "label": "Колір",
+        "hint": "Колір, застосований до візуалізації Регіону."
       },
       "shapes": {
-        "label": "Shapes",
-        "hint": "The shapes of the Region."
+        "label": "Фігури",
+        "hint": "Фігури Регіону"
       },
       "elevation": {
-        "label": "Elevation",
-        "hint": "The elevation range of the Region.",
+        "label": "Підйом",
+        "hint": "Діапазо підвищення для Регіону.",
         "FIELDS": {
           "bottom": {
-            "label": "Bottom",
-            "hint": "The bottom of the elevation range."
+            "label": "Вниз",
+            "hint": "Нижня межа підвищення."
           },
           "top": {
-            "label": "Top",
-            "hint": "The top of the elevation range."
+            "label": "Вгору",
+            "hint": "Верхня межа підвищення."
           }
         }
       },
       "behaviors": {
-        "label": "Behaviors",
-        "hint": "The behaviors of the Region."
+        "label": "Поведінки",
+        "hint": "Поведінки Регіону"
       },
       "visibility": {
-        "label": "Visibility",
-        "hint": "Configure the visibility of the Region."
+        "label": "Видимий",
+        "hint": "Налаштування видимості регіону."
       }
     },
     "ACTIONS": {
-      "create": "Create Region",
-      "update": "Update Region",
-      "delete": "Delete Region",
-      "shapeCreateFromWalls": "Create Shapes from Controlled Walls",
-      "shapeMakeHole": "Make Hole",
-      "shapeFillHole": "Fill Hole",
-      "shapeMoveUp": "Move Shape Up",
-      "shapeMoveDown": "Move Shape Down",
-      "shapeRemove": "Remove Shape",
-      "behaviorCreate": "Create Behavior",
-      "behaviorEdit": "Edit Behavior",
-      "behaviorDelete": "Delete Behavior",
-      "behaviorEnable": "Enable Behavior",
-      "behaviorDisable": "Disable Behavior"
+      "create": "Створити Регіон",
+      "update": "Оновити Регіон",
+      "delete": "Видалити Регіон",
+      "shapeCreateFromWalls": "Створення фігур із Керованих Стін",
+      "shapeMakeHole": "Зробити Отвір",
+      "shapeFillHole": "Заповнити Отвір",
+      "shapeMoveUp": "Переміщення Фігури Вгору",
+      "shapeMoveDown": "Переміщення Фігури Вниз",
+      "shapeRemove": "Видалити Фігуру",
+      "behaviorCreate": "Створити Поведінку",
+      "behaviorEdit": "Змінити Поведінку",
+      "behaviorDelete": "Видалити Поведінку",
+      "behaviorEnable": "Увімкнути Поведінку",
+      "behaviorDisable": "Вимкнути Поведінку"
     },
     "VISIBILITY": {
       "LAYER": {
-        "label": "Only on Region Layer"
+        "label": "Тільки на Шарі Регіонів"
       },
       "GAMEMASTER": {
-        "label": "Always for Gamemaster"
+        "label": "Завжди для Ігромайстра"
       },
       "ALWAYS": {
-        "label": "Always for Anyone"
+        "label": "Завжди для Всіх"
       }
     },
     "EVENTS": {
       "regionBoundary": {
-        "label": "Region Boundary Changed"
+        "label": "Змінено Межі Регіону"
       },
       "behaviorStatus": {
-        "label": "Behavior Status Changed"
+        "label": "Статус Поведінки Змінено"
       },
       "tokenEnter": {
-        "label": "Token Enters"
+        "label": "Вхід Токена"
       },
       "tokenExit": {
-        "label": "Token Exits"
+        "label": "Вихід Токена"
       },
       "tokenPreMove": {
-        "label": "Before Token Moves"
+        "label": "Перед Рухами Токенів"
       },
       "tokenMove": {
-        "label": "After Token Moved"
+        "label": "Після Рухів Токенів"
       },
       "tokenMoveIn": {
-        "label": "Token Moved In"
+        "label": "Токен Переміщено Всередині"
       },
       "tokenMoveOut": {
-        "label": "Token Moved Out"
+        "label": "Токен Переміщено Назовні"
       },
       "tokenTurnStart": {
-        "label": "Token Starts Turn"
+        "label": "Початок Ходу Токена"
       },
       "tokenTurnEnd": {
-        "label": "Token Ends Turn"
+        "label": "Кінець Ходу Токена"
       },
       "tokenRoundStart": {
-        "label": "Token Starts Round"
+        "label": "Починається Раунд Токена"
       },
       "tokenRoundEnd": {
-        "label": "Token Ends Round"
+        "label": "Закінчується Раунд Токена"
       }
     },
     "SHAPES": {
-      "rectangle": "Rectangle",
-      "circle": "Circle",
-      "ellipse": "Ellipse",
-      "polygon": "Polygon"
+      "rectangle": "Прямокутник",
+      "circle": "Коло",
+      "ellipse": "Еліпс",
+      "polygon": "Полігон"
     },
-    "Behavior": "Behavior",
-    "Shape": "Shape",
+    "Behavior": "Поведінка",
+    "Shape": "Фігура",
     "LEGEND": {
-      "control": "Control Region",
-      "config": "Configure Region",
-      "create": "Create Region",
-      "delete": "Delete Region",
-      "empty": "Empty",
-      "filter": "Filter Regions",
-      "lock": "Lock Region",
+      "control": "Керування Регіоном",
+      "config": "Налаштувати Регіону",
+      "create": "Створити Регіон",
+      "delete": "Видалити Регіон",
+      "empty": "Пусто",
+      "filter": "Фільтр Регіонів",
+      "lock": "Заблокувати Регіон",
       "title": "Region Legend",
-      "unlock": "Unlock Region",
-      "elevationBottom": "Elevation (Bottom)",
-      "elevationTop": "Elevation (Top)"
+      "unlock": "Розблокувати Регіон",
+      "elevationBottom": "Підвищення (Вниз)",
+      "elevationTop": "Підвищення (Вгору)"
     },
     "SHEET": {
-      "title": "Configure Region"
+      "title": "Налаштувати Регіон"
     },
     "NOTIFICATIONS": {
-      "ControlWalls": "Control a group of walls which define the boundary of your desired shape.",
-      "DrawingMultipleRegionsControlled": "You must control only one or no Region when you draw a shape!",
-      "EmptyEnclosedArea": "The area enclosed by the controlled Walls is empty! Make sure that the outer Walls form a closed loop and are connected endpoint to endpoint.",
-      "NoControlledWalls": "You are not controlling any Walls!"
+      "ControlWalls": "Керуйте групою стін встановлюючи границі бажаної фігури.",
+      "DrawingMultipleRegionsControlled": "Ви повинні керувати тільки одним або жодним Регіоном коли ви малюєте форму!",
+      "EmptyEnclosedArea": "Область, обмежена контрольованими стінами не суцільна! Переконайтеся, що зовнішні Стіни утворюють замкнутий контур і з'єднані від кінця до кінця.",
+      "NoControlledWalls": "Ви не контролюєте Стіни!"
     }
   },
   "BEHAVIOR": {
     "SECTIONS": {
-      "identity": "Behavior Identity",
-      "status": "Behavior Status"
+      "identity": "Ідентифікація Поведінки",
+      "status": "Статус Поведінки"
     },
     "FIELDS": {
       "disabled": {
-        "label": "Disabled",
-        "hint": "Toggle whether this behavior is temporarily disabled."
+        "label": "Вимкнено",
+        "hint": "Перемикач, чи тимчасово вимкнути цю поведінку."
       }
     },
     "ACTIONS": {
-      "create": "Create Region Behavior",
-      "update": "Update Region Behavior",
-      "delete": "Delete Region Behavior"
+      "create": "Створити Поведінку Регіону",
+      "update": "Оновити Поведінку Регіону",
+      "delete": "Видалити Поведінку Регіону"
     },
     "TYPES": {
       "base": {
         "SECTIONS": {
-          "events": "Subscribed Events"
+          "events": "Відслідковувані Події"
         },
         "FIELDS": {
           "events": {
-            "label": "Events",
-            "hint": "The events that this behavior subscribes to."
+            "label": "Події",
+            "hint": "Події, за якими слідкує ця поведінка."
           }
         }
       },
       "adjustDarknessLevel": {
         "FIELDS": {
           "mode": {
-            "label": "Mode",
-            "hint": "How the darkness level is modified within this region. This Behavior respects the Scene's Global Illumination Threshold. If the total darkness level of an area exceeds the threshold value, then Global Illumination is prevented within that area."
+            "label": "Режим",
+            "hint": "Як змінюється рівень темряви у цьому регіоні. Ця поведінка враховує Поріг глобального освітлення сцени. Якщо загальний рівень темряви в області перевищує порогове значення, то глобальне освітлення у цій області буде вимкнено."
           },
           "modifier": {
-            "label": "Modifier",
-            "hint": "A numeric modifier which applies to the darkness level according to the mode."
+            "label": "Модифікатор",
+            "hint": "Числовий модифікатор, який застосовується до рівня темряви відповідно до режиму."
           },
           "blur": {
-            "label": "Blur",
-            "hint": "Should darkness levels smoothly transition at the boundary of this shape, or change immediately?"
+            "label": "Розмиття",
+            "hint": "Чи потрібно плавно переходити до меж цієї форми чи одразу змінювати рівень темряви?"
           }
         },
         "MODES": {
           "OVERRIDE": {
-            "label": "Override"
+            "label": "Замінити"
           },
           "BRIGHTEN": {
-            "label": "Brighten"
+            "label": "Яскравіше"
           },
           "DARKEN": {
-            "label": "Darken"
+            "label": "Затемнення"
           }
         }
       },
       "executeMacro": {
         "FIELDS": {
           "uuid": {
-            "label": "Macro",
-            "hint": "The Macro that is executed when one of the events occurs."
+            "label": "Макрос",
+            "hint": "Макрос, який виконується, коли відбувається одна з подій."
           }
         }
       },
       "executeScript": {
         "FIELDS": {
           "source": {
-            "label": "Script",
-            "hint": "The script that is executed when one of the events occurs."
+            "label": "Скрипт",
+            "hint": "Сценарій, який виконується, коли відбувається одна з подій."
           }
         }
       },
       "pauseGame": {
         "FIELDS": {
           "once": {
-            "label": "Once",
-            "hint": "Disable the behavior once a player-controlled Token enters the Region."
+            "label": "Одноразово",
+            "hint": "Вимкнути поведінку, коли Токен під контролем гравця потрапляє в Регіон."
           }
         }
       },
       "teleportToken": {
         "FIELDS": {
           "destination": {
-            "label": "Destination",
-            "hint": "The destination Region the Token is teleported to once it enters the Region."
+            "label": "Призначення",
+            "hint": "Регіон призначення, до якого телепортується Токен, коли він потрапляє в Регіон."
           }
         }
       },
       "toggleBehavior": {
         "FIELDS": {
           "enable": {
-            "label": "Enable Behaviors",
-            "hint": "The behaviors that are enabled when one of the events occurs."
+            "label": "Увімкнути Поведінки",
+            "hint": "Поведінка, яка активується, коли відбувається одна з подій."
           },
           "disable": {
-            "label": "Disable Behaviors",
-            "hint": "The behaviors that are disabled when one of the events occurs."
+            "label": "Вимкнути Поведінки",
+            "hint": "Поведінки, які вимикаються, коли відбувається одна з подій."
           }
         }
       }
@@ -2447,12 +2449,12 @@
   },
   "RULER.MovementNotAllowed": "Не дозволено вимірювати цей шлях руху",
   "RULER.MovementCollision": "Спроба переміщення наштовхується щонайменше на одну стіну.",
-  "RULER.MovementNoPermission": "You do not have permission to move this Token.",
-  "RULER.MovementLocked": "This Token cannot be moved because it is locked.",
+  "RULER.MovementNoPermission": "Ви не маєте дозволу на переміщення цього токена.",
+  "RULER.MovementLocked": "Цей токен не можна перемістити тому, що він заблокований.",
   "SIDEBAR.Import": "Імпортувати Дані",
   "SIDEBAR.NavLabel": "Бічна Панель",
   "SIDEBAR.TabJournal": "Журнал",
-  "SIDEBAR.TabCompendium": "Компендіуми",
+  "SIDEBAR.TabCompendium": "Збірники",
   "SIDEBAR.TabSettings": "Налаштування Гри",
   "SIDEBAR.TabTables": "Таблиці Кидків",
   "SIDEBAR.TokenArt": "Зображення Токена",
@@ -2485,7 +2487,7 @@
   "SUPPORT.Client": "Клієнт",
   "SUPPORT.GPU": "GPU",
   "SUPPORT.MaxTextureSize": "Максимальний Розмір Текстур",
-  "SUPPORT.LargestTexture": "Largest Texture",
+  "SUPPORT.LargestTexture": "Найбільша Текстура",
   "SUPPORT.NoViewedScene": "Немає Переглянутих Сцен",
   "SUPPORT.DocumentIssues": "Проблеми Документів",
   "SUPPORT.ClientIssues": "Проблеми Клієнта",
@@ -2493,25 +2495,25 @@
   "SUPPORT.ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} недоступні, оскільки модуль '{name}' неактивний",
   "SUPPORT.ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} недоступні, оскільки модуль з ID '{name}' неактивний",
   "SUPPORT.UnavailableDocuments": "Недоступно {count} {document} документів",
-  "SUPPORT.WorldScripts": "World Scripts",
-  "SUPPORT.GenerateFullReport": "Generate Full Report",
-  "SUPPORT.GenerateFullReportHint": "A full report contains more detailed information about your installed modules and compendiums and can take some time to generate.",
-  "SUPPORT.WorldData": "World Data",
-  "SUPPORT.CompendiumData": "Compendium Data",
-  "SUPPORT.ActiveModules": "Active Modules",
+  "SUPPORT.WorldScripts": "Скрипти Світу",
+  "SUPPORT.GenerateFullReport": "Створити Повний Звіт",
+  "SUPPORT.GenerateFullReportHint": "Повний звіт містить детальнішу інформацію про встановлені модулі та збірники і може зайняти деякий час для створення.",
+  "SUPPORT.WorldData": "Дані Світу",
+  "SUPPORT.CompendiumData": "Дані Збірника",
+  "SUPPORT.ActiveModules": "Активні Модулі",
   "TABLE.AnimateSetting": "Анімована Таблиця Кидків",
   "TABLE.AnimateSettingHint": "Показувати анімацію перебору значень при використанні Таблиць Кидків.",
   "TABLE.DrawFlavor": "Повертає результати з таблиці {name}",
   "TABLE.DrawFlavorPlural": "Повертає {number} результатів з таблиці {name}",
   "TABLE.NoAvailableResults": "Немає доступних результатів, які можуть бути зроблені з цієї таблиці.",
   "TABLE.Description": "Опис Таблиці",
-  "TABLE.DisplayRoll": "Display Roll Formula to Chat",
+  "TABLE.DisplayRoll": "Показувати Формулу Кидка в Чаті",
   "TABLE.Formula": "Формула Таблиці Кидків",
   "TABLE.SheetTitle": "Налаштування Таблиці",
   "TABLE.Normalize": "Вирівнювання Результатів",
-  "TABLE.Replacement": "Draw with Replacement",
+  "TABLE.Replacement": "Не блокувати результати",
   "TABLE.Reset": "Скинути",
-  "TABLE.Result": "Result",
+  "TABLE.Result": "Результат",
   "TABLE.ResultCreate": "Додати Новий Результат",
   "TABLE.ResultType": "Тип Результату",
   "TABLE.ResultDetails": "Деталі Результату",
@@ -2522,12 +2524,12 @@
   "TABLE.Roll": "Кинути",
   "TABLE.ToggleDrawn": "Заблокувати Результат",
   "TABLE.Update": "Оновити",
-  "TABLE.RESULT_TYPES.TEXT.label": "Text",
-  "TABLE.RESULT_TYPES.DOCUMENT.label": "Document",
-  "TABLE.RESULT_TYPES.COMPENDIUM.label": "Compendium",
+  "TABLE.RESULT_TYPES.TEXT.label": "Текст",
+  "TABLE.RESULT_TYPES.DOCUMENT.label": "Документ",
+  "TABLE.RESULT_TYPES.COMPENDIUM.label": "Збірник",
   "TEMPLATE.BorderColor": "Колір Рамки",
-  "TEMPLATE.ConeTypeSetting": "Cone Template Shape",
-  "TEMPLATE.ConeTypeSettingHint": "Choose how the area of effect for cone templates should be defined. This setting has no effect if Grid-based Template Shapes is enabled.",
+  "TEMPLATE.ConeTypeSetting": "Форма Шаблону Конуса",
+  "TEMPLATE.ConeTypeSettingHint": "Виберіть спосіб визначення області впливу для конусних шаблонів. Цей параметр не впливає, якщо увімкнено Шаблони на Основі Сітки.",
   "TEMPLATE.ConeTypeFlat": "Плоский",
   "TEMPLATE.ConeTypeRound": "Округлий",
   "TEMPLATE.MeasuredConfig": "Налаштування Шаблону Вимірювання",
@@ -2535,8 +2537,8 @@
   "TEMPLATE.FillTexture": "Шаблон Заповнення",
   "TEMPLATE.SubmitCreate": "Створювати Вимірюваний Шаблон",
   "TEMPLATE.SubmitUpdate": "Оновити Вимірюваний Шаблон",
-  "TEMPLATE.GridTemplatesSetting": "Grid-based Template Shapes",
-  "TEMPLATE.GridTemplatesSettingHint": "Configure whether the area of effect of templates should be grid-based instead of Euclidean.",
+  "TEMPLATE.GridTemplatesSetting": "Шаблони на Основі Сітки",
+  "TEMPLATE.GridTemplatesSettingHint": "Визначає, чи область впливу шаблонів має базуватися на сітці замість Евклідів.",
   "TILE.ConfigTitle": "Налаштування Тайла",
   "TILE.SubmitCreate": "Створити Тайл",
   "TILE.SubmitUpdate": "Оновити Тайл",
@@ -2553,10 +2555,10 @@
   "TILE.ScaleHint": "Регулювання масштабу зображення по осі X чи Y. Зображення може виходити за межі. Від'ємні значення будуть перевертати зображення.",
   "TILE.ScaleX": "Горизонтально",
   "TILE.ScaleY": "Вертикально",
-  "TILE.RestrictsLight": "Restricts Light",
-  "TILE.RestrictsWeather": "Restricts Weather",
-  "TILE.RestrictsLightHint": "Are light sources blocked based on their elevation relative to the elevation of this Tile?",
-  "TILE.RestrictsWeatherHint": "Are weather effects blocked based on their elevation relative to the elevation of this Tile?",
+  "TILE.RestrictsLight": "Обмежує Світло",
+  "TILE.RestrictsWeather": "Обмежує Погоду",
+  "TILE.RestrictsLightHint": "Чи блокуються джерела світла на основі їх висоти відносно висоти цієї Тайлу?",
+  "TILE.RestrictsWeatherHint": "Чи блокуються погодні ефекти на основі їх висоти відносно висоти цього Тайла?",
   "TILE.OcclusionMode": "Метод Оклюзії",
   "TILE.OcclusionModeNone": "Ні (Завжди Видимий)",
   "TILE.OcclusionModeFade": "Затухання (Весь Тайл)",
@@ -2594,16 +2596,16 @@
   "TOKEN.Disposition": "Відношення Токена",
   "TOKEN.Dimensions": "Розміри",
   "TOKEN.DimensionsHint": "Розміри токена округлені до найближчого 0,5 простору сітки.",
-  "TOKEN.HexagonalShape": "Hexagonal Shape",
-  "TOKEN.HexagonalShapeHint": "The shape of the Token on a hexagonal grid.",
-  "TOKEN.AnchorHint": "The default anchor (0.5, 0.5) is the center of the Token image.",
+  "TOKEN.HexagonalShape": "Шестикутна Форма",
+  "TOKEN.HexagonalShapeHint": "Форма Токена на шестикутній сітці.",
+  "TOKEN.AnchorHint": "За замовчуванням якір (0.5, 0.5) знаходиться в центрі зображення токена.",
   "TOKEN.ImageAlts": "Альтернативні Токени Актора",
   "TOKEN.ImagePath": "Шлях до Зображення",
-  "TOKEN.ImageFitMode": "Image Fit Mode",
-  "TOKEN.ImageFitModeHint": "Adjust how the image is fit to the size of the Token.",
+  "TOKEN.ImageFitMode": "Режим Підгонки Зображення",
+  "TOKEN.ImageFitModeHint": "Регулювання розміру зображення відповідно до розміру Токена.",
   "TOKEN.LockRotation": "Блокувати Обертання",
   "TOKEN.Lock": "Блокувати",
-  "TOKEN.AppendNumber": "Append Number to name of Unlinked Tokens",
+  "TOKEN.AppendNumber": "Додавати Номер до імені Неприв'язаних Токенів",
   "TOKEN.AppendNumberHint": "Наприклад: \"{name} (3)\"",
   "TOKEN.PrependAdjective": "Підготувати Прикметник до імені Неприв'язаних Токенів?",
   "TOKEN.PrependAdjectiveHint": "Приклад: \"Злий {name}\"",
@@ -2611,8 +2613,8 @@
   "TOKEN.MirrorX": "Горизонтально",
   "TOKEN.MirrorY": "Вертикально",
   "TOKEN.Opacity": "Непрозорість Токену",
-  "TOKEN.OcclusionRadius": "Occlusion Radius",
-  "TOKEN.OcclusionRadiusHint": "When this Token is below a Tile that uses radial occlusion, this value controls the size of the hole that is cut in the Tile to allow the Token to be seen through it.",
+  "TOKEN.OcclusionRadius": "Радіус Оклюзії",
+  "TOKEN.OcclusionRadiusHint": "Коли цей Токен знаходиться під Тайлом, яка використовує радіальну оклюзію, це значення контролює розмір отвору, який вирізається в Тайлі, щоб Токен було видно крізь нього.",
   "TOKEN.RandomImg": "Випадкове Зображення",
   "TOKEN.ResourceBar1A": "Панель Атрибуту 1",
   "TOKEN.ResourceBar1D": "Панель Даних 1",
@@ -2624,7 +2626,7 @@
   "TOKEN.TintColor": "Забарвлення",
   "TOKEN.Update": "Оновити Токен",
   "TOKEN.VisionEnabled": "Дозволити Бачення",
-  "TOKEN.VisionEnabledHint": "A light source with this option enabled serves as an additional vision point for tokens. Activate this option to allow tokens to always see the area it illuminates, even if that area is behind a wall or outside a token's field of view.",
+  "TOKEN.VisionEnabledHint": "Дозволяє токену бачити освітлені простори в межах прямої видимості.",
   "TOKEN.VisionRange": "Дистанція Бачення",
   "TOKEN.VisionRangeHint": "Відстань на яку може бачити токен без освітлення.",
   "TOKEN.VisionAngle": "Кут Огляду",
@@ -2639,7 +2641,7 @@
   "TOKEN.VisionBrightness": "Яскравість Бачення",
   "TOKEN.VisionBrightnessHint": "Регулювання яскравості цього джерела зору. Чим більша яскравість, тим більший персонаж здатний бачити в темряві (усталено 0).",
   "TOKEN.WarningNoActor": "Цей токен посилається на актора, який вже не існує у Світі.",
-  "TOKEN.WarningNoVision": "There is no Token in this Scene which gives you visibility of the area.",
+  "TOKEN.WarningNoVision": "На цій Сцені немає Токена, який дає вам видимість цього місця.",
   "TOKEN.VisionMode": "Режим Бачення",
   "TOKEN.VisionModeHint": "Застосовує візуальний ефект для представлення спеціальних відчуттів (усталено Базове Бачення).",
   "TOKEN.DISPOSITION.HOSTILE": "Ворожий",
@@ -2652,12 +2654,12 @@
   "TOKEN.DISPLAY_HOVER": "При Наведенні Будь-Ким",
   "TOKEN.DISPLAY_OWNER": "Завжди для Власника",
   "TOKEN.DISPLAY_ALWAYS": "Завжди для Всіх",
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Ellipse (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Ellipse (Variant 2)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_1": "Trapezoid (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_2": "Trapezoid (Variant 2)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Rectangle (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_2": "Rectangle (Variant 2)",
+  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Еліпс (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Еліпс (Варіант 2)",
+  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_1": "Трапезоїд (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_2": "Трапезоїд (Варіант 2)",
+  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Прямокутник (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_2": "Прямокутник (Варіант 2)",
   "TOKEN.Adjectives.ambitious": "Амбітний",
   "TOKEN.Adjectives.angry": "Сердитий",
   "TOKEN.Adjectives.annoyed": "Роздратований",
@@ -2769,42 +2771,42 @@
     "ring": {
       "colors": {
         "ring": {
-          "label": "Ring Color",
-          "hint": "A color applied to the border of the ring."
+          "label": "Колір Кільця",
+          "hint": "Колір, який застосовується до кільця."
         },
         "background": {
-          "label": "Background Color",
-          "hint": "A color applied to the background of the ring."
+          "label": "Колір Фону",
+          "hint": "Колір, який застосовується до фону."
         }
       },
       "effects": {
-        "label": "Ring Effects"
+        "label": "Ефекти Кільця"
       },
       "enabled": {
-        "label": "Ring Enabled"
+        "label": "Кільце Увімкнено"
       },
       "subject": {
         "scale": {
-          "label": "Subject Scale Correction"
+          "label": "Виправлення Масштабу"
         },
         "texture": {
-          "label": "Subject Texture",
-          "hint": "Explicitly specify a path for the artwork placed over the dynamic token ring. If not provided, the ring subject is the same as the standard token texture."
+          "label": "Текстура",
+          "hint": "Явно вкажіть шлях для ілюстрації, що розміщується над динамічним кільцем токенів. Якщо не вказано, тема кільця буде такою ж, як і стандартна текстура токена."
         }
       }
     }
   },
   "TOKEN.RING": {
     "EFFECTS": {
-      "BACKGROUND_WAVE": "Background Wave",
-      "RING_GRADIENT": "Ring Gradient",
-      "RING_PULSE": "Ring Pulse"
+      "BACKGROUND_WAVE": "Фонові Хвилі",
+      "RING_GRADIENT": "Градієнт Кільця",
+      "RING_PULSE": "Пульсація Кільця"
     },
     "SHEET": {
-      "legend": "Dynamic Token Ring"
+      "legend": "Динамічне Кільце Токену"
     }
   },
-  "TYPES.Base": "Base",
+  "TYPES.Base": "Базовий",
   "TYPES.Cards.deck": "Колода",
   "TYPES.Cards.hand": "Рука",
   "TYPES.Cards.pile": "Стос",
@@ -2814,25 +2816,25 @@
   "TYPES.JournalEntryPage.video": "Відео",
   "TYPES.Macro.chat": "Чат",
   "TYPES.Macro.script": "Скрипт",
-  "TYPES.RegionBehavior.adjustDarknessLevel": "Adjust Darkness Level",
-  "TYPES.RegionBehavior.executeMacro": "Execute Macro",
-  "TYPES.RegionBehavior.executeScript": "Execute Script",
-  "TYPES.RegionBehavior.pauseGame": "Pause Game",
-  "TYPES.RegionBehavior.suppressWeather": "Suppress Weather",
-  "TYPES.RegionBehavior.teleportToken": "Teleport Token",
-  "TYPES.RegionBehavior.toggleBehavior": "Toggle Behavior",
-  "DETECTION.LightPerception": "Light Perception",
+  "TYPES.RegionBehavior.adjustDarknessLevel": "Регулювання Рівня Темряви",
+  "TYPES.RegionBehavior.executeMacro": "Виконати Макрос",
+  "TYPES.RegionBehavior.executeScript": "Виконати Скрипт",
+  "TYPES.RegionBehavior.pauseGame": "Призупинити Гру",
+  "TYPES.RegionBehavior.suppressWeather": "Призупинити Погоду",
+  "TYPES.RegionBehavior.teleportToken": "Телепортація Токена",
+  "TYPES.RegionBehavior.toggleBehavior": "Змінити Поведінку",
+  "DETECTION.LightPerception": "Сприйняття Світла",
   "DETECTION.BasicSight": "Темнобачення",
   "DETECTION.SeeInvisibility": "Бачення Невидимого",
   "DETECTION.SenseInvisibility": "Відчуття Невидимих",
   "DETECTION.FeelTremor": "Відчуття Вібрації",
   "DETECTION.SenseAll": "Відчуття Всього",
   "DETECTION.SeeAll": "Бачення Всього",
-  "TEXTURE_DATA.FIT.fill": "Fill",
-  "TEXTURE_DATA.FIT.contain": "Contain",
-  "TEXTURE_DATA.FIT.cover": "Cover",
-  "TEXTURE_DATA.FIT.width": "Full Width",
-  "TEXTURE_DATA.FIT.height": "Full Height",
+  "TEXTURE_DATA.FIT.fill": "Заповнення",
+  "TEXTURE_DATA.FIT.contain": "Містить",
+  "TEXTURE_DATA.FIT.cover": "Покриття",
+  "TEXTURE_DATA.FIT.width": "Повна Ширина",
+  "TEXTURE_DATA.FIT.height": "Повна Висота",
   "Tours.NavLabel": "Вікна Керування Оглядом",
   "TOURS.ShowMeHow": "Як це зробити",
   "TOURS.TourCategories": "Категорії Оглядів",
@@ -2855,42 +2857,42 @@
   "USER": {
     "FIELDS": {
       "name": {
-        "label": "Player Name",
-        "hint": "Player names must be configured by the Gamemaster and can be changed in the User Management screen."
+        "label": "Ім'я Гравця",
+        "hint": "Імена гравців повинні бути налаштовані Ігромайстером і можуть бути змінені на екрані управління користувачами."
       },
       "avatar": {
-        "label": "Player Avatar",
-        "hint": "A player avatar is displayed when using built-in audio/video chat or may be displayed by modules."
+        "label": "Аватар Гравця",
+        "hint": "Аватар гравця відображається при використанні вбудованого аудіо/відеочату або може відображатися модулями."
       },
       "color": {
-        "label": "Player Color",
-        "hint": "Player color is used for cursors, rulers, templates, and other elements which differentiate between users."
+        "label": "Колір Гравця",
+        "hint": "Колір гравця використовується для курсорів, ліній, шаблонів та інших елементів, які диференціюються між користувачами."
       },
       "pronouns": {
-        "label": "Player Pronouns",
-        "hint": "Pronouns which inform how this player wishes to be referred to in third-person."
+        "label": "Займенник",
+        "hint": "Займенники, які інформують про те, які цей гравець бажає мати посилання на третю особу."
       },
       "character": {
-        "label": "Player Character",
-        "hint": "Select an Actor from the set which you have at least OBSERVER permission over which represents the main character for this User."
+        "label": "Персонаж Гравця",
+        "hint": "Виберіть Актора з набору, до якого ви маєте щонайменше права СПОСТЕРІГАЧА і який представляє головного персонажа для цього Користувача."
       }
     },
     "SHEET": {
       "HEADERS": {
-        "INFO": "Player Information",
-        "CHAR": "Player Character"
+        "INFO": "Інформація про Гравця",
+        "CHAR": "Персонаж Гравця"
       },
       "BUTTONS": {
-        "SAVE": "Save Player Configuration",
-        "RELEASE": "Release Character"
+        "SAVE": "Зберегти Налаштування Гравця",
+        "RELEASE": "Відпустити Персонажа"
       }
     },
-    "RoleNone": "None",
-    "RolePlayer": "Player",
-    "RoleTrusted": "Trusted Player",
-    "RoleAssistant": "Assistant GM",
-    "RoleGamemaster": "Game Master",
-    "GM": "GM"
+    "RoleNone": "Немає",
+    "RolePlayer": "Гравець",
+    "RoleTrusted": "Довірений Гравець",
+    "RoleAssistant": "Помічник ІМа",
+    "RoleGamemaster": "Ігромайстер",
+    "GM": "ІМ"
   },
   "USERS.AccessKey": "Пароль",
   "USERS.Role": "Роль Користувача",
@@ -2947,8 +2949,8 @@
   "WALLS.DoorSound.Industrial": "Промисловий",
   "WALLS.DoorSound.IndustrialCreaky": "Промисловий, Моторошний",
   "WALLS.DoorSound.Jail": "В'язниця",
-  "WALLS.DoorSound.MagicDoor": "Magical Door",
-  "WALLS.DoorSound.MagicWall": "Magical Wall",
+  "WALLS.DoorSound.MagicDoor": "Чарівні Двері",
+  "WALLS.DoorSound.MagicWall": "Чарівна Стіна",
   "WALLS.DoorSound.Metal": "Метал",
   "WALLS.DoorSound.SlidingMetal": "Ковзання, Метал",
   "WALLS.DoorSound.SlidingModern": "Ковзання, Сучасний",

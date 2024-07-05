@@ -2596,16 +2596,16 @@
   "TOKEN.Disposition": "Відношення Токена",
   "TOKEN.Dimensions": "Розміри",
   "TOKEN.DimensionsHint": "Розміри токена округлені до найближчого 0,5 простору сітки.",
-  "TOKEN.HexagonalShape": "Hexagonal Shape",
-  "TOKEN.HexagonalShapeHint": "The shape of the Token on a hexagonal grid.",
-  "TOKEN.AnchorHint": "The default anchor (0.5, 0.5) is the center of the Token image.",
+  "TOKEN.HexagonalShape": "Шестикутна Форма",
+  "TOKEN.HexagonalShapeHint": "Форма Токена на шестикутній сітці.",
+  "TOKEN.AnchorHint": "За замовчуванням якір (0.5, 0.5) знаходиться в центрі зображення токена.",
   "TOKEN.ImageAlts": "Альтернативні Токени Актора",
   "TOKEN.ImagePath": "Шлях до Зображення",
-  "TOKEN.ImageFitMode": "Image Fit Mode",
-  "TOKEN.ImageFitModeHint": "Adjust how the image is fit to the size of the Token.",
+  "TOKEN.ImageFitMode": "Режим Підгонки Зображення",
+  "TOKEN.ImageFitModeHint": "Регулювання розміру зображення відповідно до розміру Токена.",
   "TOKEN.LockRotation": "Блокувати Обертання",
   "TOKEN.Lock": "Блокувати",
-  "TOKEN.AppendNumber": "Append Number to name of Unlinked Tokens",
+  "TOKEN.AppendNumber": "Додавати Номер до імені Неприв'язаних Токенів",
   "TOKEN.AppendNumberHint": "Наприклад: \"{name} (3)\"",
   "TOKEN.PrependAdjective": "Підготувати Прикметник до імені Неприв'язаних Токенів?",
   "TOKEN.PrependAdjectiveHint": "Приклад: \"Злий {name}\"",
@@ -2613,7 +2613,7 @@
   "TOKEN.MirrorX": "Горизонтально",
   "TOKEN.MirrorY": "Вертикально",
   "TOKEN.Opacity": "Непрозорість Токену",
-  "TOKEN.OcclusionRadius": "Occlusion Radius",
+  "TOKEN.OcclusionRadius": "Радіус Оклюзії",
   "TOKEN.OcclusionRadiusHint": "Коли цей Токен знаходиться під Тайлом, яка використовує радіальну оклюзію, це значення контролює розмір отвору, який вирізається в Тайлі, щоб Токен було видно крізь нього.",
   "TOKEN.RandomImg": "Випадкове Зображення",
   "TOKEN.ResourceBar1A": "Панель Атрибуту 1",
@@ -2626,7 +2626,7 @@
   "TOKEN.TintColor": "Забарвлення",
   "TOKEN.Update": "Оновити Токен",
   "TOKEN.VisionEnabled": "Дозволити Бачення",
-  "TOKEN.VisionEnabledHint": "Allows the token to see illuminated spaces within its line of sight.",
+  "TOKEN.VisionEnabledHint": "Дозволяє токену бачити освітлені простори в межах прямої видимості.",
   "TOKEN.VisionRange": "Дистанція Бачення",
   "TOKEN.VisionRangeHint": "Відстань на яку може бачити токен без освітлення.",
   "TOKEN.VisionAngle": "Кут Огляду",
@@ -2641,7 +2641,7 @@
   "TOKEN.VisionBrightness": "Яскравість Бачення",
   "TOKEN.VisionBrightnessHint": "Регулювання яскравості цього джерела зору. Чим більша яскравість, тим більший персонаж здатний бачити в темряві (усталено 0).",
   "TOKEN.WarningNoActor": "Цей токен посилається на актора, який вже не існує у Світі.",
-  "TOKEN.WarningNoVision": "There is no Token in this Scene which gives you visibility of the area.",
+  "TOKEN.WarningNoVision": "На цій Сцені немає Токена, який дає вам видимість цього місця.",
   "TOKEN.VisionMode": "Режим Бачення",
   "TOKEN.VisionModeHint": "Застосовує візуальний ефект для представлення спеціальних відчуттів (усталено Базове Бачення).",
   "TOKEN.DISPOSITION.HOSTILE": "Ворожий",
@@ -2654,12 +2654,12 @@
   "TOKEN.DISPLAY_HOVER": "При Наведенні Будь-Ким",
   "TOKEN.DISPLAY_OWNER": "Завжди для Власника",
   "TOKEN.DISPLAY_ALWAYS": "Завжди для Всіх",
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Ellipse (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Ellipse (Variant 2)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_1": "Trapezoid (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_2": "Trapezoid (Variant 2)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Rectangle (Variant 1)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_2": "Rectangle (Variant 2)",
+  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Еліпс (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Еліпс (Варіант 2)",
+  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_1": "Трапезоїд (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_2": "Трапезоїд (Варіант 2)",
+  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Прямокутник (Варіант 1)",
+  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_2": "Прямокутник (Варіант 2)",
   "TOKEN.Adjectives.ambitious": "Амбітний",
   "TOKEN.Adjectives.angry": "Сердитий",
   "TOKEN.Adjectives.annoyed": "Роздратований",
@@ -2771,34 +2771,34 @@
     "ring": {
       "colors": {
         "ring": {
-          "label": "Ring Color",
-          "hint": "A color applied to the border of the ring."
+          "label": "Колір Кільця",
+          "hint": "Колір, який застосовується до кільця."
         },
         "background": {
-          "label": "Background Color",
-          "hint": "A color applied to the background of the ring."
+          "label": "Колір Фону",
+          "hint": "Колір, який застосовується до фону."
         }
       },
       "effects": {
-        "label": "Ring Effects"
+        "label": "Ефекти Кільця"
       },
       "enabled": {
-        "label": "Ring Enabled"
+        "label": "Кільце Увімкнено"
       },
       "subject": {
         "scale": {
-          "label": "Subject Scale Correction"
+          "label": "Виправлення Масштабу"
         },
         "texture": {
-          "label": "Subject Texture",
-          "hint": "Explicitly specify a path for the artwork placed over the dynamic token ring. If not provided, the ring subject is the same as the standard token texture."
+          "label": "Текстура",
+          "hint": "Явно вкажіть шлях для ілюстрації, що розміщується над динамічним кільцем токенів. Якщо не вказано, тема кільця буде такою ж, як і стандартна текстура токена."
         }
       }
     }
   },
   "TOKEN.RING": {
     "EFFECTS": {
-      "BACKGROUND_WAVE": "Background Wave",
+      "BACKGROUND_WAVE": "Фонові Хвилі",
       "RING_GRADIENT": "Градієнт Кільця",
       "RING_PULSE": "Пульсація Кільця"
     },
@@ -2822,7 +2822,7 @@
   "TYPES.RegionBehavior.pauseGame": "Призупинити Гру",
   "TYPES.RegionBehavior.suppressWeather": "Призупинити Погоду",
   "TYPES.RegionBehavior.teleportToken": "Телепортація Токена",
-  "TYPES.RegionBehavior.toggleBehavior": "Toggle Behavior",
+  "TYPES.RegionBehavior.toggleBehavior": "Змінити Поведінку",
   "DETECTION.LightPerception": "Сприйняття Світла",
   "DETECTION.BasicSight": "Темнобачення",
   "DETECTION.SeeInvisibility": "Бачення Невидимого",
@@ -2832,7 +2832,7 @@
   "DETECTION.SeeAll": "Бачення Всього",
   "TEXTURE_DATA.FIT.fill": "Заповнення",
   "TEXTURE_DATA.FIT.contain": "Містить",
-  "TEXTURE_DATA.FIT.cover": "Cover",
+  "TEXTURE_DATA.FIT.cover": "Покриття",
   "TEXTURE_DATA.FIT.width": "Повна Ширина",
   "TEXTURE_DATA.FIT.height": "Повна Висота",
   "Tours.NavLabel": "Вікна Керування Оглядом",
